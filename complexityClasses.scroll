@@ -1,0 +1,95 @@
+import header.scroll
+groups All
+date 04/21/2024
+
+title Big(O) Complexity Classes in Programming
+
+This dataset categorizes various Big(O) complexity classes that are commonly encountered in computer programming and algorithm analysis.
+
+writeDataset
+printDataset
+tableSearch
+
+endSnippet
+
+# Schema
+
+complexity_class: string
+
+The notation used to describe the complexity class, such as O(n), O(log n), etc.
+
+description: string
+
+A brief explanation of the complexity class, often describing how the time or space requirements grow with the size of the input.
+
+common_algorithms: string
+
+Examples of algorithms or operations that typically exhibit this level of complexity.
+
+# Data
+
+// Rows are separated by the "::" delimiter.
+// Measurements are [measureName]: [value]
+// An example would be like
+// complexity_class: O(1)
+// description: Constant time complexity
+
+::
+
+// Constant Time
+complexity_class: O(1)
+description: Execution time remains constant regardless of input size.
+common_algorithms: Finding array element by index, adding a node to the head of a linked list
+
+::
+
+// Logarithmic Time
+complexity_class: O(log n)
+description: Execution time grows logarithmically in proportion to the input size.
+common_algorithms: Binary search
+
+::
+
+// Linear Time
+complexity_class: O(n)
+description: Execution time grows linearly with the input size.
+common_algorithms: Linear search, traversing an array
+
+::
+
+// Linearithmic Time
+complexity_class: O(n log n)
+description: Execution time grows linearly and logarithmically with the input size.
+common_algorithms: Quick sort, merge sort
+
+::
+
+// Quadratic Time
+complexity_class: O(n^2)
+description: Execution time grows quadratically with the input size.
+common_algorithms: Bubble sort, selection sort, insertion sort
+
+::
+
+// Cubic Time
+complexity_class: O(n^3)
+description: Execution time grows cubically with the input size.
+common_algorithms: Naive matrix multiplication
+
+::
+
+// Exponential Time
+complexity_class: O(2^n)
+description: Execution time grows exponentially based on the input size.
+common_algorithms: Brute force solutions for the traveling salesman problem, recursive calculation of Fibonacci numbers
+
+::
+
+// Factorial Time
+complexity_class: O(n!)
+description: Execution time grows factorially based on the input size.
+common_algorithms: Solving the traveling salesman problem via brute force, generating all permutations of a set
+
+::
+
+import footer.scroll
