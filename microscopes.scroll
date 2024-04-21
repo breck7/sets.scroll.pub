@@ -1,0 +1,190 @@
+import header.scroll
+groups All
+date 04/21/2024
+
+title Microscopes
+
+This is a dataset documenting the major breakthroughs in microscopes over the years and how small each can see.
+
+printDataset
+tableSearch
+
+endSnippet
+
+# Schema
+
+name:: string
+ description The name of the microscope
+
+invented:: year
+ description The year this telescope was invented
+
+resolution:: int
+ description The smallest resolution it can see, in nanometers.
+
+wikipedia:: url
+ description A URL to learn more about this kind of microscope.
+
+type:: string
+ description Classify each microscope by type (e.g., optical, electron, scanning probe) to allow users to filter and understand the specific applications and functionalities of different microscopes.
+
+applications:: string
+ description Describe common or notable applications of each microscope type, such as biology, materials science, nanotechnology, etc. This helps users understand where a particular microscope can be best utilized.
+
+key_advancements:: string
+ description List significant improvements or iterations made over the initial model. This could include details on enhancements in resolution, usability, or adaptation to different scientific needs, showing the evolution of the technology.
+
+inventor_developer:: string
+ description Knowing who invented or developed the microscope can provide historical context and acknowledgment of significant contributions in the field. This also helps in understanding the geographical and institutional origins of
+
+
+# Data
+
+:::
+
+name: Optical Microscope
+invented: 1590
+resolution: 200
+wikipedia: https://en.wikipedia.org/wiki/Optical_microscope
+type: Optical
+applications: General biological and medical microscopy
+key_advancements: Improved lens quality and microscope design for better image clarity and detail.
+inventor_developer: Zacharias Janssen (attributed)
+
+:::
+
+name: Electron Microscope
+invented: 1931
+resolution: 0.2
+wikipedia: https://en.wikipedia.org/wiki/Electron_microscope
+type: Electron
+applications: Cellular biology, materials science, virology
+key_advancements: Enhanced magnification and resolution, allowing visualization of structures at the atomic level.
+inventor_developer: Ernst Ruska and Max Knoll
+
+:::
+
+name: Scanning Tunneling Microscope
+invented: 1981
+resolution: 0.1
+wikipedia: https://en.wikipedia.org/wiki/Scanning_tunneling_microscope
+type: Scanning Probe
+applications: Surface science, nanotechnology
+key_advancements: Ability to image surfaces at the atomic level.
+inventor_developer: Gerd Binnig and Heinrich Rohrer
+
+:::
+
+name: Confocal Microscope
+invented: 1957
+resolution: 200
+wikipedia: https://en.wikipedia.org/wiki/Confocal_microscopy
+type: Optical
+applications: 3D imaging of biological samples
+key_advancements: Provides optical sectioning capability to observe multiple layers within specimens.
+inventor_developer: Marvin Minsky
+
+:::
+
+name: Atomic Force Microscope
+invented: 1986
+resolution: 0.1
+wikipedia: https://en.wikipedia.org/wiki/Atomic_force_microscopy
+type: Scanning Probe
+applications: Nanotechnology, surface engineering
+key_advancements: Can image non-conductive materials, providing a three-dimensional surface profile.
+inventor_developer: Gerd Binnig, Calvin Quate, Christoph Gerber
+
+:::
+
+name: Fluorescence Microscope
+invented: 1911
+resolution: 200
+wikipedia: https://en.wikipedia.org/wiki/Fluorescence_microscope
+type: Optical
+applications: Biological sciences, medical diagnostics
+key_advancements: Uses fluorescence and phosphorescence to study properties of organic or inorganic substances.
+inventor_developer: Oskar Heimstädt
+
+:::
+
+name: Phase Contrast Microscope
+invented: 1934
+resolution: 200
+wikipedia: https://en.wikipedia.org/wiki/Phase_contrast_microscopy
+type: Optical
+applications: Live cell imaging without staining
+key_advancements: Enhances contrast in transparent and colorless samples.
+inventor_developer: Frits Zernike
+
+:::
+
+name: Transmission Electron Microscope
+invented: 1933
+resolution: 0.05
+wikipedia: https://en.wikipedia.org/wiki/Transmission_electron_microscopy
+type: Electron
+applications: Material science, cancer research, virology
+key_advancements: Capable of imaging at a significantly higher resolution than light microscopes, down to the level of atomic structures.
+inventor_developer: Ernst Ruska
+
+:::
+
+name: Scanning Electron Microscope
+invented: 1942
+resolution: 1
+wikipedia: https://en.wikipedia.org/wiki/Scanning_electron_microscope
+type: Electron
+applications: Materials research, forensic examinations, biological research
+key_advancements: Produces high-resolution images of a sample surface, revealing detailed topography.
+inventor_developer: Manfred von Ardenne
+
+:::
+
+name: Digital Microscope
+invented: 1980s
+resolution: 200
+wikipedia: https://en.wikipedia.org/wiki/Digital_microscope
+type: Optical
+applications: Education, industrial inspection, clinical research
+key_advancements: Integration with digital cameras and computers for enhanced imaging and analysis.
+inventor_developer: Various contributors
+
+:::
+
+name: Stereo Microscope
+invented: 1671
+resolution: 10000
+wikipedia: https://en.wikipedia.org/wiki/Stereo_microscope
+type: Optical
+applications: Manufacturing, botany, entomology
+key_advancements: Provides a three-dimensional viewing experience by using two separate optical paths.
+inventor_developer: Cherubin d'Orleans
+
+:::
+
+name: X-ray Microscope
+invented: 1946
+resolution: 50
+wikipedia: https://en.wikipedia.org/wiki/X-ray_microscopy
+type: X-ray
+applications: Material sciences, paleontology
+key_advancements: Uses X-rays to penetrate samples and create images of the internal structure.
+inventor_developer: Raymond Castaing
+
+:::
+
+name: Cryo-Electron Microscopy
+invented: 1975
+resolution: 0.1
+wikipedia: https://en.wikipedia.org/wiki/Cryo-electron_microscopy
+type: Electron
+applications: Structural biology, virology
+key_advancements: Allows imaging of samples at cryogenic temperatures, preserving native state.
+inventor_developer: Jacques Dubochet, Joachim Frank, Richard Henderson
+
+:::
+
+
+import footer.scroll
+
