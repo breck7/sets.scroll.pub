@@ -1,0 +1,113 @@
+import header.scroll
+groups All
+date 04/21/2024
+
+title Nearby Stars
+
+This is a dataset of the stars nearest to our solar system.
+
+writeDataset
+printDataset
+tableSearch
+
+endSnippet
+
+# Schema
+
+star_name: string
+
+The name or catalogue designation of the star, such as those from the Hipparcos or Henry Draper catalogues
+
+distance: float
+
+The distance to the star from Earth, measured in light-years or parsecs
+
+spectral_type: string
+
+Classification of the star based on spectral characteristics and temperature, ranging from O (hot and blue) to M (cool and red)
+
+apparent_magnitude: float
+ 
+The brightness of the star as seen from Earth
+
+absolute_magnitude: float
+
+description The intrinsic brightness of the star if it were placed at a standard distance of 10 parsecs from Earth
+
+mass: float
+
+The mass of the star, expressed in solar masses
+
+radial_velocity: float
+
+The speed at which the star moves towards or away from the Solar System, measured in km/s
+
+# Data
+
+// Rows are separated by the "::" delimiter.
+// Measurements are [measureName]: [value]
+// An example would be like
+// name: Thing1
+// year: 2002
+
+::
+
+# Data
+
+// Proxima Centauri
+star_name: Proxima Centauri
+distance: 4.24
+spectral_type: M5.5Ve
+apparent_magnitude: 11.13
+absolute_magnitude: 15.60
+mass: 0.1221
+radial_velocity: -22.204
+
+::
+
+// Alpha Centauri A
+star_name: Alpha Centauri A
+distance: 4.37
+spectral_type: G2V
+apparent_magnitude: -0.01
+absolute_magnitude: 4.38
+mass: 1.1
+radial_velocity: -21.40
+
+::
+
+// Alpha Centauri B
+star_name: Alpha Centauri B
+distance: 4.37
+spectral_type: K1V
+apparent_magnitude: 1.33
+absolute_magnitude: 5.71
+mass: 0.907
+radial_velocity: -18.00
+
+::
+
+// Barnard's Star
+star_name: Barnard's Star
+distance: 5.96
+spectral_type: M4.0Ve
+apparent_magnitude: 9.54
+absolute_magnitude: 13.22
+mass: 0.144
+radial_velocity: -110.51
+
+::
+
+// Sirius A
+star_name: Sirius A
+distance: 8.66
+spectral_type: A1V
+apparent_magnitude: -1.46
+absolute_magnitude: 1.42
+mass: 2.02
+radial_velocity: -5.50
+
+
+::
+
+import footer.scroll
