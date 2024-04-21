@@ -328,7 +328,62 @@ h4.scrollQuestion {
 </div>
 
 <div class="scrollSection"><h1 class="scrollTitle"><a href="index.html">Scroll Dataset Examples</a></h1>
-<div class="scrollColumns" style="column-width:35ch;"><div class="scrollSnippetContainer"><div class="scrollSection"><h1 class="scrollTitle"><a href="microscopes.html">Microscopes</a></h1>
+<div class="scrollColumns" style="column-width:35ch;"><div class="scrollSnippetContainer"><div class="scrollSection"><h1 class="scrollTitle"><a href="complexityClasses.html">Big(O) Complexity Classes in Programming</a></h1>
+</div>
+<p class="scrollParagraph">This dataset categorizes various Big(O) complexity classes that are commonly encountered in computer programming and algorithm analysis.</p>
+<table class="scrollTable"><thead><tr><th>complexity_class</th>
+
+<th>description</th>
+
+<th>common_algorithms</th>
+</tr></thead>
+<tbody><tr><td>O(1)</td>
+<td>Execution time remains constant regardless of input size.</td>
+<td>Finding array element by index, adding a node to the head of a linked list</td>
+</tr>
+<tr><td>O(log n)</td>
+<td>Execution time grows logarithmically in proportion to the input size.</td>
+<td>Binary search</td>
+</tr>
+<tr><td>O(n)</td>
+<td>Execution time grows linearly with the input size.</td>
+<td>Linear search, traversing an array</td>
+</tr>
+<tr><td>O(n log n)</td>
+<td>Execution time grows linearly and logarithmically with the input size.</td>
+<td>Quick sort, merge sort</td>
+</tr>
+<tr><td>O(n^2)</td>
+<td>Execution time grows quadratically with the input size.</td>
+<td>Bubble sort, selection sort, insertion sort</td>
+</tr>
+<tr><td>O(n^3)</td>
+<td>Execution time grows cubically with the input size.</td>
+<td>Naive matrix multiplication</td>
+</tr>
+<tr><td>O(2^n)</td>
+<td>Execution time grows exponentially based on the input size.</td>
+<td>Brute force solutions for the traveling salesman problem, recursive calculation of Fibonacci numbers</td>
+</tr>
+<tr><td>O(n!)</td>
+<td>Execution time grows factorially based on the input size.</td>
+<td>Solving the traveling salesman problem via brute force, generating all permutations of a set</td>
+</tr></tbody></table>
+<script defer src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<link rel="stylesheet" href="https://cdn.datatables.net/2.0.5/css/dataTables.dataTables.min.css" />
+  <script defer src="https://cdn.datatables.net/2.0.5/js/dataTables.min.js"></script>
+  <script>
+   document.addEventListener("DOMContentLoaded", function () {
+    const urlSearchParams = new URLSearchParams(window.location.search)
+    const params = Object.fromEntries(urlSearchParams.entries())
+    jQuery('table').DataTable({"order": [],"paging": false,search:{ search: params.filter || ""}});
+  } );
+  </script><a class="scrollContinueReadingLink" href="complexityClasses.html">Continue reading...</a><p class="scrollViewSource">
+ <a href="complexityClasses.scroll">View source</a>
+</p>
+</div>
+
+<div class="scrollSnippetContainer"><div class="scrollSection"><h1 class="scrollTitle"><a href="microscopes.html">Microscopes</a></h1>
 </div>
 <p class="scrollParagraph">This is a dataset documenting the major breakthroughs in microscopes over the years and how small each can see.</p>
 <table class="scrollTable"><thead><tr><th>name</th>
@@ -463,17 +518,7 @@ h4.scrollQuestion {
 <td>Structural biology, virology</td>
 <td>Allows imaging of samples at cryogenic temperatures, preserving native state.</td>
 <td>Jacques Dubochet, Joachim Frank, Richard Henderson</td>
-</tr></tbody></table>
-<script defer src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-<link rel="stylesheet" href="https://cdn.datatables.net/2.0.5/css/dataTables.dataTables.min.css" />
-  <script defer src="https://cdn.datatables.net/2.0.5/js/dataTables.min.js"></script>
-  <script>
-   document.addEventListener("DOMContentLoaded", function () {
-    const urlSearchParams = new URLSearchParams(window.location.search)
-    const params = Object.fromEntries(urlSearchParams.entries())
-    jQuery('table').DataTable({"order": [],"paging": false,search:{ search: params.filter || ""}});
-  } );
-  </script><a class="scrollContinueReadingLink" href="microscopes.html">Continue reading...</a><p class="scrollViewSource">
+</tr></tbody></table><a class="scrollContinueReadingLink" href="microscopes.html">Continue reading...</a><p class="scrollViewSource">
  <a href="microscopes.scroll">View source</a>
 </p>
 </div>
