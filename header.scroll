@@ -1,0 +1,7 @@
+importOnly
+git https://github.com/breck7/datasets.scroll.pub
+email feedback@scroll.pub
+baseUrl https://datasets.scroll.pub/
+metaTags
+gazetteCss
+pageHeader
