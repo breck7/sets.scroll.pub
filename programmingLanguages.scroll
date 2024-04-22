@@ -1,14 +1,9 @@
-import header.scroll
-groups All
+import pageHeader.scroll
 date 04/21/2024
-
 title Programming Languages
-
 This is a dataset documenting major programming languages.
 
-writeDataset
 printDataset
-tableSearch
 
 endSnippet
 
@@ -195,5 +190,5 @@ openSource: true
 
 ::
 
-import footer.scroll
+import pageFooter.scroll
 

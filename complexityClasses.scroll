@@ -1,14 +1,11 @@
-import header.scroll
-groups All
+import pageHeader.scroll
 date 04/21/2024
 
 title Big(O) Complexity Classes in Programming
 
 This dataset categorizes various Big(O) complexity classes that are commonly encountered in computer programming and algorithm analysis.
 
-writeDataset
 printDataset
-tableSearch
 
 endSnippet
 
@@ -92,4 +89,4 @@ common_algorithms: Solving the traveling salesman problem via brute force, gener
 
 ::
 
-import footer.scroll
+import pageFooter.scroll

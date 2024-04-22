@@ -1,14 +1,11 @@
-import header.scroll
-groups All
+import pageHeader.scroll
 date 04/21/2024
 
 title Microscopes
 
 This is a dataset documenting the major breakthroughs in microscopes over the years and how small each can see.
 
-writeDataset
 printDataset
-tableSearch
 
 endSnippet
 
@@ -187,5 +184,5 @@ inventor_developer: Jacques Dubochet, Joachim Frank, Richard Henderson
 ::
 
 
-import footer.scroll
+import pageFooter.scroll
 
