@@ -1,14 +1,11 @@
-import header.scroll
-groups All
-date 04/21/2024
+import pageHeader.scroll
 
+date 04/21/2024
 title Organelles
 
 This is a dataset of the most common organelles found in nature.
 
-writeDataset
 printDataset
-tableSearch
 
 endSnippet
 
@@ -242,4 +239,4 @@ high: 100
 
 ::
 
-import footer.scroll
+import pageFooter.scroll

@@ -1,0 +1,151 @@
+import pageHeader.scroll
+
+date 04/22/2024
+title The Fastest Modes of Human Transportation
+
+This is a dataset of the fastest modes of human transportation.
+
+printDataset
+
+endSnippet
+
+# Schema
+
+name: string
+The name of the transportation mode
+
+speed: int
+The maximum speed of the transportation mode in miles per hour (mph)
+
+year_invented: int
+The year the transportation mode was invented
+
+passengers: int
+The typical number of passengers the transportation mode can carry
+
+range: int
+The maximum range of the transportation mode in miles
+
+::
+
+name: High-speed rail
+speed: 268
+year_invented: 1964
+passengers: 1000
+range: 1500
+
+::
+
+name: Maglev train
+speed: 375
+year_invented: 1984
+passengers: 1000
+range: 500
+
+::
+
+name: Hyperloop (proposed)
+speed: 760
+year_invented: 2013
+passengers: 28
+range: 900
+
+::
+
+name: Concorde (retired)
+speed: 1354
+year_invented: 1969
+passengers: 100
+range: 4500
+
+::
+
+name: Boeing 747
+speed: 614
+year_invented: 1969
+passengers: 660
+range: 9800
+
+::
+
+name: Lockheed SR-71 Blackbird (retired)
+speed: 2193
+year_invented: 1964
+passengers: 2
+range: 3200
+
+::
+
+name: Space Shuttle (retired)
+speed: 17500
+year_invented: 1981
+passengers: 7
+range: 500
+
+::
+
+name: SpaceX Crew Dragon
+speed: 17500
+year_invented: 2020
+passengers: 7
+range: 500
+
+::
+
+name: Virgin Galactic SpaceShipTwo
+speed: 2500
+year_invented: 2018
+passengers: 6
+range: 50
+
+::
+
+name: Blue Origin New Shepard
+speed: 2500
+year_invented: 2015
+passengers: 6
+range: 60
+
+::
+
+name: Bugatti Chiron Super Sport 300+
+speed: 304
+year_invented: 2019
+passengers: 2
+range: 300
+
+::
+
+name: Hennessey Venom GT
+speed: 270
+year_invented: 2010
+passengers: 2
+range: 400
+
+::
+
+name: Koenigsegg Agera RS
+speed: 278
+year_invented: 2015
+passengers: 2
+range: 600
+
+::
+
+name: ThrustSSC (land speed record car)
+speed: 763
+year_invented: 1997
+passengers: 1
+range: 50
+
+::
+
+name: North American X-15 (retired)
+speed: 4520
+year_invented: 1959
+passengers: 1
+range: 200
+
+::
+
+import pageFooter.scroll

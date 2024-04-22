@@ -1,14 +1,11 @@
-import header.scroll
-groups All
+import pageHeader.scroll
 date 04/21/2024
 
 title Nearby Stars
 
 This is a dataset of the stars nearest to our solar system.
 
-writeDataset
 printDataset
-tableSearch
 
 endSnippet
 
@@ -107,7 +104,138 @@ absolute_magnitude: 1.42
 mass: 2.02
 radial_velocity: -5.50
 
+::
+
+// Sirius B
+star_name: Sirius B
+distance: 8.66 
+spectral_type: DA2
+apparent_magnitude: 8.44
+absolute_magnitude: 11.34
+mass: 1.018
+radial_velocity: -5.50
 
 ::
 
-import footer.scroll
+// Luyten 726-8 A
+star_name: Luyten 726-8 A
+distance: 8.73
+spectral_type: M5.5Ve
+apparent_magnitude: 12.52
+absolute_magnitude: 15.46
+mass: 0.102
+radial_velocity: -32.50
+  
+::
+
+// Luyten 726-8 B  
+star_name: Luyten 726-8 B
+distance: 8.73
+spectral_type: M6Ve 
+apparent_magnitude: 13.05
+absolute_magnitude: 16.24
+mass: 0.100
+radial_velocity: -25.00
+
+::
+
+// Ross 154
+star_name: Ross 154  
+distance: 9.69
+spectral_type: M3.5Ve
+apparent_magnitude: 10.44
+absolute_magnitude: 13.92
+mass: 0.170
+radial_velocity: -9.60
+
+::
+
+// Ross 248
+star_name: Ross 248
+distance: 10.32
+spectral_type: M5.5Ve
+apparent_magnitude: 12.29
+absolute_magnitude: 15.80
+mass: 0.136
+radial_velocity: -81.00
+
+::
+
+// Epsilon Eridani
+star_name: Epsilon Eridani
+distance: 10.48
+spectral_type: K2V
+apparent_magnitude: 3.73
+absolute_magnitude: 6.18
+mass: 0.82
+radial_velocity: 15.50
+
+::
+
+// Lacaille 9352
+star_name: Lacaille 9352
+distance: 10.73
+spectral_type: M0.5V
+apparent_magnitude: 7.34
+absolute_magnitude: 10.58
+mass: 0.45
+radial_velocity: -37.00
+
+::
+
+// Ross 128
+star_name: Ross 128
+distance: 11.00
+spectral_type: M4V
+apparent_magnitude: 11.15
+absolute_magnitude: 14.79
+mass: 0.168
+radial_velocity: -30.00
+
+::
+
+// EZ Aquarii A
+star_name: EZ Aquarii A
+distance: 11.08
+spectral_type: M5Ve
+apparent_magnitude: 12.87
+absolute_magnitude: 16.47
+mass: 0.13
+radial_velocity: -60.00
+
+::
+
+// EZ Aquarii B
+star_name: EZ Aquarii B
+distance: 11.08
+spectral_type: M5Ve
+apparent_magnitude: 12.87
+absolute_magnitude: 16.47
+mass: 0.13
+radial_velocity: -60.00
+
+::
+
+// EZ Aquarii C
+star_name: EZ Aquarii C
+distance: 11.08
+spectral_type: M5Ve
+apparent_magnitude: 12.87
+absolute_magnitude: 16.47
+mass: 0.13
+radial_velocity: -60.00
+
+::
+
+// 61 Cygni A
+star_name: 61 Cygni A
+distance: 11.40
+spectral_type: K5V
+apparent_magnitude: 5.20
+absolute_magnitude: 7.49
+mass: 0.67
+radial_velocity: -64.30
+
+::
+
+import pageFooter.scroll
