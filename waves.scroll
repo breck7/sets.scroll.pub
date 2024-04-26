@@ -22,8 +22,75 @@ Chemical Waves	False	True	True	Varies	Varies	Varies	Chemical reactions	Chemical 
 Combustion Waves	False	True	True	Varies	Varies	Varies	Fire, explosions	Fire safety, controlled burns	Propagation of fire through combustible materials	Wildfires, controlled burns	Can cause massive destruction and pollution
 
 
-
-
 endSnippet
+
+
+Name	Follows Inverse Square Law	Complex Attenuation	Other Attenuation Patterns
+Electromagnetic Waves	True	False	False
+Sound Waves	True	False	False
+Seismic Waves	False	True	False
+Gravitational Waves	True	False	False
+Thermal Waves	False	False	True
+Chemical Waves	False	False	True
+Combustion Waves	False	True	False
+
+
+
+Chemical reaction wave:
+https://youtu.be/s2np2PaaWtU?t=75
+
+Speed (meters per second, power of 10)	Name
+10^8	Gravitational Waves
+10^8	Electromagnetic Waves
+10^3 to 10^4	Detonation Waves (Combustion)
+10^2	Sound Waves
+10^1 to 10^2	Deflagration Waves (Combustion)
+10^3	Seismic Waves
+10^2 to 10^3	Thermal Waves (Heat Pulses)
+10^-3 to 10^-2	Chemical Waves
+
+# Wave speed
+
+EM Waves	M/S (Powers of 10)
+EM Waves	8
+Gamma Rays	8
+X-Rays	8
+Ultraviolet (UV) Waves	8
+Visible Light Waves	8
+Infrared Waves	8
+Microwaves	8
+Radio Waves	8
+Sound Waves (in air)	2
+Sound Waves (in water)	3
+Seismic Waves (P-waves)	3
+Seismic Waves (S-waves)	3
+Gravity Waves	8
+Surface Water Waves	1
+Capillary Waves	-1
+Conductive Heat Transfer	-2 to 2
+Convective Heat Transfer (gases)	-1 to 0
+Convective Heat Transfer (liquids)	-1 to 1
+
+
+# Attenuation
+
+EM Waves	Inverse square
+Gamma Rays	Inverse square
+X-Rays	Inverse square
+Ultraviolet (UV) Waves	Inverse square
+Visible Light Waves	Inverse square
+Infrared Waves	Inverse square
+Microwaves	Inverse square
+Radio Waves	Inverse square
+Sound Waves (in air)	Exponential
+Sound Waves (in water)	Exponential
+Seismic Waves (P-waves)	Exponential
+Seismic Waves (S-waves)	Exponential
+Gravity Waves	Inverse square
+Surface Water Waves	Exponential
+Capillary Waves	Exponential
+Conductive Heat Transfer	Exponential
+Convective Heat Transfer (gases)	Exponential
+Convective Heat Transfer (liquids)	Exponential
 
 import pageFooter.scroll
