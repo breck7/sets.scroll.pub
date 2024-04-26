@@ -72,4 +72,25 @@ Convective Heat Transfer (gases)	-1 to 0
 Convective Heat Transfer (liquids)	-1 to 1
 
 
+# Attenuation
+
+EM Waves	Inverse square
+Gamma Rays	Inverse square
+X-Rays	Inverse square
+Ultraviolet (UV) Waves	Inverse square
+Visible Light Waves	Inverse square
+Infrared Waves	Inverse square
+Microwaves	Inverse square
+Radio Waves	Inverse square
+Sound Waves (in air)	Exponential
+Sound Waves (in water)	Exponential
+Seismic Waves (P-waves)	Exponential
+Seismic Waves (S-waves)	Exponential
+Gravity Waves	Inverse square
+Surface Water Waves	Exponential
+Capillary Waves	Exponential
+Conductive Heat Transfer	Exponential
+Convective Heat Transfer (gases)	Exponential
+Convective Heat Transfer (liquids)	Exponential
+
 import pageFooter.scroll
