@@ -1,0 +1,29 @@
+import pageHeader.scroll
+
+date 04/26/2024
+title Waves
+
+This is a dataset on waves.
+
+It tests root level tabular data in Scroll.
+
+endColumns
+
+css
+ td:hover {background:white; text-overflow: unset; z-index: 10; overflow: unset; white-space: unset;}
+
+Name	Transverse	Longitudinal	Medium Required	Propagation Speed (m/s)	Min Frequency (Hz)	Max Frequency (Hz)	Common Sources	Primary Uses or Effects	Key Characteristics	Examples	Impact on Environment/Humans
+Electromagnetic Waves	True	False	False	299792458	Varies	Varies	Sun, radio transmitters	Communication, medical imaging, cooking	Can travel in vacuum and through transparent media	Radio broadcasts, X-rays	Varies; UV can cause skin cancer
+Sound Waves	False	True	True	343	20	20000	Vibrating objects	Communication, music, sonar	Travels through elastic media	Talking, concerts, ultrasound imaging	Noise pollution can affect health and well-being
+Seismic Waves	True	True	True	3500	Varies	Varies	Earthquakes, explosions	Earthquake engineering, oil exploration	Can cause significant ground movement	Earthquakes, nuclear testing	Can cause extensive property damage and loss of life
+Gravitational Waves	True	False	False	299792458	0.0001	Varies	Colliding black holes, neutron stars	Astronomy, testing theories of gravity	Ripples in spacetime	Facilitated by LIGO and other observatories	None known; mostly relevant for astrophysics
+Thermal Waves	False	True	True	Varies	Varies	Varies	Heating elements, sun	Heating, climate control	Move through conduction, convection, or radiation	Heat in homes, atmospheric heat waves	Heat waves can cause health issues and environmental stress
+Chemical Waves	False	True	True	Varies	Varies	Varies	Chemical reactions	Chemical processing, biological signaling	Propagation of reaction and diffusion	Calcium waves in cells, Belousov-Zhabotinsky reaction	Can be critical in biological processes
+Combustion Waves	False	True	True	Varies	Varies	Varies	Fire, explosions	Fire safety, controlled burns	Propagation of fire through combustible materials	Wildfires, controlled burns	Can cause massive destruction and pollution
+
+
+
+
+endSnippet
+
+import pageFooter.scroll
