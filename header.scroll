@@ -1,7 +1,10 @@
 importOnly
-git https://github.com/breck7/datasets.scroll.pub
-email feedback@scroll.pub
 baseUrl https://datasets.scroll.pub/
+email feedback@scroll.pub
+git https://github.com/breck7/datasets.scroll.pub
+
 metaTags
 gazetteCss
 pageHeader
+
+css td:hover {background:white; text-overflow: unset; z-index: 10; overflow: unset; white-space: unset;}

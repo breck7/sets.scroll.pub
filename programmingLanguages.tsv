@@ -1,20 +1,20 @@
 name	appeared	wikipedia	creators	openSource
-JavaScript	1995	https://en.wikipedia.org/wiki/JavaScript 	Brendan Eich	true
-Python	1991 	https://en.wikipedia.org/wiki/Python_(programming_language)	Guido van Rossum	true
-Java	1995	https://en.wikipedia.org/wiki/Java_(programming_language) 	James Gosling	true
+JavaScript	1995	https://en.wikipedia.org/wiki/JavaScript	Brendan Eich	true
+Python	1991	https://en.wikipedia.org/wiki/Python_(programming_language)	Guido van Rossum	true
+Java	1995	https://en.wikipedia.org/wiki/Java_(programming_language)	James Gosling	true
 C++	1979	https://en.wikipedia.org/wiki/C%2B%2B	Bjarne Stroustrup	true
 C#	2000	https://en.wikipedia.org/wiki/C_Sharp_(programming_language)	Microsoft	true
-PHP	1995	https://en.wikipedia.org/wiki/PHP	Rasmus Lerdorf 	true
+PHP	1995	https://en.wikipedia.org/wiki/PHP	Rasmus Lerdorf	true
 Swift	2014	https://en.wikipedia.org/wiki/Swift_(programming_language)	Apple Inc.	true
 Go	2009	https://en.wikipedia.org/wiki/Go_(programming_language)	Robert Griesemer, Rob Pike, Ken Thompson	true
-Kotlin	2011	https://en.wikipedia.org/wiki/Kotlin_(programming_language)  	JetBrains	true
+Kotlin	2011	https://en.wikipedia.org/wiki/Kotlin_(programming_language)	JetBrains	true
 Ruby	1995	https://en.wikipedia.org/wiki/Ruby_(programming_language)	Yukihiro Matsumoto	true
 Scala	2004	https://en.wikipedia.org/wiki/Scala_(programming_language)	Martin Odersky	true
 TypeScript	2012	https://en.wikipedia.org/wiki/TypeScript	Microsoft	true
-Dart	2011	https://en.wikipedia.org/wiki/Dart_(programming_language)	Lars Bak, Kasper Lund 	true
+Dart	2011	https://en.wikipedia.org/wiki/Dart_(programming_language)	Lars Bak, Kasper Lund	true
 Elixir	2011	https://en.wikipedia.org/wiki/Elixir_(programming_language)	José Valim	true
 Clojure	2007	https://en.wikipedia.org/wiki/Clojure	Rich Hickey	true
-Haskell 	1990	https://en.wikipedia.org/wiki/Haskell_(programming_language)	Lennart Augustsson, Dave Barton, Brian Boutel, Warren Burton, Joseph Fasel, Kevin Hammond, Ralf Hinze, Paul Hudak, John Hughes, Thomas Johnsson, Mark Jones, Simon Peyton Jones, John Launchbury, Erik Meijer, John Peterson, Alastair Reid, Colin Runciman, Philip Wadler	true
+Haskell	1990	https://en.wikipedia.org/wiki/Haskell_(programming_language)	Lennart Augustsson, Dave Barton, Brian Boutel, Warren Burton, Joseph Fasel, Kevin Hammond, Ralf Hinze, Paul Hudak, John Hughes, Thomas Johnsson, Mark Jones, Simon Peyton Jones, John Launchbury, Erik Meijer, John Peterson, Alastair Reid, Colin Runciman, Philip Wadler	true
 Lua	1993	https://en.wikipedia.org/wiki/Lua_(programming_language)	Roberto Ierusalimschy, Waldemar Celes, Luiz Henrique de Figueiredo	true
 Perl	1987	https://en.wikipedia.org/wiki/Perl	Larry Wall	true
 R	1993	https://en.wikipedia.org/wiki/R_(programming_language)	Ross Ihaka, Robert Gentleman	true

@@ -1,6 +1,8 @@
+date 04/21/2024
+description For cells that have this kind of organelle, how many are usually found on the high end?
+
 import pageHeader.scroll
 
-date 04/21/2024
 title Organelles
 
 This is a dataset of the most common organelles found in nature.
@@ -28,7 +30,6 @@ median: int
 For cells that have this kind of organelle, how many are usually found in the median?
 
 high: int
-description For cells that have this kind of organelle, how many are usually found on the high end?
 
 ::
 
