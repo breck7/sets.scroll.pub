@@ -1,6 +1,7 @@
+date 04/26/2024
+
 import pageHeader.scroll
 
-date 04/26/2024
 title Waves
 
 This is a dataset on waves.
@@ -21,9 +22,7 @@ Thermal Waves	False	True	True	Varies	Varies	Varies	Heating elements, sun	Heating
 Chemical Waves	False	True	True	Varies	Varies	Varies	Chemical reactions	Chemical processing, biological signaling	Propagation of reaction and diffusion	Calcium waves in cells, Belousov-Zhabotinsky reaction	Can be critical in biological processes
 Combustion Waves	False	True	True	Varies	Varies	Varies	Fire, explosions	Fire safety, controlled burns	Propagation of fire through combustible materials	Wildfires, controlled burns	Can cause massive destruction and pollution
 
-
 endSnippet
-
 
 Name	Follows Inverse Square Law	Complex Attenuation	Other Attenuation Patterns
 Electromagnetic Waves	True	False	False
@@ -33,8 +32,6 @@ Gravitational Waves	True	False	False
 Thermal Waves	False	False	True
 Chemical Waves	False	False	True
 Combustion Waves	False	True	False
-
-
 
 Chemical reaction wave:
 https://youtu.be/s2np2PaaWtU?t=75
@@ -70,7 +67,6 @@ Capillary Waves	-1
 Conductive Heat Transfer	-2 to 2
 Convective Heat Transfer (gases)	-1 to 0
 Convective Heat Transfer (liquids)	-1 to 1
-
 
 # Attenuation
 

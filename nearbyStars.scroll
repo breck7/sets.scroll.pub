@@ -1,5 +1,7 @@
-import pageHeader.scroll
 date 04/21/2024
+description The intrinsic brightness of the star if it were placed at a standard distance of 10 parsecs from Earth
+
+import pageHeader.scroll
 
 title Nearby Stars
 
@@ -28,8 +30,6 @@ apparent_magnitude: float
 The brightness of the star as seen from Earth
 
 absolute_magnitude: float
-
-description The intrinsic brightness of the star if it were placed at a standard distance of 10 parsecs from Earth
 
 mass: float
 
@@ -108,7 +108,7 @@ radial_velocity: -5.50
 
 // Sirius B
 star_name: Sirius B
-distance: 8.66 
+distance: 8.66
 spectral_type: DA2
 apparent_magnitude: 8.44
 absolute_magnitude: 11.34
@@ -128,10 +128,10 @@ radial_velocity: -32.50
   
 ::
 
-// Luyten 726-8 B  
+// Luyten 726-8 B
 star_name: Luyten 726-8 B
 distance: 8.73
-spectral_type: M6Ve 
+spectral_type: M6Ve
 apparent_magnitude: 13.05
 absolute_magnitude: 16.24
 mass: 0.100
@@ -140,7 +140,7 @@ radial_velocity: -25.00
 ::
 
 // Ross 154
-star_name: Ross 154  
+star_name: Ross 154
 distance: 9.69
 spectral_type: M3.5Ve
 apparent_magnitude: 10.44

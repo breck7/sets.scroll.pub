@@ -1,5 +1,6 @@
-import pageHeader.scroll
 date 04/21/2024
+
+import pageHeader.scroll
 title Programming Languages
 This is a dataset documenting major programming languages.
 
@@ -9,7 +10,7 @@ endSnippet
 
 # Schema
 
-name: string 
+name: string
 The name of the language
 
 appeared: int
@@ -24,22 +25,20 @@ Who created this language?
 openSource: boolean
 Is the language open source?
 
-
-
 # Data
 
 ::
 
 name: JavaScript
 appeared: 1995
-wikipedia: https://en.wikipedia.org/wiki/JavaScript 
+wikipedia: https://en.wikipedia.org/wiki/JavaScript
 creators: Brendan Eich
 openSource: true
 
 ::
 
 name: Python
-appeared: 1991 
+appeared: 1991
 wikipedia: https://en.wikipedia.org/wiki/Python_(programming_language)
 creators: Guido van Rossum
 openSource: true
@@ -48,7 +47,7 @@ openSource: true
 
 name: Java
 appeared: 1995
-wikipedia: https://en.wikipedia.org/wiki/Java_(programming_language) 
+wikipedia: https://en.wikipedia.org/wiki/Java_(programming_language)
 creators: James Gosling
 openSource: true
 
@@ -73,7 +72,7 @@ openSource: true
 name: PHP
 appeared: 1995
 wikipedia: https://en.wikipedia.org/wiki/PHP
-creators: Rasmus Lerdorf 
+creators: Rasmus Lerdorf
 openSource: true
 
 ::
@@ -96,7 +95,7 @@ openSource: true
 
 name: Kotlin
 appeared: 2011
-wikipedia: https://en.wikipedia.org/wiki/Kotlin_(programming_language)  
+wikipedia: https://en.wikipedia.org/wiki/Kotlin_(programming_language)
 creators: JetBrains
 openSource: true
 
@@ -116,7 +115,7 @@ wikipedia: https://en.wikipedia.org/wiki/Rust_(programming_language)
 creators: Graydon Hoare
 openSource: true
 
-: 
+:
 
 name: Scala
 appeared: 2004
@@ -137,7 +136,7 @@ openSource: true
 name: Dart
 appeared: 2011
 wikipedia: https://en.wikipedia.org/wiki/Dart_(programming_language)
-creators: Lars Bak, Kasper Lund 
+creators: Lars Bak, Kasper Lund
 openSource: true
 
 ::
@@ -158,7 +157,7 @@ openSource: true
 
 ::
 
-name: Haskell 
+name: Haskell
 appeared: 1990
 wikipedia: https://en.wikipedia.org/wiki/Haskell_(programming_language)
 creators: Lennart Augustsson, Dave Barton, Brian Boutel, Warren Burton, Joseph Fasel, Kevin Hammond, Ralf Hinze, Paul Hudak, John Hughes, Thomas Johnsson, Mark Jones, Simon Peyton Jones, John Launchbury, Erik Meijer, John Peterson, Alastair Reid, Colin Runciman, Philip Wadler
@@ -191,4 +190,3 @@ openSource: true
 ::
 
 import pageFooter.scroll
-
