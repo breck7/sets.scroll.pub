@@ -8,6 +8,7 @@ This is a dataset on natural disasters.
 
 endColumns
 
+printTable
 Natural Disaster	Description	Measurement Scale	Min	Max
 Hurricane	A tropical cyclone with sustained winds of 74 mph (119 km/h) or higher	Saffir-Simpson Hurricane Wind Scale	1	5
 Earthquake	Sudden shaking of the Earth's surface caused by the release of energy	Moment Magnitude Scale (MMS)	0	10
@@ -34,6 +35,7 @@ endSnippet
 
 Here is a table on warning systems for the various disaster types, including the name of the warning system and the minimum and maximum warning levels:
 
+printTable
 Natural Disaster	Warning System	Min Warning Level	Max Warning Level
 Hurricane	National Hurricane Center (NHC) Alerts	Tropical Storm Watch	Hurricane Warning
 Earthquake	Earthquake Early Warning (EEW) Systems	No Alert	Warning

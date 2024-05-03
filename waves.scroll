@@ -10,9 +10,7 @@ It tests root level tabular data in Scroll.
 
 endColumns
 
-css
- td:hover {background:white; text-overflow: unset; z-index: 10; overflow: unset; white-space: unset;}
-
+printTable
 Name	Transverse	Longitudinal	Medium Required	Propagation Speed (m/s)	Min Frequency (Hz)	Max Frequency (Hz)	Common Sources	Primary Uses or Effects	Key Characteristics	Examples	Impact on Environment/Humans
 Electromagnetic Waves	True	False	False	299792458	Varies	Varies	Sun, radio transmitters	Communication, medical imaging, cooking	Can travel in vacuum and through transparent media	Radio broadcasts, X-rays	Varies; UV can cause skin cancer
 Sound Waves	False	True	True	343	20	20000	Vibrating objects	Communication, music, sonar	Travels through elastic media	Talking, concerts, ultrasound imaging	Noise pollution can affect health and well-being
@@ -24,6 +22,7 @@ Combustion Waves	False	True	True	Varies	Varies	Varies	Fire, explosions	Fire safe
 
 endSnippet
 
+printTable
 Name	Follows Inverse Square Law	Complex Attenuation	Other Attenuation Patterns
 Electromagnetic Waves	True	False	False
 Sound Waves	True	False	False
@@ -36,6 +35,7 @@ Combustion Waves	False	True	False
 Chemical reaction wave:
 https://youtu.be/s2np2PaaWtU?t=75
 
+printTable
 Speed (meters per second, power of 10)	Name
 10^8	Gravitational Waves
 10^8	Electromagnetic Waves
@@ -48,6 +48,7 @@ Speed (meters per second, power of 10)	Name
 
 # Wave speed
 
+printTable
 EM Waves	M/S (Powers of 10)
 EM Waves	8
 Gamma Rays	8
@@ -70,6 +71,7 @@ Convective Heat Transfer (liquids)	-1 to 1
 
 # Attenuation
 
+printTable
 EM Waves	Inverse square
 Gamma Rays	Inverse square
 X-Rays	Inverse square

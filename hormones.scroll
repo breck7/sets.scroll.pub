@@ -26,7 +26,7 @@ Endocrine_Gland_ID enum:
 14 = Intestine
 15 = Duodenum
 
-
+printTable
 Hormone_Name	Chemical_Formula	Min_Level_mmol_L	Max_Level_mmol_L	Peptide_Hormone	Steroid_Hormone	Amine_Hormone	Half_Life_Minutes	Pulsatile_Release	Endocrine_Gland_ID
 Insulin	C₂₅₇H₃₈₃N₆₅O₇₇S₆	0.0000365	0.000180	true	false	false	6	false	4
 Glucagon	C₁₅₃H₂₂₅N₄₃O₄₉S	0.00000125	0.000009	true	false	false	5	false	4
@@ -80,4 +80,3 @@ Somatostatin	C₇₆H₁₀₄N₁₈O₁₉S₂	0.00000005	0.00000025	true	fals
 Thyrotropin-releasing hormone (TRH)	C₁₆H₂₂N₆O₄	0.000000165	0.000000870	true	false	false	5	true	8
 
 import pageFooter.scroll
-
