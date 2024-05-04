@@ -10,7 +10,7 @@ printConcepts
 
 endSnippet
 
-# Schema
+// schema
 
 classDescriptionParser
  extends abstractStringMeasureParser
@@ -20,7 +20,7 @@ common_algorithmsParser
  extends abstractStringMeasureParser
  description Examples of algorithms or operations that typically exhibit this level of complexity.
 
-# Data
+// data
 
 // Constant Time
 id O(1)

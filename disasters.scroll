@@ -6,8 +6,6 @@ title Natural Disasters
 
 This is a dataset on natural disasters.
 
-endColumns
-
 printTable
 Natural Disaster	Description	Measurement Scale	Min	Max
 Hurricane	A tropical cyclone with sustained winds of 74 mph (119 km/h) or higher	Saffir-Simpson Hurricane Wind Scale	1	5

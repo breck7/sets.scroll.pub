@@ -10,7 +10,7 @@ printConcepts
 
 endSnippet
 
-# Schema
+// schema
 
 // id
 
@@ -42,7 +42,7 @@ inventor_developerParser
  extends abstractStringMeasureParser
  description Knowing who invented or developed the microscope can provide historical context and acknowledgment of significant contributions in the field. This also helps in understanding the geographical and institutional origins of
 
-# Data
+// data
 
 id Optical Microscope
 invented 1590

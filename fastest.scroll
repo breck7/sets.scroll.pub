@@ -10,7 +10,7 @@ printConcepts
 
 endSnippet
 
-# Schema
+// schema
 
 // id
 
@@ -30,7 +30,7 @@ rangeParser
  extends abstractIntegerMeasureParser
  description The maximum range of the transportation mode in miles
 
-# Data
+// data
 
 id High-speed rail
 speed 268

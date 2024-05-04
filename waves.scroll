@@ -8,8 +8,6 @@ This is a dataset on waves.
 
 It tests root level tabular data in Scroll.
 
-endColumns
-
 printTable
 Name	Transverse	Longitudinal	Medium Required	Propagation Speed (m/s)	Min Frequency (Hz)	Max Frequency (Hz)	Common Sources	Primary Uses or Effects	Key Characteristics	Examples	Impact on Environment/Humans
 Electromagnetic Waves	True	False	False	299792458	Varies	Varies	Sun, radio transmitters	Communication, medical imaging, cooking	Can travel in vacuum and through transparent media	Radio broadcasts, X-rays	Varies; UV can cause skin cancer

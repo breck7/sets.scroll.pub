@@ -11,7 +11,7 @@ printConcepts
 
 endSnippet
 
-# Schema
+// schema
 
 // id
 
@@ -29,13 +29,16 @@ apparent_magnitudeParser
 
 absolute_magnitudeParser
  extends abstractFloatMeasureParser
- description The mass of the star, expressed in solar masses
 
 radial_velocityParser
  extends abstractFloatMeasureParser
  description The speed at which the star moves towards or away from the Solar System, measured in km/s
 
-# Data
+massParser
+ extends abstractFloatMeasureParser
+ description The mass of the star, expressed in solar masses
+
+// data
 
 // Proxima Centauri
 id Proxima Centauri

@@ -8,7 +8,7 @@ printConcepts
 
 endSnippet
 
-# Schema
+// schema
 
 // id
 
@@ -28,7 +28,7 @@ openSourceParser
  extends abstractBooleanMeasureParser
  description Is the language open source?
 
-# Data
+// data
 
 id JavaScript
 appeared 1995
