@@ -12,10 +12,6 @@ endSnippet
 
 // id
 
-nameParser
- extends abstractStringMeasureParser
- description The name of the language
-
 appearedParser
  extends abstractIntegerMeasureParser
  description What year was the language publicly released and/or announced?
@@ -34,9 +30,7 @@ openSourceParser
 
 # Data
 
-
-
-name JavaScript
+id JavaScript
 appeared 1995
 wikipedia https://en.wikipedia.org/wiki/JavaScript
 creators Brendan Eich
@@ -44,7 +38,7 @@ openSource true
 
 
 
-name Python
+id Python
 appeared 1991
 wikipedia https://en.wikipedia.org/wiki/Python_(programming_language)
 creators Guido van Rossum
@@ -52,7 +46,7 @@ openSource true
 
 
 
-name Java
+id Java
 appeared 1995
 wikipedia https://en.wikipedia.org/wiki/Java_(programming_language)
 creators James Gosling
@@ -60,7 +54,7 @@ openSource true
 
 
 
-name C++
+id C++
 appeared 1979
 wikipedia https://en.wikipedia.org/wiki/C%2B%2B
 creators Bjarne Stroustrup
@@ -68,7 +62,7 @@ openSource true
 
 
 
-name C#
+id C#
 appeared 2000
 wikipedia https://en.wikipedia.org/wiki/C_Sharp_(programming_language)
 creators Microsoft
@@ -76,7 +70,7 @@ openSource true
 
 
 
-name PHP
+id PHP
 appeared 1995
 wikipedia https://en.wikipedia.org/wiki/PHP
 creators Rasmus Lerdorf
@@ -84,7 +78,7 @@ openSource true
 
 
 
-name Swift
+id Swift
 appeared 2014
 wikipedia https://en.wikipedia.org/wiki/Swift_(programming_language)
 creators Apple Inc.
@@ -92,7 +86,7 @@ openSource true
 
 
 
-name Go
+id Go
 appeared 2009
 wikipedia https://en.wikipedia.org/wiki/Go_(programming_language)
 creators Robert Griesemer, Rob Pike, Ken Thompson
@@ -100,7 +94,7 @@ openSource true
 
 
 
-name Kotlin
+id Kotlin
 appeared 2011
 wikipedia https://en.wikipedia.org/wiki/Kotlin_(programming_language)
 creators JetBrains
@@ -108,7 +102,7 @@ openSource true
 
 
 
-name Ruby
+id Ruby
 appeared 1995
 wikipedia https://en.wikipedia.org/wiki/Ruby_(programming_language)
 creators Yukihiro Matsumoto
@@ -116,15 +110,14 @@ openSource true
 
 
 
-name Rust
+id Rust
 appeared 2010
 wikipedia https://en.wikipedia.org/wiki/Rust_(programming_language)
 creators Graydon Hoare
 openSource true
 
-:
 
-name Scala
+id Scala
 appeared 2004
 wikipedia https://en.wikipedia.org/wiki/Scala_(programming_language)
 creators Martin Odersky
@@ -132,7 +125,7 @@ openSource true
 
 
 
-name TypeScript
+id TypeScript
 appeared 2012
 wikipedia https://en.wikipedia.org/wiki/TypeScript
 creators Microsoft
@@ -140,7 +133,7 @@ openSource true
 
 
 
-name Dart
+id Dart
 appeared 2011
 wikipedia https://en.wikipedia.org/wiki/Dart_(programming_language)
 creators Lars Bak, Kasper Lund
@@ -148,7 +141,7 @@ openSource true
 
 
 
-name Elixir
+id Elixir
 appeared 2011
 wikipedia https://en.wikipedia.org/wiki/Elixir_(programming_language)
 creators José Valim
@@ -156,7 +149,7 @@ openSource true
 
 
 
-name Clojure
+id Clojure
 appeared 2007
 wikipedia https://en.wikipedia.org/wiki/Clojure
 creators Rich Hickey
@@ -164,7 +157,7 @@ openSource true
 
 
 
-name Haskell
+id Haskell
 appeared 1990
 wikipedia https://en.wikipedia.org/wiki/Haskell_(programming_language)
 creators Lennart Augustsson, Dave Barton, Brian Boutel, Warren Burton, Joseph Fasel, Kevin Hammond, Ralf Hinze, Paul Hudak, John Hughes, Thomas Johnsson, Mark Jones, Simon Peyton Jones, John Launchbury, Erik Meijer, John Peterson, Alastair Reid, Colin Runciman, Philip Wadler
@@ -172,7 +165,7 @@ openSource true
 
 
 
-name Lua
+id Lua
 appeared 1993
 wikipedia https://en.wikipedia.org/wiki/Lua_(programming_language)
 creators Roberto Ierusalimschy, Waldemar Celes, Luiz Henrique de Figueiredo
@@ -180,7 +173,7 @@ openSource true
 
 
 
-name Perl
+id Perl
 appeared 1987
 wikipedia https://en.wikipedia.org/wiki/Perl
 creators Larry Wall
@@ -188,7 +181,7 @@ openSource true
 
 
 
-name R
+id R
 appeared 1993
 wikipedia https://en.wikipedia.org/wiki/R_(programming_language)
 creators Ross Ihaka, Robert Gentleman

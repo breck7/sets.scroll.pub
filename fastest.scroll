@@ -12,13 +12,7 @@ endSnippet
 
 # Schema
 
-
-
-
-nameParser
- extends abstractStringMeasureParser
- description The name of the transportation mode
-
+// id
 
 speedParser
  extends abstractIntegerMeasureParser
@@ -40,7 +34,7 @@ rangeParser
 
 # Data
 
-name High-speed rail
+id High-speed rail
 speed 268
 year_invented 1964
 passengers 1000
@@ -48,7 +42,7 @@ range 1500
 
 
 
-name Maglev train
+id Maglev train
 speed 375
 year_invented 1984
 passengers 1000
@@ -56,7 +50,7 @@ range 500
 
 
 
-name Hyperloop (proposed)
+id Hyperloop (proposed)
 speed 760
 year_invented 2013
 passengers 28
@@ -64,7 +58,7 @@ range 900
 
 
 
-name Concorde (retired)
+id Concorde (retired)
 speed 1354
 year_invented 1969
 passengers 100
@@ -72,7 +66,7 @@ range 4500
 
 
 
-name Boeing 747
+id Boeing 747
 speed 614
 year_invented 1969
 passengers 660
@@ -80,7 +74,7 @@ range 9800
 
 
 
-name Lockheed SR-71 Blackbird (retired)
+id Lockheed SR-71 Blackbird (retired)
 speed 2193
 year_invented 1964
 passengers 2
@@ -88,7 +82,7 @@ range 3200
 
 
 
-name Space Shuttle (retired)
+id Space Shuttle (retired)
 speed 17500
 year_invented 1981
 passengers 7
@@ -96,7 +90,7 @@ range 500
 
 
 
-name SpaceX Crew Dragon
+id SpaceX Crew Dragon
 speed 17500
 year_invented 2020
 passengers 7
@@ -104,7 +98,7 @@ range 500
 
 
 
-name Virgin Galactic SpaceShipTwo
+id Virgin Galactic SpaceShipTwo
 speed 2500
 year_invented 2018
 passengers 6
@@ -112,7 +106,7 @@ range 50
 
 
 
-name Blue Origin New Shepard
+id Blue Origin New Shepard
 speed 2500
 year_invented 2015
 passengers 6
@@ -120,7 +114,7 @@ range 60
 
 
 
-name Bugatti Chiron Super Sport 300+
+id Bugatti Chiron Super Sport 300+
 speed 304
 year_invented 2019
 passengers 2
@@ -128,7 +122,7 @@ range 300
 
 
 
-name Hennessey Venom GT
+id Hennessey Venom GT
 speed 270
 year_invented 2010
 passengers 2
@@ -136,7 +130,7 @@ range 400
 
 
 
-name Koenigsegg Agera RS
+id Koenigsegg Agera RS
 speed 278
 year_invented 2015
 passengers 2
@@ -144,7 +138,7 @@ range 600
 
 
 
-name ThrustSSC (land speed record car)
+id ThrustSSC (land speed record car)
 speed 763
 year_invented 1997
 passengers 1
@@ -152,7 +146,7 @@ range 50
 
 
 
-name North American X-15 (retired)
+id North American X-15 (retired)
 speed 4520
 year_invented 1959
 passengers 1

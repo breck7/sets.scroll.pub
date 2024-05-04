@@ -13,11 +13,7 @@ endSnippet
 
 # Schema
 
-
-nameParser
- extends abstractStringMeasureParser
- description The name of the organelle
-
+// id
 
 organismParser
  extends abstractStringMeasureParser
@@ -42,7 +38,7 @@ highParser
  description The diameter of the organelle in nanometers
 
 
-name Mitochondria
+id Mitochondria
 organism human
 diameter 1000
 low 200
@@ -51,7 +47,7 @@ high 2000
 
 
 
-name Chloroplast
+id Chloroplast
 organism plant
 diameter 6000
 low 20
@@ -60,7 +56,7 @@ high 100
 
 
 
-name Nucleus
+id Nucleus
 organism human
 diameter 6000
 low 1
@@ -69,7 +65,7 @@ high 2
 
 
 
-name Golgi Apparatus
+id Golgi Apparatus
 organism human
 diameter 1200
 low 10
@@ -78,7 +74,7 @@ high 50
 
 
 
-name Endoplasmic Reticulum
+id Endoplasmic Reticulum
 organism human
 diameter 120
 low 1
@@ -87,7 +83,7 @@ high 5
 
 
 
-name Ribosome
+id Ribosome
 organism human
 diameter 25
 low 10000
@@ -96,7 +92,7 @@ high 100000
 
 
 
-name Lysosome
+id Lysosome
 organism human
 diameter 1200
 low 50
@@ -105,7 +101,7 @@ high 500
 
 
 
-name Peroxisome
+id Peroxisome
 organism human
 diameter 500
 low 100
@@ -114,7 +110,7 @@ high 500
 
 
 
-name Vacuole
+id Vacuole
 organism plant
 diameter 30000
 low 1
@@ -123,7 +119,7 @@ high 3
 
 
 
-name Centrosome
+id Centrosome
 organism human
 diameter 700
 low 1
@@ -132,7 +128,7 @@ high 2
 
 
 
-name Smooth Endoplasmic Reticulum
+id Smooth Endoplasmic Reticulum
 organism human
 diameter 120
 low 1
@@ -141,7 +137,7 @@ high 5
 
 
 
-name Rough Endoplasmic Reticulum
+id Rough Endoplasmic Reticulum
 organism human
 diameter 150
 low 1
@@ -150,7 +146,7 @@ high 5
 
 
 
-name Nucleolus
+id Nucleolus
 organism human
 diameter 2500
 low 1
@@ -159,7 +155,7 @@ high 4
 
 
 
-name Plasmodesmata
+id Plasmodesmata
 organism plant
 diameter 50
 low 1000
@@ -168,7 +164,7 @@ high 10000
 
 
 
-name Mitosome
+id Mitosome
 organism protozoa
 diameter 500
 low 5
@@ -177,7 +173,7 @@ high 20
 
 
 
-name Hydrogenosome
+id Hydrogenosome
 organism protozoa
 diameter 500
 low 5
@@ -186,7 +182,7 @@ high 20
 
 
 
-name Glyoxysome
+id Glyoxysome
 organism plant
 diameter 300
 low 100
@@ -195,7 +191,7 @@ high 300
 
 
 
-name Chromoplast
+id Chromoplast
 organism plant
 diameter 2000
 low 2
@@ -204,7 +200,7 @@ high 10
 
 
 
-name Amyloplast
+id Amyloplast
 organism plant
 diameter 2000
 low 5
@@ -213,7 +209,7 @@ high 30
 
 
 
-name Elaioplast
+id Elaioplast
 organism plant
 diameter 1000
 low 10
@@ -222,7 +218,7 @@ high 50
 
 
 
-name Periplastidial compartment (PPC)
+id Periplastidial compartment (PPC)
 organism plant
 diameter 100
 low 5
@@ -231,7 +227,7 @@ high 30
 
 
 
-name Flagellum
+id Flagellum
 organism protozoa
 diameter 200
 low 1
@@ -240,7 +236,7 @@ high 10
 
 
 
-name Cilium
+id Cilium
 organism human
 diameter 250
 low 10

@@ -12,11 +12,7 @@ endSnippet
 
 # Schema
 
-
-
-nameParser
- extends abstractStringMeasureParser
- description The name of the microscope
+// id
 
 inventedParser
  extends abstractIntegerMeasureParser
@@ -48,7 +44,7 @@ inventor_developerParser
 
 # Data
 
-name Optical Microscope
+id Optical Microscope
 invented 1590
 resolution 200
 wikipedia https://en.wikipedia.org/wiki/Optical_microscope
@@ -59,7 +55,7 @@ inventor_developer Zacharias Janssen (attributed)
 
 
 
-name Electron Microscope
+id Electron Microscope
 invented 1931
 resolution 0.2
 wikipedia https://en.wikipedia.org/wiki/Electron_microscope
@@ -70,7 +66,7 @@ inventor_developer Ernst Ruska and Max Knoll
 
 
 
-name Scanning Tunneling Microscope
+id Scanning Tunneling Microscope
 invented 1981
 resolution 0.1
 wikipedia https://en.wikipedia.org/wiki/Scanning_tunneling_microscope
@@ -81,7 +77,7 @@ inventor_developer Gerd Binnig and Heinrich Rohrer
 
 
 
-name Confocal Microscope
+id Confocal Microscope
 invented 1957
 resolution 200
 wikipedia https://en.wikipedia.org/wiki/Confocal_microscopy
@@ -92,7 +88,7 @@ inventor_developer Marvin Minsky
 
 
 
-name Atomic Force Microscope
+id Atomic Force Microscope
 invented 1986
 resolution 0.1
 wikipedia https://en.wikipedia.org/wiki/Atomic_force_microscopy
@@ -103,7 +99,7 @@ inventor_developer Gerd Binnig, Calvin Quate, Christoph Gerber
 
 
 
-name Fluorescence Microscope
+id Fluorescence Microscope
 invented 1911
 resolution 200
 wikipedia https://en.wikipedia.org/wiki/Fluorescence_microscope
@@ -114,7 +110,7 @@ inventor_developer Oskar Heimstädt
 
 
 
-name Phase Contrast Microscope
+id Phase Contrast Microscope
 invented 1934
 resolution 200
 wikipedia https://en.wikipedia.org/wiki/Phase_contrast_microscopy
@@ -125,7 +121,7 @@ inventor_developer Frits Zernike
 
 
 
-name Transmission Electron Microscope
+id Transmission Electron Microscope
 invented 1933
 resolution 0.05
 wikipedia https://en.wikipedia.org/wiki/Transmission_electron_microscopy
@@ -136,7 +132,7 @@ inventor_developer Ernst Ruska
 
 
 
-name Scanning Electron Microscope
+id Scanning Electron Microscope
 invented 1942
 resolution 1
 wikipedia https://en.wikipedia.org/wiki/Scanning_electron_microscope
@@ -147,7 +143,7 @@ inventor_developer Manfred von Ardenne
 
 
 
-name Digital Microscope
+id Digital Microscope
 invented 1980s
 resolution 200
 wikipedia https://en.wikipedia.org/wiki/Digital_microscope
@@ -158,7 +154,7 @@ inventor_developer Various contributors
 
 
 
-name Stereo Microscope
+id Stereo Microscope
 invented 1671
 resolution 10000
 wikipedia https://en.wikipedia.org/wiki/Stereo_microscope
@@ -169,7 +165,7 @@ inventor_developer Cherubin d'Orleans
 
 
 
-name X-ray Microscope
+id X-ray Microscope
 invented 1946
 resolution 50
 wikipedia https://en.wikipedia.org/wiki/X-ray_microscopy
@@ -180,7 +176,7 @@ inventor_developer Raymond Castaing
 
 
 
-name Cryo-Electron Microscopy
+id Cryo-Electron Microscopy
 invented 1975
 resolution 0.1
 wikipedia https://en.wikipedia.org/wiki/Cryo-electron_microscopy

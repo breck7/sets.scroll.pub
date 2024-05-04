@@ -12,14 +12,6 @@ endSnippet
 
 # Schema
 
-
-
-
-complexity_classParser
- extends abstractStringMeasureParser
- description The notation used to describe the complexity class, such as O(n), O(log n), etc.
-
-
 classDescriptionParser
  extends abstractStringMeasureParser
  description A brief explanation of the complexity class, often describing how the time or space requirements grow with the size of the input.
@@ -32,56 +24,56 @@ common_algorithmsParser
 # Data
 
 // Constant Time
-complexity_class O(1)
+id O(1)
 classDescription Execution time remains constant regardless of input size.
 common_algorithms Finding array element by index, adding a node to the head of a linked list
 
 
 
 // Logarithmic Time
-complexity_class O(log n)
+id O(log n)
 classDescription Execution time grows logarithmically in proportion to the input size.
 common_algorithms Binary search
 
 
 
 // Linear Time
-complexity_class O(n)
+id O(n)
 classDescription Execution time grows linearly with the input size.
 common_algorithms Linear search, traversing an array
 
 
 
 // Linearithmic Time
-complexity_class O(n log n)
+id O(n log n)
 classDescription Execution time grows linearly and logarithmically with the input size.
 common_algorithms Quick sort, merge sort
 
 
 
 // Quadratic Time
-complexity_class O(n^2)
+id O(n^2)
 classDescription Execution time grows quadratically with the input size.
 common_algorithms Bubble sort, selection sort, insertion sort
 
 
 
 // Cubic Time
-complexity_class O(n^3)
+id O(n^3)
 classDescription Execution time grows cubically with the input size.
 common_algorithms Naive matrix multiplication
 
 
 
 // Exponential Time
-complexity_class O(2^n)
+id O(2^n)
 classDescription Execution time grows exponentially based on the input size.
 common_algorithms Brute force solutions for the traveling salesman problem, recursive calculation of Fibonacci numbers
 
 
 
 // Factorial Time
-complexity_class O(n!)
+id O(n!)
 classDescription Execution time grows factorially based on the input size.
 common_algorithms Solving the traveling salesman problem via brute force, generating all permutations of a set
 
