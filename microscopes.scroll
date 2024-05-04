@@ -53,8 +53,6 @@ applications General biological and medical microscopy
 key_advancements Improved lens quality and microscope design for better image clarity and detail.
 inventor_developer Zacharias Janssen (attributed)
 
-
-
 id Electron Microscope
 invented 1931
 resolution 0.2
@@ -63,8 +61,6 @@ type Electron
 applications Cellular biology, materials science, virology
 key_advancements Enhanced magnification and resolution, allowing visualization of structures at the atomic level.
 inventor_developer Ernst Ruska and Max Knoll
-
-
 
 id Scanning Tunneling Microscope
 invented 1981
@@ -75,8 +71,6 @@ applications Surface science, nanotechnology
 key_advancements Ability to image surfaces at the atomic level.
 inventor_developer Gerd Binnig and Heinrich Rohrer
 
-
-
 id Confocal Microscope
 invented 1957
 resolution 200
@@ -85,8 +79,6 @@ type Optical
 applications 3D imaging of biological samples
 key_advancements Provides optical sectioning capability to observe multiple layers within specimens.
 inventor_developer Marvin Minsky
-
-
 
 id Atomic Force Microscope
 invented 1986
@@ -97,8 +89,6 @@ applications Nanotechnology, surface engineering
 key_advancements Can image non-conductive materials, providing a three-dimensional surface profile.
 inventor_developer Gerd Binnig, Calvin Quate, Christoph Gerber
 
-
-
 id Fluorescence Microscope
 invented 1911
 resolution 200
@@ -107,8 +97,6 @@ type Optical
 applications Biological sciences, medical diagnostics
 key_advancements Uses fluorescence and phosphorescence to study properties of organic or inorganic substances.
 inventor_developer Oskar Heimstädt
-
-
 
 id Phase Contrast Microscope
 invented 1934
@@ -119,8 +107,6 @@ applications Live cell imaging without staining
 key_advancements Enhances contrast in transparent and colorless samples.
 inventor_developer Frits Zernike
 
-
-
 id Transmission Electron Microscope
 invented 1933
 resolution 0.05
@@ -129,8 +115,6 @@ type Electron
 applications Material science, cancer research, virology
 key_advancements Capable of imaging at a significantly higher resolution than light microscopes, down to the level of atomic structures.
 inventor_developer Ernst Ruska
-
-
 
 id Scanning Electron Microscope
 invented 1942
@@ -141,8 +125,6 @@ applications Materials research, forensic examinations, biological research
 key_advancements Produces high-resolution images of a sample surface, revealing detailed topography.
 inventor_developer Manfred von Ardenne
 
-
-
 id Digital Microscope
 invented 1980s
 resolution 200
@@ -151,8 +133,6 @@ type Optical
 applications Education, industrial inspection, clinical research
 key_advancements Integration with digital cameras and computers for enhanced imaging and analysis.
 inventor_developer Various contributors
-
-
 
 id Stereo Microscope
 invented 1671
@@ -163,8 +143,6 @@ applications Manufacturing, botany, entomology
 key_advancements Provides a three-dimensional viewing experience by using two separate optical paths.
 inventor_developer Cherubin d'Orleans
 
-
-
 id X-ray Microscope
 invented 1946
 resolution 50
@@ -174,8 +152,6 @@ applications Material sciences, paleontology
 key_advancements Uses X-rays to penetrate samples and create images of the internal structure.
 inventor_developer Raymond Castaing
 
-
-
 id Cryo-Electron Microscopy
 invented 1975
 resolution 0.1
@@ -184,7 +160,5 @@ type Electron
 applications Structural biology, virology
 key_advancements Allows imaging of samples at cryogenic temperatures, preserving native state.
 inventor_developer Jacques Dubochet, Joachim Frank, Richard Henderson
-
-
 
 import pageFooter.scroll

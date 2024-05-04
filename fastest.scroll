@@ -26,11 +26,9 @@ passengersParser
  extends abstractIntegerMeasureParser
  description The typical number of passengers the transportation mode can carry
 
-
 rangeParser
  extends abstractIntegerMeasureParser
  description The maximum range of the transportation mode in miles
-
 
 # Data
 
@@ -40,15 +38,11 @@ year_invented 1964
 passengers 1000
 range 1500
 
-
-
 id Maglev train
 speed 375
 year_invented 1984
 passengers 1000
 range 500
-
-
 
 id Hyperloop (proposed)
 speed 760
@@ -56,15 +50,11 @@ year_invented 2013
 passengers 28
 range 900
 
-
-
 id Concorde (retired)
 speed 1354
 year_invented 1969
 passengers 100
 range 4500
-
-
 
 id Boeing 747
 speed 614
@@ -72,15 +62,11 @@ year_invented 1969
 passengers 660
 range 9800
 
-
-
 id Lockheed SR-71 Blackbird (retired)
 speed 2193
 year_invented 1964
 passengers 2
 range 3200
-
-
 
 id Space Shuttle (retired)
 speed 17500
@@ -88,15 +74,11 @@ year_invented 1981
 passengers 7
 range 500
 
-
-
 id SpaceX Crew Dragon
 speed 17500
 year_invented 2020
 passengers 7
 range 500
-
-
 
 id Virgin Galactic SpaceShipTwo
 speed 2500
@@ -104,15 +86,11 @@ year_invented 2018
 passengers 6
 range 50
 
-
-
 id Blue Origin New Shepard
 speed 2500
 year_invented 2015
 passengers 6
 range 60
-
-
 
 id Bugatti Chiron Super Sport 300+
 speed 304
@@ -120,15 +98,11 @@ year_invented 2019
 passengers 2
 range 300
 
-
-
 id Hennessey Venom GT
 speed 270
 year_invented 2010
 passengers 2
 range 400
-
-
 
 id Koenigsegg Agera RS
 speed 278
@@ -136,22 +110,16 @@ year_invented 2015
 passengers 2
 range 600
 
-
-
 id ThrustSSC (land speed record car)
 speed 763
 year_invented 1997
 passengers 1
 range 50
 
-
-
 id North American X-15 (retired)
 speed 4520
 year_invented 1959
 passengers 1
 range 200
-
-
 
 import pageFooter.scroll

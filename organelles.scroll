@@ -19,11 +19,9 @@ organismParser
  extends abstractStringMeasureParser
  description The organism name mainly associated with the organelle such as human, plant, whale, etc.
 
-
 diameterParser
  extends abstractIntegerMeasureParser
  description The diameter of the organelle in nanometers
-
 
 lowParser
  extends abstractIntegerMeasureParser
@@ -37,15 +35,12 @@ highParser
  extends abstractIntegerMeasureParser
  description The diameter of the organelle in nanometers
 
-
 id Mitochondria
 organism human
 diameter 1000
 low 200
 median 500
 high 2000
-
-
 
 id Chloroplast
 organism plant
@@ -54,16 +49,12 @@ low 20
 median 40
 high 100
 
-
-
 id Nucleus
 organism human
 diameter 6000
 low 1
 median 1
 high 2
-
-
 
 id Golgi Apparatus
 organism human
@@ -72,16 +63,12 @@ low 10
 median 20
 high 50
 
-
-
 id Endoplasmic Reticulum
 organism human
 diameter 120
 low 1
 median 1
 high 5
-
-
 
 id Ribosome
 organism human
@@ -90,16 +77,12 @@ low 10000
 median 50000
 high 100000
 
-
-
 id Lysosome
 organism human
 diameter 1200
 low 50
 median 200
 high 500
-
-
 
 id Peroxisome
 organism human
@@ -108,16 +91,12 @@ low 100
 median 300
 high 500
 
-
-
 id Vacuole
 organism plant
 diameter 30000
 low 1
 median 1
 high 3
-
-
 
 id Centrosome
 organism human
@@ -126,16 +105,12 @@ low 1
 median 2
 high 2
 
-
-
 id Smooth Endoplasmic Reticulum
 organism human
 diameter 120
 low 1
 median 1
 high 5
-
-
 
 id Rough Endoplasmic Reticulum
 organism human
@@ -144,16 +119,12 @@ low 1
 median 1
 high 5
 
-
-
 id Nucleolus
 organism human
 diameter 2500
 low 1
 median 1
 high 4
-
-
 
 id Plasmodesmata
 organism plant
@@ -162,16 +133,12 @@ low 1000
 median 5000
 high 10000
 
-
-
 id Mitosome
 organism protozoa
 diameter 500
 low 5
 median 10
 high 20
-
-
 
 id Hydrogenosome
 organism protozoa
@@ -180,16 +147,12 @@ low 5
 median 10
 high 20
 
-
-
 id Glyoxysome
 organism plant
 diameter 300
 low 100
 median 200
 high 300
-
-
 
 id Chromoplast
 organism plant
@@ -198,16 +161,12 @@ low 2
 median 5
 high 10
 
-
-
 id Amyloplast
 organism plant
 diameter 2000
 low 5
 median 10
 high 30
-
-
 
 id Elaioplast
 organism plant
@@ -216,16 +175,12 @@ low 10
 median 20
 high 50
 
-
-
 id Periplastidial compartment (PPC)
 organism plant
 diameter 100
 low 5
 median 15
 high 30
-
-
 
 id Flagellum
 organism protozoa
@@ -234,15 +189,11 @@ low 1
 median 1
 high 10
 
-
-
 id Cilium
 organism human
 diameter 250
 low 10
 median 50
 high 100
-
-
 
 import pageFooter.scroll
