@@ -1,4 +1,4 @@
-name	speed	year_invented	passengers	range
+id	speed	year_invented	passengers	range
 High-speed rail	268	1964	1000	1500
 Maglev train	375	1984	1000	500
 Hyperloop (proposed)	760	2013	28	900

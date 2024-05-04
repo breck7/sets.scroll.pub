@@ -1,4 +1,4 @@
-name	organism	diameter	low	median	high
+id	organism	diameter	low	median	high
 Mitochondria	human	1000	200	500	2000
 Chloroplast	plant	6000	20	40	100
 Nucleus	human	6000	1	1	2

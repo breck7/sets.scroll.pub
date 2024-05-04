@@ -7,237 +7,193 @@ title Organelles
 
 This is a dataset of the most common organelles found in nature.
 
-printDataset
+printConcepts
 
 endSnippet
 
-# Schema
+// schema
 
-name: string
-The name of the organelle
+// id
 
-organism: string
-The organism name mainly associated with the organelle such as human, plant, whale, etc.
- single false
+organismParser
+ extends abstractStringMeasureParser
+ description The organism name mainly associated with the organelle such as human, plant, whale, etc.
 
-diameter: int
-The diameter of the organelle in nanometers
+diameterParser
+ extends abstractIntegerMeasureParser
+ description The diameter of the organelle in nanometers
 
-low: int
-For cells that have this kind of organelle, how many are usually found on the low end?
+lowParser
+ extends abstractIntegerMeasureParser
+ description For cells that have this kind of organelle, how many are usually found on the low end?
 
-median: int
-For cells that have this kind of organelle, how many are usually found in the median?
+medianParser
+ extends abstractIntegerMeasureParser
+ description For cells that have this kind of organelle, how many are usually found in the median?
 
-high: int
+highParser
+ extends abstractIntegerMeasureParser
+ description The diameter of the organelle in nanometers
 
-::
+id Mitochondria
+organism human
+diameter 1000
+low 200
+median 500
+high 2000
 
-name: Mitochondria
-organism: human
-diameter: 1000
-low: 200
-median: 500
-high: 2000
+id Chloroplast
+organism plant
+diameter 6000
+low 20
+median 40
+high 100
 
-::
+id Nucleus
+organism human
+diameter 6000
+low 1
+median 1
+high 2
 
-name: Chloroplast
-organism: plant
-diameter: 6000
-low: 20
-median: 40
-high: 100
+id Golgi Apparatus
+organism human
+diameter 1200
+low 10
+median 20
+high 50
 
-::
+id Endoplasmic Reticulum
+organism human
+diameter 120
+low 1
+median 1
+high 5
 
-name: Nucleus
-organism: human
-diameter: 6000
-low: 1
-median: 1
-high: 2
+id Ribosome
+organism human
+diameter 25
+low 10000
+median 50000
+high 100000
 
-::
+id Lysosome
+organism human
+diameter 1200
+low 50
+median 200
+high 500
 
-name: Golgi Apparatus
-organism: human
-diameter: 1200
-low: 10
-median: 20
-high: 50
+id Peroxisome
+organism human
+diameter 500
+low 100
+median 300
+high 500
 
-::
+id Vacuole
+organism plant
+diameter 30000
+low 1
+median 1
+high 3
 
-name: Endoplasmic Reticulum
-organism: human
-diameter: 120
-low: 1
-median: 1
-high: 5
+id Centrosome
+organism human
+diameter 700
+low 1
+median 2
+high 2
 
-::
+id Smooth Endoplasmic Reticulum
+organism human
+diameter 120
+low 1
+median 1
+high 5
 
-name: Ribosome
-organism: human
-diameter: 25
-low: 10000
-median: 50000
-high: 100000
+id Rough Endoplasmic Reticulum
+organism human
+diameter 150
+low 1
+median 1
+high 5
 
-::
+id Nucleolus
+organism human
+diameter 2500
+low 1
+median 1
+high 4
 
-name: Lysosome
-organism: human
-diameter: 1200
-low: 50
-median: 200
-high: 500
+id Plasmodesmata
+organism plant
+diameter 50
+low 1000
+median 5000
+high 10000
 
-::
+id Mitosome
+organism protozoa
+diameter 500
+low 5
+median 10
+high 20
 
-name: Peroxisome
-organism: human
-diameter: 500
-low: 100
-median: 300
-high: 500
+id Hydrogenosome
+organism protozoa
+diameter 500
+low 5
+median 10
+high 20
 
-::
+id Glyoxysome
+organism plant
+diameter 300
+low 100
+median 200
+high 300
 
-name: Vacuole
-organism: plant
-diameter: 30000
-low: 1
-median: 1
-high: 3
+id Chromoplast
+organism plant
+diameter 2000
+low 2
+median 5
+high 10
 
-::
+id Amyloplast
+organism plant
+diameter 2000
+low 5
+median 10
+high 30
 
-name: Centrosome
-organism: human
-diameter: 700
-low: 1
-median: 2
-high: 2
+id Elaioplast
+organism plant
+diameter 1000
+low 10
+median 20
+high 50
 
-::
+id Periplastidial compartment (PPC)
+organism plant
+diameter 100
+low 5
+median 15
+high 30
 
-name: Smooth Endoplasmic Reticulum
-organism: human
-diameter: 120
-low: 1
-median: 1
-high: 5
+id Flagellum
+organism protozoa
+diameter 200
+low 1
+median 1
+high 10
 
-::
-
-name: Rough Endoplasmic Reticulum
-organism: human
-diameter: 150
-low: 1
-median: 1
-high: 5
-
-::
-
-name: Nucleolus
-organism: human
-diameter: 2500
-low: 1
-median: 1
-high: 4
-
-::
-
-name: Plasmodesmata
-organism: plant
-diameter: 50
-low: 1000
-median: 5000
-high: 10000
-
-::
-
-name: Mitosome
-organism: protozoa
-diameter: 500
-low: 5
-median: 10
-high: 20
-
-::
-
-name: Hydrogenosome
-organism: protozoa
-diameter: 500
-low: 5
-median: 10
-high: 20
-
-::
-
-name: Glyoxysome
-organism: plant
-diameter: 300
-low: 100
-median: 200
-high: 300
-
-::
-
-name: Chromoplast
-organism: plant
-diameter: 2000
-low: 2
-median: 5
-high: 10
-
-::
-
-name: Amyloplast
-organism: plant
-diameter: 2000
-low: 5
-median: 10
-high: 30
-
-::
-
-name: Elaioplast
-organism: plant
-diameter: 1000
-low: 10
-median: 20
-high: 50
-
-::
-
-name: Periplastidial compartment (PPC)
-organism: plant
-diameter: 100
-low: 5
-median: 15
-high: 30
-
-::
-
-name: Flagellum
-organism: protozoa
-diameter: 200
-low: 1
-median: 1
-high: 10
-
-::
-
-name: Cilium
-organism: human
-diameter: 250
-low: 10
-median: 50
-high: 100
-
-::
+id Cilium
+organism human
+diameter 250
+low 10
+median 50
+high 100
 
 import pageFooter.scroll

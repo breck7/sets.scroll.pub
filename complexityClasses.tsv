@@ -1,4 +1,4 @@
-complexity_class	description	common_algorithms
+id	classDescription	common_algorithms
 O(1)	Execution time remains constant regardless of input size.	Finding array element by index, adding a node to the head of a linked list
 O(log n)	Execution time grows logarithmically in proportion to the input size.	Binary search
 O(n)	Execution time grows linearly with the input size.	Linear search, traversing an array

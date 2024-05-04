@@ -6,8 +6,6 @@ title Natural Disasters
 
 This is a dataset on natural disasters.
 
-endColumns
-
 printTable
 Natural Disaster	Description	Measurement Scale	Min	Max
 Hurricane	A tropical cyclone with sustained winds of 74 mph (119 km/h) or higher	Saffir-Simpson Hurricane Wind Scale	1	5
@@ -58,6 +56,6 @@ Meteor Impact	Torino Impact Hazard Scale	White Zone	Red Zone
 Solar Flare	NOAA Space Weather Prediction Center Alerts	Minor (R1)	Extreme (R5)
 Geomagnetic Storm	NOAA Space Weather Scale for Geomagnetic Storms	Minor (G1)	Extreme (G5)
 
-Note: Some natural disasters, such as sinkholes and limnic eruptions, do not have standardized warning systems in place.
+Note - Some natural disasters, such as sinkholes and limnic eruptions, do not have standardized warning systems in place.
 
 import pageFooter.scroll
