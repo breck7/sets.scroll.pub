@@ -34,11 +34,11 @@ applicationsParser
  extends abstractStringMeasureParser
  description Describe common or notable applications of each microscope type, such as biology, materials science, nanotechnology, etc. This helps users understand where a particular microscope can be best utilized.
 
-key_advancementsParser
+keyAdvancementsParser
  extends abstractStringMeasureParser
  description List significant improvements or iterations made over the initial model. This could include details on enhancements in resolution, usability, or adaptation to different scientific needs, showing the evolution of the technology.
 
-inventor_developerParser
+inventorDeveloperParser
  extends abstractStringMeasureParser
  description Knowing who invented or developed the microscope can provide historical context and acknowledgment of significant contributions in the field. This also helps in understanding the geographical and institutional origins of
 
@@ -50,8 +50,8 @@ resolution 200
 wikipedia https://en.wikipedia.org/wiki/Optical_microscope
 type Optical
 applications General biological and medical microscopy
-key_advancements Improved lens quality and microscope design for better image clarity and detail.
-inventor_developer Zacharias Janssen (attributed)
+keyAdvancements Improved lens quality and microscope design for better image clarity and detail.
+inventorDeveloper Zacharias Janssen (attributed)
 
 id Electron Microscope
 invented 1931
@@ -59,8 +59,8 @@ resolution 0.2
 wikipedia https://en.wikipedia.org/wiki/Electron_microscope
 type Electron
 applications Cellular biology, materials science, virology
-key_advancements Enhanced magnification and resolution, allowing visualization of structures at the atomic level.
-inventor_developer Ernst Ruska and Max Knoll
+keyAdvancements Enhanced magnification and resolution, allowing visualization of structures at the atomic level.
+inventorDeveloper Ernst Ruska and Max Knoll
 
 id Scanning Tunneling Microscope
 invented 1981
@@ -68,8 +68,8 @@ resolution 0.1
 wikipedia https://en.wikipedia.org/wiki/Scanning_tunneling_microscope
 type Scanning Probe
 applications Surface science, nanotechnology
-key_advancements Ability to image surfaces at the atomic level.
-inventor_developer Gerd Binnig and Heinrich Rohrer
+keyAdvancements Ability to image surfaces at the atomic level.
+inventorDeveloper Gerd Binnig and Heinrich Rohrer
 
 id Confocal Microscope
 invented 1957
@@ -77,8 +77,8 @@ resolution 200
 wikipedia https://en.wikipedia.org/wiki/Confocal_microscopy
 type Optical
 applications 3D imaging of biological samples
-key_advancements Provides optical sectioning capability to observe multiple layers within specimens.
-inventor_developer Marvin Minsky
+keyAdvancements Provides optical sectioning capability to observe multiple layers within specimens.
+inventorDeveloper Marvin Minsky
 
 id Atomic Force Microscope
 invented 1986
@@ -86,8 +86,8 @@ resolution 0.1
 wikipedia https://en.wikipedia.org/wiki/Atomic_force_microscopy
 type Scanning Probe
 applications Nanotechnology, surface engineering
-key_advancements Can image non-conductive materials, providing a three-dimensional surface profile.
-inventor_developer Gerd Binnig, Calvin Quate, Christoph Gerber
+keyAdvancements Can image non-conductive materials, providing a three-dimensional surface profile.
+inventorDeveloper Gerd Binnig, Calvin Quate, Christoph Gerber
 
 id Fluorescence Microscope
 invented 1911
@@ -95,8 +95,8 @@ resolution 200
 wikipedia https://en.wikipedia.org/wiki/Fluorescence_microscope
 type Optical
 applications Biological sciences, medical diagnostics
-key_advancements Uses fluorescence and phosphorescence to study properties of organic or inorganic substances.
-inventor_developer Oskar Heimstädt
+keyAdvancements Uses fluorescence and phosphorescence to study properties of organic or inorganic substances.
+inventorDeveloper Oskar Heimstädt
 
 id Phase Contrast Microscope
 invented 1934
@@ -104,8 +104,8 @@ resolution 200
 wikipedia https://en.wikipedia.org/wiki/Phase_contrast_microscopy
 type Optical
 applications Live cell imaging without staining
-key_advancements Enhances contrast in transparent and colorless samples.
-inventor_developer Frits Zernike
+keyAdvancements Enhances contrast in transparent and colorless samples.
+inventorDeveloper Frits Zernike
 
 id Transmission Electron Microscope
 invented 1933
@@ -113,8 +113,8 @@ resolution 0.05
 wikipedia https://en.wikipedia.org/wiki/Transmission_electron_microscopy
 type Electron
 applications Material science, cancer research, virology
-key_advancements Capable of imaging at a significantly higher resolution than light microscopes, down to the level of atomic structures.
-inventor_developer Ernst Ruska
+keyAdvancements Capable of imaging at a significantly higher resolution than light microscopes, down to the level of atomic structures.
+inventorDeveloper Ernst Ruska
 
 id Scanning Electron Microscope
 invented 1942
@@ -122,8 +122,8 @@ resolution 1
 wikipedia https://en.wikipedia.org/wiki/Scanning_electron_microscope
 type Electron
 applications Materials research, forensic examinations, biological research
-key_advancements Produces high-resolution images of a sample surface, revealing detailed topography.
-inventor_developer Manfred von Ardenne
+keyAdvancements Produces high-resolution images of a sample surface, revealing detailed topography.
+inventorDeveloper Manfred von Ardenne
 
 id Digital Microscope
 invented 1980
@@ -132,8 +132,8 @@ resolution 200
 wikipedia https://en.wikipedia.org/wiki/Digital_microscope
 type Optical
 applications Education, industrial inspection, clinical research
-key_advancements Integration with digital cameras and computers for enhanced imaging and analysis.
-inventor_developer Various contributors
+keyAdvancements Integration with digital cameras and computers for enhanced imaging and analysis.
+inventorDeveloper Various contributors
 
 id Stereo Microscope
 invented 1671
@@ -141,8 +141,8 @@ resolution 10000
 wikipedia https://en.wikipedia.org/wiki/Stereo_microscope
 type Optical
 applications Manufacturing, botany, entomology
-key_advancements Provides a three-dimensional viewing experience by using two separate optical paths.
-inventor_developer Cherubin d'Orleans
+keyAdvancements Provides a three-dimensional viewing experience by using two separate optical paths.
+inventorDeveloper Cherubin d'Orleans
 
 id X-ray Microscope
 invented 1946
@@ -150,8 +150,8 @@ resolution 50
 wikipedia https://en.wikipedia.org/wiki/X-ray_microscopy
 type X-ray
 applications Material sciences, paleontology
-key_advancements Uses X-rays to penetrate samples and create images of the internal structure.
-inventor_developer Raymond Castaing
+keyAdvancements Uses X-rays to penetrate samples and create images of the internal structure.
+inventorDeveloper Raymond Castaing
 
 id Cryo-Electron Microscopy
 invented 1975
@@ -159,7 +159,7 @@ resolution 0.1
 wikipedia https://en.wikipedia.org/wiki/Cryo-electron_microscopy
 type Electron
 applications Structural biology, virology
-key_advancements Allows imaging of samples at cryogenic temperatures, preserving native state.
-inventor_developer Jacques Dubochet, Joachim Frank, Richard Henderson
+keyAdvancements Allows imaging of samples at cryogenic temperatures, preserving native state.
+inventorDeveloper Jacques Dubochet, Joachim Frank, Richard Henderson
 
 import pageFooter.scroll
