@@ -126,7 +126,8 @@ key_advancements Produces high-resolution images of a sample surface, revealing 
 inventor_developer Manfred von Ardenne
 
 id Digital Microscope
-invented 1980s
+invented 1980
+ // originally was 1980s
 resolution 200
 wikipedia https://en.wikipedia.org/wiki/Digital_microscope
 type Optical
