@@ -59,6 +59,8 @@ Secretin	C₁₃₀H₂₀₅N₃₉O₄₂	0.00000002	0.00000055	true	false	fal
 Somatostatin	C₇₆H₁₀₄N₁₈O₁₉S₂	0.00000005	0.00000025	true	false	false	1	false	4
 Thyrotropin-releasing hormone (TRH)	C₁₆H₂₂N₆O₄	0.000000165	0.000000870	true	false	false	5	true	8
 
+endSnippet
+
 
 Endocrine_Gland_ID enum:
 0 = Not specific to a single gland
