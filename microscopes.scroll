@@ -1,14 +1,13 @@
 date 04/21/2024
+title Microscopes
 
 import pageHeader.scroll
-
-title Microscopes
 
 This is a dataset documenting the major breakthroughs in microscopes over the years and how small each can see.
 
 printConcepts
 
-endSnippet
+***
 
 // schema
 

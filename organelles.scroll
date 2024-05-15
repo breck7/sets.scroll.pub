@@ -1,15 +1,14 @@
 date 04/21/2024
 description For cells that have this kind of organelle, how many are usually found on the high end?
+title Organelles
 
 import pageHeader.scroll
-
-title Organelles
 
 This is a dataset of the most common organelles found in nature.
 
 printConcepts
 
-endSnippet
+***
 
 // schema
 
