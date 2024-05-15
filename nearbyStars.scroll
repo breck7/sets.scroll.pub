@@ -1,15 +1,13 @@
 date 04/21/2024
-description The intrinsic brightness of the star if it were placed at a standard distance of 10 parsecs from Earth
+title Nearby Stars
 
 import pageHeader.scroll
-
-title Nearby Stars
 
 This is a dataset of the stars nearest to our solar system.
 
 printConcepts
 
-endSnippet
+***
 
 // schema
 
@@ -29,6 +27,7 @@ apparentMagnitudeParser
 
 absoluteMagnitudeParser
  extends abstractFloatMeasureParser
+ description The intrinsic brightness of the star if it were placed at a standard distance of 10 parsecs from Earth
 
 radialVelocityParser
  extends abstractFloatMeasureParser

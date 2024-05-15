@@ -1,7 +1,8 @@
 description Example datasets.
+title Scroll Dataset Examples
 
 import header.scroll
-title Scroll Dataset Examples
+printTitle
 import disclaimer.scroll
 
 snippets All

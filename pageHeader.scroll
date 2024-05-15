@@ -4,3 +4,4 @@ groups All
 import header.scroll
 
 wideColumns 1
+printTitle
