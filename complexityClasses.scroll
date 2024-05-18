@@ -11,6 +11,9 @@ printConcepts
 
 // schema
 
+idParser
+ extends abstractIdParser
+
 classDescriptionParser
  extends abstractStringMeasureParser
  description A brief explanation of the complexity class, often describing how the time or space requirements grow with the size of the input.

@@ -12,7 +12,8 @@ printConcepts
 
 // schema
 
-// id
+idParser
+ extends abstractIdParser
 
 organismParser
  extends abstractStringMeasureParser

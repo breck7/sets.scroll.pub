@@ -10,7 +10,8 @@ printConcepts
 
 // schema
 
-// id
+idParser
+ extends abstractIdParser
 
 appearedParser
  extends abstractIntegerMeasureParser

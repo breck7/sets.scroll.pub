@@ -11,7 +11,8 @@ printConcepts
 
 // schema
 
-// id
+idParser
+ extends abstractIdParser
 
 distanceParser
  extends abstractFloatMeasureParser
