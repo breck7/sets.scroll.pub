@@ -3,13 +3,16 @@ title Big(O) Complexity Classes in Programming
 
 import pageHeader.scroll
 
-This dataset categorizes various Big(O) complexity classes that are commonly encountered in computer programming and algorithm analysis.
+This ScrollSet categorizes various Big(O) complexity classes that are commonly encountered in computer programming and algorithm analysis.
 
 printConcepts
 
 ***
 
 // schema
+
+idParser
+ extends abstractIdParser
 
 classDescriptionParser
  extends abstractStringMeasureParser

@@ -3,7 +3,7 @@ title Natural Disasters
 
 import pageHeader.scroll
 
-This is a dataset on natural disasters.
+This is a ScrollSet on natural disasters.
 
 printTable
 Natural Disaster	Description	Measurement Scale	Min	Max

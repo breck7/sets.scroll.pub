@@ -3,7 +3,7 @@ title Waves
 
 import pageHeader.scroll
 
-This is a dataset on waves.
+This is a ScrollSet on waves.
 
 It tests root level tabular data in Scroll.
 
