@@ -3,7 +3,7 @@ title Microscopes
 
 import pageHeader.scroll
 
-This is a dataset documenting the major breakthroughs in microscopes over the years and how small each can see.
+This is a ScrollSet documenting the major breakthroughs in microscopes over the years and how small each can see.
 
 printConcepts
 

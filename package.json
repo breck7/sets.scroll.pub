@@ -1,10 +1,10 @@
 {
-  "name": "Scroll Datasets",
+  "name": "ScrollSets",
   "version": "1.0.0",
-  "description": "Test Repo for Scroll Datasets",
+  "description": "Test Repo for ScrollSets",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/breck7/datasets.scroll.pub"
+    "url": "git+https://github.com/breck7/sets.scroll.pub"
   },
   "author": "Breck Yunits",
   "scripts": {
@@ -13,7 +13,7 @@
     "open": "open index.html",
     "up": "npm install scroll-cli@latest"
   },
-  "homepage": "https://datasets.scroll.pub",
+  "homepage": "https://sets.scroll.pub",
   "dependencies": {
     "scroll-cli": "^90.2.3"
   }

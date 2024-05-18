@@ -3,7 +3,7 @@ title Hormones
 
 import pageHeader.scroll
 
-This is a dataset on hormones found in humans.
+This is a ScrollSet on hormones found in humans.
 
 printTable
 Hormone_Name	Chemical_Formula	Min_Level_mmol_L	Max_Level_mmol_L	Peptide_Hormone	Steroid_Hormone	Amine_Hormone	Half_Life_Minutes	Pulsatile_Release	Endocrine_Gland_ID

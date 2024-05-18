@@ -3,7 +3,7 @@ title Nearby Stars
 
 import pageHeader.scroll
 
-This is a dataset of the stars nearest to our solar system.
+This is a ScrollSet of the stars nearest to our solar system.
 
 printConcepts
 
