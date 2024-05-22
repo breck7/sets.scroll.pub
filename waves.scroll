@@ -3,9 +3,7 @@ title Waves
 
 import pageHeader.scroll
 
-This is a ScrollSet on waves.
-
-It tests root level tabular data in Scroll.
+import tabularData.scroll
 
 printTable
 Name	Transverse	Longitudinal	Medium Required	Propagation Speed (m/s)	Min Frequency (Hz)	Max Frequency (Hz)	Common Sources	Primary Uses or Effects	Key Characteristics	Examples	Impact on Environment/Humans
