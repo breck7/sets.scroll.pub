@@ -1,0 +1,3 @@
+importOnly
+
+This demonstrates embedding TSV data in Scrolls. It does not use ScrollSets, but showcases another quick and dirty way to utilize LLM generated datasets.
