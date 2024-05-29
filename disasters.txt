@@ -2,10 +2,8 @@ Natural Disasters
 =================
 
 > This demonstrates putting Tab Separated Values (TSVs) directly in Scroll files.
- classes scrollQuote hideOnFront
 
 > Although this approach is handy for small datasets, it does not scale as well as ScrollSets.
- classes scrollQuote hideOnFront
 
 Natural Disaster	Description	Measurement Scale	Min	Max
 Hurricane	A tropical cyclone with sustained winds of 74 mph (119 km/h) or higher	Saffir-Simpson Hurricane Wind Scale	1	5

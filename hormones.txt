@@ -2,10 +2,8 @@ Hormones
 ========
 
 > This demonstrates putting Tab Separated Values (TSVs) directly in Scroll files.
- classes scrollQuote hideOnFront
 
 > Although this approach is handy for small datasets, it does not scale as well as ScrollSets.
- classes scrollQuote hideOnFront
 
 Hormone_Name	Chemical_Formula	Min_Level_mmol_L	Max_Level_mmol_L	Peptide_Hormone	Steroid_Hormone	Amine_Hormone	Half_Life_Minutes	Pulsatile_Release	Endocrine_Gland_ID
 Insulin	C₂₅₇H₃₈₃N₆₅O₇₇S₆	0.0000365	0.000180	true	false	false	6	false	4
