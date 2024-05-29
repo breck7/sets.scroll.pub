@@ -1,11 +1,7 @@
 date 04/26/2024
 title Natural Disasters
 
-import pageHeader.scroll
-
-import tabularData.scroll
-
-Data on natural disasters.
+import tabularHeader.scroll
 
 printTable
 Natural Disaster	Description	Measurement Scale	Min	Max

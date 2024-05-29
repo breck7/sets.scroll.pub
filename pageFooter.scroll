@@ -6,6 +6,4 @@ tableSearch
 
 keyboardNav
 
-import disclaimer.scroll
-
 import footer.scroll

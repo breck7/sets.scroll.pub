@@ -1,9 +1,7 @@
 date 04/26/2024
 title Waves
 
-import pageHeader.scroll
-
-import tabularData.scroll
+import tabularHeader.scroll
 
 printTable
 Name	Transverse	Longitudinal	Medium Required	Propagation Speed (m/s)	Min Frequency (Hz)	Max Frequency (Hz)	Common Sources	Primary Uses or Effects	Key Characteristics	Examples	Impact on Environment/Humans

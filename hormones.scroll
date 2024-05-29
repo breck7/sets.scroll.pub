@@ -1,11 +1,7 @@
 date 5/2/2024
 title Hormones
 
-import pageHeader.scroll
-
-import tabularData.scroll
-
-Data on hormones found in humans.
+import tabularHeader.scroll
 
 printTable
 Hormone_Name	Chemical_Formula	Min_Level_mmol_L	Max_Level_mmol_L	Peptide_Hormone	Steroid_Hormone	Amine_Hormone	Half_Life_Minutes	Pulsatile_Release	Endocrine_Gland_ID

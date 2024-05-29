@@ -1,15 +1,6 @@
 date 04/21/2024
 title Big(O) Complexity Classes in Programming
-
-import pageHeader.scroll
-
-This ScrollSet categorizes various Big(O) complexity classes that are commonly encountered in computer programming and algorithm analysis.
-
-printConcepts
-
-***
-
-// schema
+import setHeader.scroll
 
 idParser
  extends abstractIdParser
@@ -21,8 +12,6 @@ classDescriptionParser
 commonAlgorithmsParser
  extends abstractStringMeasureParser
  description Examples of algorithms or operations that typically exhibit this level of complexity.
-
-// data
 
 // Constant Time
 id O(1)

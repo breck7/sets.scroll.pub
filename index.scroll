@@ -3,7 +3,12 @@ title ScrollSet Examples
 
 import header.scroll
 printTitle
+
+css .hideOnFront {display: none;} .showDisclaimer .hideOnFront {display:block;}
+
+<div class="showDisclaimer">
 import disclaimer.scroll
+</div>
 
 snippets All
 

@@ -1,15 +1,7 @@
 date 04/21/2024
 title Nearby Stars
 
-import pageHeader.scroll
-
-This is a ScrollSet of the stars nearest to our solar system.
-
-printConcepts
-
-***
-
-// schema
+import setHeader.scroll
 
 idParser
  extends abstractIdParser
