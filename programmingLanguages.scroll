@@ -1,14 +1,6 @@
 date 04/21/2024
 title Programming Languages
-
-import pageHeader.scroll
-This is a ScrollSet documenting major programming languages.
-
-printConcepts
-
-***
-
-// schema
+import setHeader.scroll
 
 idParser
  extends abstractIdParser

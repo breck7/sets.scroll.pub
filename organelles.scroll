@@ -1,16 +1,6 @@
 date 04/21/2024
-description For cells that have this kind of organelle, how many are usually found on the high end?
 title Organelles
-
-import pageHeader.scroll
-
-This is a ScrollSet of the most common organelles found in nature.
-
-printConcepts
-
-***
-
-// schema
+import setHeader.scroll
 
 idParser
  extends abstractIdParser
@@ -33,7 +23,7 @@ medianParser
 
 highParser
  extends abstractIntegerMeasureParser
- description The diameter of the organelle in nanometers
+ description For cells that have this kind of organelle, how many are usually found on the high end?
 
 id Mitochondria
 organism human

@@ -1,15 +1,6 @@
 date 04/22/2024
 title The Fastest Modes of Human Transportation
-
-import pageHeader.scroll
-
-This is a ScrollSet of the fastest modes of human transportation.
-
-printConcepts
-
-***
-
-// schema
+import setHeader.scroll
 
 idParser
  extends abstractIdParser
