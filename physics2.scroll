@@ -1,0 +1,268 @@
+date 05/30/2024
+title The 30 Most Important Equations in Physics - Claude
+import setHeader.scroll
+
+idParser
+ extends abstractIdParser
+yearAppearedParser
+ extends abstractIntegerMeasureParser
+ description The year the equation first appeared
+creditedToParser
+ extends abstractStringMeasureParser
+ description The physicist(s) credited with discovering or formulating the equation
+countryParser
+ extends abstractStringMeasureParser
+ description The country where the equation was discovered or formulated
+importanceRankParser
+ extends abstractIntegerMeasureParser
+ description The ranking of the equation's importance in physics (1 = most important)
+applicationParser
+ extends abstractStringMeasureParser
+ description The primary application or area of physics the equation is used in
+impactParser
+ extends abstractStringMeasureParser
+ description The impact or significance of the equation in physics and beyond
+
+// data
+
+id Newton's Second Law (F = ma)
+yearAppeared 1687
+creditedTo Isaac Newton
+country England
+importanceRank 1
+application Classical mechanics
+impact Fundamental equation of motion, used in all areas of physics
+
+id Maxwell's Equations
+yearAppeared 1865
+creditedTo James Clerk Maxwell
+country Scotland
+importanceRank 2
+application Electromagnetism
+impact Unified electricity, magnetism, and light; basis for modern electrodynamics
+
+id Schrödinger Equation
+yearAppeared 1926
+creditedTo Erwin Schrödinger
+country Austria
+importanceRank 3
+application Quantum mechanics
+impact Describes the behavior of matter and energy at the atomic and subatomic level
+
+id Einstein's Energy-Mass Equivalence (E = mc^2)
+yearAppeared 1905
+creditedTo Albert Einstein
+country Germany/Switzerland
+importanceRank 4
+application Special relativity, nuclear physics
+impact Relates energy to mass, key to understanding nuclear reactions and energy
+
+id Hubble's Law
+yearAppeared 1929
+creditedTo Edwin Hubble
+country United States
+importanceRank 5
+application Cosmology
+impact Established the expansion of the universe, cornerstone of Big Bang theory
+
+id Heisenberg's Uncertainty Principle
+yearAppeared 1927
+creditedTo Werner Heisenberg
+country Germany
+importanceRank 6  
+application Quantum mechanics
+impact Fundamental limit on precision of measurements at quantum scale
+
+id Boltzmann's Entropy Equation
+yearAppeared 1877
+creditedTo Ludwig Boltzmann
+country Austria
+importanceRank 7
+application Thermodynamics, statistical mechanics  
+impact Relates entropy to number of microscopic states, foundation of statistical physics
+
+id Planck's Energy Quantum
+yearAppeared 1900
+creditedTo Max Planck
+country Germany
+importanceRank 8
+application Quantum mechanics
+impact Introduced the concept of energy quanta, launching quantum theory
+
+id Dirac Equation
+yearAppeared 1928
+creditedTo Paul Dirac
+country England
+importanceRank 9
+application Quantum mechanics, special relativity
+impact Relativistic quantum mechanical wave equation, predicted antimatter
+
+id Euler's Equation (e^(i*pi) + 1 = 0)
+yearAppeared 1748
+creditedTo Leonhard Euler
+country Switzerland
+importanceRank 10
+application Complex analysis
+impact Relates fundamental constants e, i, pi; considered most beautiful equation
+
+id Principle of Least Action
+yearAppeared 1744
+creditedTo Pierre Louis Maupertuis
+country France
+importanceRank 11
+application Classical mechanics  
+impact Alternative formulation of mechanics using variational principle
+
+id Noether's Theorem
+yearAppeared 1915
+creditedTo Emmy Noether  
+country Germany
+importanceRank 12
+application Theoretical physics
+impact Connects symmetries to conservation laws, fundamental to modern physics
+
+id Navier-Stokes Equations
+yearAppeared 1822
+creditedTo Claude-Louis Navier, George Stokes
+country France, Ireland  
+importanceRank 13
+application Fluid dynamics
+impact Describes motion of viscous fluids, used in aerodynamics, weather, & more
+
+id Riemann Hypothesis
+yearAppeared 1859
+creditedTo Bernhard Riemann
+country Germany
+importanceRank 14
+application Number theory
+impact Conjectured rule for distribution of prime numbers, unproven but very important 
+
+id Gauss's Law
+yearAppeared 1835
+creditedTo Carl Friedrich Gauss
+country Germany
+importanceRank 15
+application Electrostatics  
+impact Relates electric field to charge distribution, part of Maxwell's equations
+
+id Ampère's Circuital Law
+yearAppeared 1826  
+creditedTo André-Marie Ampère
+country France
+importanceRank 16 
+application Magnetostatics
+impact Relates magnetic field to electric current, part of Maxwell's equations
+
+id Faraday's Law of Induction  
+yearAppeared 1831
+creditedTo Michael Faraday
+country England 
+importanceRank 17
+application Electromagnetism
+impact Describes how changing magnetic field induces electric field
+
+id Boyle's Law
+yearAppeared 1662
+creditedTo Robert Boyle
+country Ireland
+importanceRank 18
+application Thermodynamics  
+impact Relates pressure and volume of gas at constant temperature
+
+id Fourier's Heat Equation
+yearAppeared 1822 
+creditedTo Joseph Fourier
+country France
+importanceRank 19
+application Heat transfer
+impact Describes conduction of heat in solids, used in many applications
+
+id Coulomb's Law
+yearAppeared 1785
+creditedTo Charles-Augustin de Coulomb 
+country France
+importanceRank 20
+application Electrostatics
+impact Describes force between electric charges, foundation of electrostatics
+
+id Kepler's Laws of Planetary Motion
+yearAppeared 1609
+creditedTo Johannes Kepler
+country Germany
+importanceRank 21  
+application Astronomy
+impact Describes motion of planets around the Sun, basis for Newton's gravity
+
+id Lorentz Force Law
+yearAppeared 1895  
+creditedTo Hendrik Lorentz
+country Netherlands 
+importanceRank 22
+application Electromagnetism 
+impact Describes force on charge moving in electromagnetic field
+
+id Biot-Savart Law
+yearAppeared 1820
+creditedTo Jean-Baptiste Biot, Félix Savart
+country France
+importanceRank 23
+application Magnetostatics
+impact Describes magnetic field generated by electric current
+
+id Fermat's Principle of Least Time
+yearAppeared 1662
+creditedTo Pierre de Fermat
+country France
+importanceRank 24
+application Optics  
+impact Light travels path that takes least time, explains refraction and reflection
+
+id Fresnel Equations 
+yearAppeared 1823
+creditedTo Augustin-Jean Fresnel
+country France
+importanceRank 25
+application Optics
+impact Describe reflection and transmission of light at interface between media
+
+id Snell's Law
+yearAppeared 1621
+creditedTo Willebrord Snellius
+country Netherlands  
+importanceRank 26
+application Optics
+impact Relates angles of incidence and refraction for light crossing boundary
+
+id Hooke's Law
+yearAppeared 1660  
+creditedTo Robert Hooke
+country England
+importanceRank 27
+application Mechanics, materials science 
+impact Linearly relates force and extension in spring, describes elastic materials
+
+id Bragg's Law
+yearAppeared 1913
+creditedTo William Henry Bragg, William Lawrence Bragg  
+country England
+importanceRank 28
+application Crystallography
+impact Describes condition for diffraction by crystal lattice planes
+
+id Carnot's Theorem
+yearAppeared 1824
+creditedTo Sadi Carnot
+country France
+importanceRank 29
+application Thermodynamics
+impact Limits the maximum efficiency of any heat engine
+
+id Lagrange's Equations
+yearAppeared 1788
+creditedTo Joseph-Louis Lagrange  
+country Italy/France
+importanceRank 30
+application Classical mechanics
+impact Reformulates Newtonian mechanics, basis for Hamiltonian mechanics
+
+import pageFooter.scroll
