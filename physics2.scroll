@@ -1,5 +1,6 @@
 date 05/30/2024
 title The 30 Most Important Equations in Physics - Claude
+
 import setHeader.scroll
 
 idParser
@@ -69,7 +70,7 @@ id Heisenberg's Uncertainty Principle
 yearAppeared 1927
 creditedTo Werner Heisenberg
 country Germany
-importanceRank 6  
+importanceRank 6
 application Quantum mechanics
 impact Fundamental limit on precision of measurements at quantum scale
 
@@ -78,7 +79,7 @@ yearAppeared 1877
 creditedTo Ludwig Boltzmann
 country Austria
 importanceRank 7
-application Thermodynamics, statistical mechanics  
+application Thermodynamics, statistical mechanics
 impact Relates entropy to number of microscopic states, foundation of statistical physics
 
 id Planck's Energy Quantum
@@ -110,12 +111,12 @@ yearAppeared 1744
 creditedTo Pierre Louis Maupertuis
 country France
 importanceRank 11
-application Classical mechanics  
+application Classical mechanics
 impact Alternative formulation of mechanics using variational principle
 
 id Noether's Theorem
 yearAppeared 1915
-creditedTo Emmy Noether  
+creditedTo Emmy Noether
 country Germany
 importanceRank 12
 application Theoretical physics
@@ -124,7 +125,7 @@ impact Connects symmetries to conservation laws, fundamental to modern physics
 id Navier-Stokes Equations
 yearAppeared 1822
 creditedTo Claude-Louis Navier, George Stokes
-country France, Ireland  
+country France, Ireland
 importanceRank 13
 application Fluid dynamics
 impact Describes motion of viscous fluids, used in aerodynamics, weather, & more
@@ -135,28 +136,28 @@ creditedTo Bernhard Riemann
 country Germany
 importanceRank 14
 application Number theory
-impact Conjectured rule for distribution of prime numbers, unproven but very important 
+impact Conjectured rule for distribution of prime numbers, unproven but very important
 
 id Gauss's Law
 yearAppeared 1835
 creditedTo Carl Friedrich Gauss
 country Germany
 importanceRank 15
-application Electrostatics  
+application Electrostatics
 impact Relates electric field to charge distribution, part of Maxwell's equations
 
 id Ampère's Circuital Law
-yearAppeared 1826  
+yearAppeared 1826
 creditedTo André-Marie Ampère
 country France
-importanceRank 16 
+importanceRank 16
 application Magnetostatics
 impact Relates magnetic field to electric current, part of Maxwell's equations
 
-id Faraday's Law of Induction  
+id Faraday's Law of Induction
 yearAppeared 1831
 creditedTo Michael Faraday
-country England 
+country England
 importanceRank 17
 application Electromagnetism
 impact Describes how changing magnetic field induces electric field
@@ -166,11 +167,11 @@ yearAppeared 1662
 creditedTo Robert Boyle
 country Ireland
 importanceRank 18
-application Thermodynamics  
+application Thermodynamics
 impact Relates pressure and volume of gas at constant temperature
 
 id Fourier's Heat Equation
-yearAppeared 1822 
+yearAppeared 1822
 creditedTo Joseph Fourier
 country France
 importanceRank 19
@@ -179,7 +180,7 @@ impact Describes conduction of heat in solids, used in many applications
 
 id Coulomb's Law
 yearAppeared 1785
-creditedTo Charles-Augustin de Coulomb 
+creditedTo Charles-Augustin de Coulomb
 country France
 importanceRank 20
 application Electrostatics
@@ -189,16 +190,16 @@ id Kepler's Laws of Planetary Motion
 yearAppeared 1609
 creditedTo Johannes Kepler
 country Germany
-importanceRank 21  
+importanceRank 21
 application Astronomy
 impact Describes motion of planets around the Sun, basis for Newton's gravity
 
 id Lorentz Force Law
-yearAppeared 1895  
+yearAppeared 1895
 creditedTo Hendrik Lorentz
-country Netherlands 
+country Netherlands
 importanceRank 22
-application Electromagnetism 
+application Electromagnetism
 impact Describes force on charge moving in electromagnetic field
 
 id Biot-Savart Law
@@ -214,10 +215,10 @@ yearAppeared 1662
 creditedTo Pierre de Fermat
 country France
 importanceRank 24
-application Optics  
+application Optics
 impact Light travels path that takes least time, explains refraction and reflection
 
-id Fresnel Equations 
+id Fresnel Equations
 yearAppeared 1823
 creditedTo Augustin-Jean Fresnel
 country France
@@ -228,22 +229,22 @@ impact Describe reflection and transmission of light at interface between media
 id Snell's Law
 yearAppeared 1621
 creditedTo Willebrord Snellius
-country Netherlands  
+country Netherlands
 importanceRank 26
 application Optics
 impact Relates angles of incidence and refraction for light crossing boundary
 
 id Hooke's Law
-yearAppeared 1660  
+yearAppeared 1660
 creditedTo Robert Hooke
 country England
 importanceRank 27
-application Mechanics, materials science 
+application Mechanics, materials science
 impact Linearly relates force and extension in spring, describes elastic materials
 
 id Bragg's Law
 yearAppeared 1913
-creditedTo William Henry Bragg, William Lawrence Bragg  
+creditedTo William Henry Bragg, William Lawrence Bragg
 country England
 importanceRank 28
 application Crystallography
@@ -259,7 +260,7 @@ impact Limits the maximum efficiency of any heat engine
 
 id Lagrange's Equations
 yearAppeared 1788
-creditedTo Joseph-Louis Lagrange  
+creditedTo Joseph-Louis Lagrange
 country Italy/France
 importanceRank 30
 application Classical mechanics
