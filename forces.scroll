@@ -1,0 +1,139 @@
+date 06/06/2024
+title The Four Fundamental Forces
+
+import setHeader.scroll
+
+idParser
+ extends abstractIdParser
+
+strengthParser
+ extends abstractFloatMeasureParser
+ description The relative strength of the force compared to the other forces
+
+rangeParser
+ extends abstractFloatMeasureParser
+ description The range of the force in meters
+
+mediatorParticleParser
+ extends abstractStringMeasureParser
+ description The particle that mediates the force
+
+interactionTypeParser
+ extends abstractStringMeasureParser
+ description The type of particles that the force interacts with
+
+masslessParser
+ extends abstractBooleanMeasureParser
+ description Whether the mediator particle is massless (true/false)
+
+unificationParser
+ extends abstractStringMeasureParser
+ description Theoretical unification of the force with others
+
+discoveryYearParser
+ extends abstractIntegerMeasureParser
+ description The year the force was discovered or proposed
+
+discovererParser
+ extends abstractStringMeasureParser
+ description The scientist(s) who discovered or proposed the force
+
+mathematicalFormulationParser
+ extends abstractStringMeasureParser
+ description The mathematical formulation or equation that describes the force
+
+experimentalEvidenceParser
+ extends abstractStringMeasureParser
+ description Key experimental evidence supporting the existence of the force
+
+quantumTheoryParser
+ extends abstractStringMeasureParser
+ description The quantum field theory describing the force
+
+classicalTheoryParser
+ extends abstractStringMeasureParser
+ description The classical theory or law describing the force
+
+applicationsParser
+ extends abstractStringMeasureParser
+ description Practical applications or phenomena explained by the force
+
+symmetryParser
+ extends abstractStringMeasureParser
+ description The symmetry or invariance associated with the force
+
+strengthScaleParser
+ extends abstractFloatMeasureParser
+ description The scale of strength (from 0 to 1) for comparison among the forces
+
+// data
+
+id Gravity
+strength 6.67430e-11
+range Infinity
+mediatorParticle Graviton (theoretical)
+interactionType All particles with mass
+massless true
+unification Not unified with other forces yet
+discoveryYear 1687
+discoverer Isaac Newton
+mathematicalFormulation F = G * (m1 * m2) / r^2
+experimentalEvidence Cavendish experiment
+quantumTheory General Relativity (attempts at Quantum Gravity)
+classicalTheory Newton's Law of Gravitation
+applications Orbits, planetary motion, tides
+symmetry Spacetime symmetry
+strengthScale 1
+
+id Electromagnetic
+strength 1/137
+range Infinity
+mediatorParticle Photon
+interactionType Charged particles
+massless true
+unification Unified with weak force (Electroweak theory)
+discoveryYear 1864
+discoverer James Clerk Maxwell
+mathematicalFormulation F = k * (q1 * q2) / r^2
+experimentalEvidence Hertz's experiments on electromagnetic waves
+quantumTheory Quantum Electrodynamics (QED)
+classicalTheory Maxwell's Equations
+applications Electricity, magnetism, light
+symmetry Gauge symmetry (U(1))
+strengthScale 2
+
+id Weak
+strength 1.0e-5
+range 1e-18 meters
+mediatorParticle W and Z bosons
+interactionType All fermions
+massless false
+unification Unified with electromagnetic force (Electroweak theory)
+discoveryYear 1934
+discoverer Enrico Fermi
+mathematicalFormulation Described by Fermi's interaction
+experimentalEvidence Observed in beta decay
+quantumTheory Quantum Flavour Dynamics (QFD)
+classicalTheory Fermi's Theory of Beta Decay
+applications Radioactive decay, nuclear fusion
+symmetry Gauge symmetry (SU(2))
+strengthScale 3
+
+id Strong
+strength 1
+range 1e-15 meters
+mediatorParticle Gluon
+interactionType Quarks and gluons
+massless true
+unification Part of Grand Unified Theories (GUTs)
+discoveryYear 1973
+discoverer Murray Gell-Mann
+mathematicalFormulation Described by Quantum Chromodynamics (QCD)
+experimentalEvidence Deep inelastic scattering experiments
+quantumTheory Quantum Chromodynamics (QCD)
+classicalTheory Does not have a classical counterpart
+applications Binding protons and neutrons in nuclei
+symmetry Gauge symmetry (SU(3))
+strengthScale 4
+
+import pageFooter.scroll
