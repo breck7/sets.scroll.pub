@@ -1,6 +1,6 @@
 importOnly
-writeConcepts
-writeText
+buildConcepts
+buildText
 
 tableSearch
 
