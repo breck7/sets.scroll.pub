@@ -10,6 +10,9 @@ css .hideOnFront {display: none;} .showDisclaimer .hideOnFront {display:block;}
 import disclaimer.scroll
 </div>
 
-snippets All
+printSnippets All
 
+
+buildTxt
+buildHtml
 import footer.scroll
