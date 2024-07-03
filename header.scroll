@@ -1,8 +1,5 @@
 importOnly
-baseUrl https://sets.scroll.pub/
-email feedback@scroll.pub
-git https://github.com/breck7/sets.scroll.pub
-viewSourceBaseUrl https://github.com/breck7/sets.scroll.pub/blob/main
+import settings.scroll
 
 metaTags
 gazetteCss
