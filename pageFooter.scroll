@@ -1,6 +1,7 @@
 importOnly
 buildConcepts
-buildText
+buildTxt
+buildHtml
 
 tableSearch
 
