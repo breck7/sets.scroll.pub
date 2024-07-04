@@ -8,8 +8,6 @@ printTitle
 
 import disclaimer.scroll
 
-viewSource
-
 # Concepts
 
 printConcepts
