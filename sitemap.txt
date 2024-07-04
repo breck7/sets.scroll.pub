@@ -3,6 +3,7 @@ https://scroll.pub/readme.html
 https://scroll.pub/index.html
 https://scroll.pub/gazette.html
 https://scroll.pub/feed.html
+https://scroll.pub/bridgeBuildingFormulas.html
 https://scroll.pub/forces.html
 https://scroll.pub/physics2.html
 https://scroll.pub/physics1.html
