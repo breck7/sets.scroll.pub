@@ -8,17 +8,17 @@ ScrollSet Examples
 
 Best Lumber
 ===========
-07/04/2024
+07/06/2024
 https://sets.scroll.pub/bestLumber.html
 
 Bridge Building Formulas
 ========================
-07/04/2024
+07/06/2024
 https://sets.scroll.pub/bridgeBuildingFormulas.html
 
 Home Building Formulas
 ======================
-07/04/2024
+07/06/2024
 https://sets.scroll.pub/homeBuildingFormulas.html
 
 The Four Fundamental Forces
