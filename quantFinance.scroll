@@ -1,0 +1,114 @@
+
+import setHeader.scroll
+
+idParser
+ extends abstractIdParser
+
+descriptionParser
+ extends abstractStringMeasureParser
+ description A brief description of the concept in quantitative finance
+
+levelParser
+ extends abstractStringMeasureParser
+ description The level of complexity of the concept in quantitative finance
+ // values ["Surface", "Basic", "Intermediate", "Advanced", "Expert"]
+
+wikipediaParser
+ extends abstractUrlMeasureParser
+ crux idLink
+  // todo cleanup
+ description A URL to the wikipedia page for the concept
+
+// data
+
+id Stock Trading
+description The buying and selling of shares of publicly traded companies
+level Surface
+idLink https://en.wikipedia.org/wiki/Trade_(finance)
+
+id Options
+description Financial instruments that give the buyer the right, but not the obligation, to buy or sell an asset at a predetermined price
+level Surface
+idLink https://en.wikipedia.org/wiki/Option_(finance)
+
+id Bonds
+description Debt securities issued by entities to raise capital, with a promise to pay back with interest
+level Surface
+idLink https://en.wikipedia.org/wiki/Bond_(finance)
+
+id Forex
+description The market for trading foreign currencies
+level Surface
+idLink https://en.wikipedia.org/wiki/Foreign_exchange_market
+
+id Black-Scholes
+description A mathematical model for pricing options
+level Basic
+idLink https://en.wikipedia.org/wiki/Black%E2%80%93Scholes_model
+
+id CAPM
+description Capital Asset Pricing Model, used to determine the expected return on an asset
+level Basic
+idLink https://en.wikipedia.org/wiki/Capital_asset_pricing_model
+
+id Arbitrage
+description The practice of taking advantage of price differences in different markets
+level Basic
+idLink https://en.wikipedia.org/wiki/Arbitrage
+
+id Greeks
+description Risk measures for options, including Delta, Gamma, Theta, Vega, and Rho
+level Basic
+idLink https://en.wikipedia.org/wiki/Greeks_(finance)
+
+id Stochastic Calculus
+description A branch of mathematics used to model random processes
+level Intermediate
+idLink https://en.wikipedia.org/wiki/Stochastic_calculus
+
+id Monte Carlo
+description A statistical technique using random sampling to approximate solutions
+level Intermediate
+idLink https://en.wikipedia.org/wiki/Monte_Carlo_method
+
+id Volatility Smile
+description A pattern in which options with different strike prices have different implied volatilities
+level Intermediate
+idLink https://en.wikipedia.org/wiki/Volatility_smile
+
+id Ito's Lemma
+description A key result in stochastic calculus used in the derivation of the Black-Scholes equation
+level Advanced
+idLink https://en.wikipedia.org/wiki/It%C3%B4%27s_lemma
+
+id Brownian Motion
+description A continuous-time stochastic process used to model random movements
+level Advanced
+idLink https://en.wikipedia.org/wiki/Brownian_motion
+
+id Martingales
+description A class of stochastic processes with specific properties useful in financial modeling
+level Advanced
+idLink https://en.wikipedia.org/wiki/Martingale_(probability_theory)
+
+id HJM
+description Heath-Jarrow-Morton framework, a model for the evolution of interest rates
+level Advanced
+idLink https://en.wikipedia.org/wiki/Heath%E2%80%93Jarrow%E2%80%93Morton_framework
+
+id Malliavin Calculus
+description A branch of mathematics providing tools for differentiating stochastic processes
+level Expert
+idLink https://en.wikipedia.org/wiki/Malliavin_calculus
+
+id Levy Processes
+description Stochastic processes with stationary independent increments
+level Expert
+idLink https://en.wikipedia.org/wiki/L%C3%A9vy_process
+
+id Rough Volatility
+description A recent development in financial modeling that captures roughness in volatility paths
+level Expert
+idLink https://mfe.baruch.cuny.edu/wp-content/uploads/2018/02/RoughVolatilityColumbia2018.pdf
+
+import pageFooter.scroll
