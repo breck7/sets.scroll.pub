@@ -26,6 +26,7 @@ speedParser
 id Air
 description The most common medium for sound, with speed influenced by temperature, humidity, and pressure
 speed 343
+ // ~10% faster at 100F than 0F
 
 id Water
 description A denser medium than air, allowing sound to travel faster
