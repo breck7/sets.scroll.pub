@@ -11,10 +11,14 @@ import disclaimer.scroll
 # Concepts
 
 endColumns
+
+wideColumns 1
 printConcepts
 
 # Measures
 
 printMeasures
+
+endColumns
 
 ****

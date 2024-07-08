@@ -1,5 +1,6 @@
 https://scroll.pub/settings.html
 https://scroll.pub/readme.html
+https://scroll.pub/quantFinance.html
 https://scroll.pub/index.html
 https://scroll.pub/homeBuildingFormulas.html
 https://scroll.pub/gazette.html

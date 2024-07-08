@@ -59,7 +59,8 @@
 <div class="scrollSection"><h1 class="scrollParagraph">Concepts</h1>
 </div>
 </div>
-<table id="table42" class="scrollTable">
+<div class="scrollColumns" style="column-width:90ch;column-count:1;max-width:90ch;">
+<table id="table46" class="scrollTable">
  <thead><tr><th>id</th>
 
 <th>habitat</th>
@@ -258,14 +259,14 @@
 </tr></tbody>
  </table>
  <script>
- document.querySelector('#table42').addEventListener('click', e => {
+ document.querySelector('#table46').addEventListener('click', e => {
   if (window.getSelection().toString() || e.target.closest('a') || !e.target.closest('tbody')) return;
   e.currentTarget.classList.toggle('expandedTable');
  });
  </script>
 <div class="scrollSection"><h1 class="scrollParagraph">Measures</h1>
 </div>
-<table id="table43" class="scrollTable">
+<table id="table47" class="scrollTable">
  <thead><tr><th>Name</th>
 
 <th>Values</th>
@@ -396,11 +397,12 @@
 </tr></tbody>
  </table>
  <script>
- document.querySelector('#table43').addEventListener('click', e => {
+ document.querySelector('#table47').addEventListener('click', e => {
   if (window.getSelection().toString() || e.target.closest('a') || !e.target.closest('tbody')) return;
   e.currentTarget.classList.toggle('expandedTable');
  });
  </script>
+</div>
 <div class="dinkus"><span>⁂</span></div>
 <p class="scrollParagraph">Source: <a href="https://chatgpt.com/share/f3b49ff7-e9f5-41d0-9f23-ccc89214d995" target="_blank">https://chatgpt.com/share/f3b49ff7-e9f5-41d0-9f23-ccc89214d995</a></p>
 <script defer src="jquery-3.7.1.min.js"></script>

@@ -59,7 +59,8 @@
 <div class="scrollSection"><h1 class="scrollParagraph">Concepts</h1>
 </div>
 </div>
-<table id="table58" class="scrollTable">
+<div class="scrollColumns" style="column-width:90ch;column-count:1;max-width:90ch;">
+<table id="table62" class="scrollTable">
  <thead><tr><th>id</th>
 
 <th>spectralType</th>
@@ -212,14 +213,14 @@
 </tr></tbody>
  </table>
  <script>
- document.querySelector('#table58').addEventListener('click', e => {
+ document.querySelector('#table62').addEventListener('click', e => {
   if (window.getSelection().toString() || e.target.closest('a') || !e.target.closest('tbody')) return;
   e.currentTarget.classList.toggle('expandedTable');
  });
  </script>
 <div class="scrollSection"><h1 class="scrollParagraph">Measures</h1>
 </div>
-<table id="table59" class="scrollTable">
+<table id="table63" class="scrollTable">
  <thead><tr><th>Name</th>
 
 <th>Values</th>
@@ -337,11 +338,12 @@
 </tr></tbody>
  </table>
  <script>
- document.querySelector('#table59').addEventListener('click', e => {
+ document.querySelector('#table63').addEventListener('click', e => {
   if (window.getSelection().toString() || e.target.closest('a') || !e.target.closest('tbody')) return;
   e.currentTarget.classList.toggle('expandedTable');
  });
  </script>
+</div>
 <div class="dinkus"><span>⁂</span></div>
 <script defer src="jquery-3.7.1.min.js"></script>
 <style>.dt-search{font-family: "SF Pro", "Helvetica Neue", "Segoe UI", "Arial";}</style>
