@@ -1,0 +1,56 @@
+Natural Disasters
+=================
+
+> This demonstrates putting Tab Separated Values (TSVs) directly in Scroll files.
+
+> Although this approach is handy for small datasets, it does not scale as well as ScrollSets.
+
+Natural Disaster	Description	Measurement Scale	Min	Max
+Hurricane	A tropical cyclone with sustained winds of 74 mph (119 km/h) or higher	Saffir-Simpson Hurricane Wind Scale	1	5
+Earthquake	Sudden shaking of the Earth's surface caused by the release of energy	Moment Magnitude Scale (MMS)	0	10
+Tsunami	A series of ocean waves caused by underwater disturbances, such as earthquakes	Tsunami Intensity Scale	1	6
+Tornado	A violently rotating column of air that extends from a thunderstorm to the ground	Enhanced Fujita (EF) Scale	0	5
+Volcanic Eruption	The release of lava, ash, and gases from a volcano	Volcanic Explosivity Index (VEI)	0	8
+Wildfire	An uncontrolled fire in a natural area, often caused by lightning or human activity	Burned Area	0	Varies
+Flood	An overflow of water that submerges land that is usually dry	Flood Severity	0	Varies
+Drought	A prolonged period of abnormally low rainfall, leading to a water shortage	Palmer Drought Severity Index (PDSI)	-10	10
+Landslide	The movement of rock, earth, or debris down a slope due to gravity	Landslide Velocity Scale	1	7
+Avalanche	A rapid flow of snow down a slope, often triggered by weather or human activity	Avalanche Danger Scale	1	5
+Blizzard	A severe snowstorm with high winds and low visibility	Regional Snowfall Index (RSI)	1	5
+Hailstorm	A storm that produces hailstones, which are balls of ice that fall from the sky	TORRO Hailstorm Intensity Scale	H0	H10
+Heat Wave	A prolonged period of excessively hot weather	Heat Index (HI)	80°F	Varies
+Cold Wave	A prolonged period of excessively cold weather	Wind Chill Index	Varies	Varies
+Dust Storm	A strong wind that carries large amounts of dust and debris	Dust Storm Intensity	0	Varies
+Sinkhole	A depression or hole in the ground caused by the collapse of the surface layer	Sinkhole Size	0	Varies
+Limnic Eruption	A rare type of natural disaster where dissolved carbon dioxide suddenly erupts from deep lake water	No Scale	-	-
+Meteor Impact	The collision of a meteoroid, asteroid, or comet with the Earth's surface	Torino Impact Hazard Scale	0	10
+Solar Flare	A sudden, rapid, and intense variation in brightness on the Sun's surface	Solar Flare Classification System (X-class)	A1	X28+
+Geomagnetic Storm	A temporary disturbance of the Earth's magnetosphere caused by solar wind shock waves	NOAA Space Weather Scale for Geomagnetic Storms	G1	G5
+
+***
+
+Here is a table on warning systems for the various disaster types, including the name of the warning system and the minimum and maximum warning levels:
+
+Natural Disaster	Warning System	Min Warning Level	Max Warning Level
+Hurricane	National Hurricane Center (NHC) Alerts	Tropical Storm Watch	Hurricane Warning
+Earthquake	Earthquake Early Warning (EEW) Systems	No Alert	Warning
+Tsunami	Tsunami Warning System	Tsunami Watch	Tsunami Warning
+Tornado	National Weather Service (NWS) Tornado Alerts	Tornado Watch	Tornado Emergency
+Volcanic Eruption	Volcano Alert Levels	Normal	Warning
+Wildfire	National Wildfire Coordinating Group (NWCG) Alerts	Extreme Fire Danger	Extreme Fire Danger
+Flood	NWS Flood Alerts	Flood Advisory	Flash Flood Emergency
+Drought	U.S. Drought Monitor	D0 (Abnormally Dry)	D4 (Exceptional Drought)
+Landslide	U.S. Geological Survey (USGS) Landslide Alerts	Landslide Watch	Landslide Warning
+Avalanche	Avalanche Danger Scale	Low	Extreme
+Blizzard	NWS Winter Storm Alerts	Winter Storm Watch	Blizzard Warning
+Hailstorm	NWS Severe Thunderstorm Alerts	Severe Thunderstorm Watch	Severe Thunderstorm Warning
+Heat Wave	NWS Heat Alerts	Excessive Heat Outlook	Excessive Heat Warning
+Cold Wave	NWS Wind Chill Alerts	Wind Chill Advisory	Wind Chill Warning
+Dust Storm	NWS Dust Storm Alerts	Blowing Dust Advisory	Dust Storm Warning
+Sinkhole	No standardized warning system	-	-
+Limnic Eruption	No standardized warning system	-	-
+Meteor Impact	Torino Impact Hazard Scale	White Zone	Red Zone
+Solar Flare	NOAA Space Weather Prediction Center Alerts	Minor (R1)	Extreme (R5)
+Geomagnetic Storm	NOAA Space Weather Scale for Geomagnetic Storms	Minor (G1)	Extreme (G5)
+
+Note - Some natural disasters, such as sinkholes and limnic eruptions, do not have standardized warning systems in place.

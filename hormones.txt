@@ -1,0 +1,78 @@
+Hormones
+========
+
+> This demonstrates putting Tab Separated Values (TSVs) directly in Scroll files.
+
+> Although this approach is handy for small datasets, it does not scale as well as ScrollSets.
+
+Hormone_Name	Chemical_Formula	Min_Level_mmol_L	Max_Level_mmol_L	Peptide_Hormone	Steroid_Hormone	Amine_Hormone	Half_Life_Minutes	Pulsatile_Release	Endocrine_Gland_ID
+Insulin	C₂₅₇H₃₈₃N₆₅O₇₇S₆	0.0000365	0.000180	true	false	false	6	false	4
+Glucagon	C₁₅₃H₂₂₅N₄₃O₄₉S	0.00000125	0.000009	true	false	false	5	false	4
+Thyroid hormones (T3 and T4)	C₁₅H₁₁I₄NO₄ (T4), C₁₅H₁₂I₃NO₄ (T3)	0.0012 (T4), 0.0000015 (T3)	0.0023 (T4), 0.0000025 (T3)	false	false	true	10080 (T4), 2880 (T3)	false	2
+Cortisol	C₂₁H₃₀O₅	0.138	0.690	false	true	false	60	true	3
+Adrenaline (epinephrine)	C₉H₁₃NO₃	0.00000546	0.00002180	false	false	true	2	false	3
+Noradrenaline (norepinephrine)	C₈H₁₁NO₃	0.00000709	0.00005680	false	false	true	2	false	3
+Growth hormone	C₉₉₀H₁₅₂₉N₂₆₃O₃₀₀S₇	0.0000003	0.000040	true	false	false	20	true	1
+Testosterone	C₁₉H₂₈O₂	0.00934	0.03470	false	true	false	60	false	5
+Estrogen	C₁₈H₂₄O₂ (Estradiol)	0.0000001	0.0000004	false	true	false	1440	false	5
+Progesterone	C₂₁H₃₀O₂	0.000032	0.001590	false	true	false	1440	false	5
+Prolactin	C₁₉₉H₃₁₀N₅₆O₅₉S	0.00000087	0.00000430	true	false	false	30	true	1
+Oxytocin	C₄₃H₆₆N₁₂O₁₂S₂	0.00000007	0.00000007	true	false	false	3	true	1
+Vasopressin (antidiuretic hormone)	C₄₆H₆₅N₁₅O₁₂S₂	0.00000028	0.00000028	true	false	false	10	true	1
+Parathyroid hormone	C₄₁₁H₆₂₆N₁₀₆O₁₁₀S₂	0.0000043	0.0000090	true	false	false	4	true	6
+Calcitonin	C₁₄₅H₂₄₀N₄₄O₄₈S₂	0.0000003	0.0000065	true	false	false	10	false	2
+Leptin	C₇₇₇H₁₂₁₂N₂₁₂O₂₄₃S₃	0.0000027	0.0000270	true	false	false	90	false	0
+Ghrelin	C₁₄₉H₂₄₅N₄₅O₄₈	0.00000096	0.00000790	true	false	false	30	true	0
+Melatonin	C₁₃H₁₆N₂O₂	0.0000001	0.0000005	false	false	true	40	true	7
+Serotonin	C₁₀H₁₂N₂O	0.0000006	0.0000020	false	false	true	10	false	0
+Dopamine	C₈H₁₁NO₂	0.0000001	0.0000002	false	false	true	2	false	0
+Follicle-stimulating hormone (FSH)	C₄₃₇H₆₈₂N₁₂₂O₁₃₄S₁₃	0.0025	0.0210	true	false	false	180	true	1
+Luteinizing hormone (LH)	C₅₆₈H₉₁₂N₁₆₂O₁₇₇S₁₅	0.0080	0.0790	true	false	false	60	true	1
+Adrenocorticotropic hormone (ACTH)	C₂₀₇H₃₀₈N₅₆O₅₈S	0.000002	0.000022	true	false	false	10	true	1
+Thyroid-stimulating hormone (TSH)	C₂₁₂H₃₃₂N₅₈O₆₄S₁₀	0.00045	0.00462	true	false	false	60	true	1
+Erythropoietin (EPO)	C₈₁₅H₁₃₁₇N₂₂₉O₂₄₁S₅	0.000002	0.000030	true	false	false	360	false	9
+Renin	C₁₂₈₉H₂₀₂₆N₃₅₂O₃₈₀S₆	0.00000060	0.00000300	true	false	false	30	true	10
+Aldosterone	C₂₁H₂₈O₅	0.00000083	0.00000970	false	true	false	30	true	3
+Antidiuretic hormone (ADH)	C₄₆H₆₅N₁₅O₁₂S₂	0.00000028	0.00000028	true	false	false	10	true	1
+Atrial natriuretic peptide (ANP)	C₁₂₈H₂₂₄N₅₀O₄₅	0.00000030	0.00000065	true	false	false	2	true	11
+Brain-derived neurotrophic factor (BDNF)	C₂₄₇H₃₈₂N₆₈O₇₅S₆	0.00000006	0.00001700	true	false	false	10	false	0
+Calcitriol (active form of vitamin D)	C₂₇H₄₄O₃	0.0000000314	0.0000001555	false	true	false	900	false	12
+Cholecystokinin (CCK)	C₇₃H₁₁₅N₁₉O₂₈S₂	0.00000003	0.00000020	true	false	false	5	true	0
+Corticotropin-releasing hormone (CRH)	C₂₀₈H₃₂₈N₆₀O₆₂S₄	0.00000004	0.00000020	true	false	false	4	true	8
+Dehydroepiandrosterone (DHEA)	C₁₉H₂₈O₂	0.00324	0.01390	false	true	false	4320	false	3
+Endorphins	C₁₇₃H₂₇₁N₅₇O₄₆S	0.00000006	0.00000060	true	false	false	7	false	0
+Gastrin	C₅₁H₈₀N₁₈O₁₈S₃	0.00000002	0.00000040	true	false	false	6	true	13
+Glucagon-like peptide-1 (GLP-1)	C₁₅₂H₂₄₂N₄₄O₅₅	0.00000007	0.00000055	true	false	false	2	true	14
+Growth hormone-releasing hormone (GHRH)	C₂₁₇H₃₁₆N₅₆O₅₇	0.00000002	0.00000009	true	false	false	6	true	8
+Histamine	C₅H₉N₃	0.0000005	0.0000020	false	false	true	1	false	0
+Incretin	C₁₈₇H₂₈₅N₅₇O₆₂	0.00000004	0.00000055	true	false	false	3	true	14
+Inhibin	C₅₅₇H₈₆₆N₁₄₈O₁₈₀S₆	0.00000175	0.00000260	true	false	false	100	false	5
+Melanocyte-stimulating hormone (MSH)	C₇₇H₁₀₉N₂₁O₂₀	0.000000004	0.000000100	true	false	false	20	false	1
+Motilin	C₁₁₄H₁₇₈N₃₂O₃₁S₂	0.00000007	0.00000027	true	false	false	5	true	13
+Neuropeptide Y (NPY)	C₁₈₉H₂₈₅N₅₅O₅₇	0.0000002	0.0000008	true	false	false	20	false	0
+Orexin	C₅₆H₈₃N₁₃O₁₃	0.000000002	0.000000100	true	false	false	20	true	0
+Pancreatic polypeptide (PP)	C₁₄₂H₂₂₄N₄₂O₄₄	0.00000020	0.00000500	true	false	false	7	true	4
+Peptide YY (PYY)	C₁₉₄H₂₉₅N₅₇O₅₇	0.00000003	0.00000070	true	false	false	8	true	14
+Secretin	C₁₃₀H₂₀₅N₃₉O₄₂	0.00000002	0.00000055	true	false	false	5	true	15
+Somatostatin	C₇₆H₁₀₄N₁₈O₁₉S₂	0.00000005	0.00000025	true	false	false	1	false	4
+Thyrotropin-releasing hormone (TRH)	C₁₆H₂₂N₆O₄	0.000000165	0.000000870	true	false	false	5	true	8
+
+***
+
+Endocrine_Gland_ID enum:
+0 = Not specific to a single gland
+1 = Pituitary
+2 = Thyroid
+3 = Adrenals
+4 = Pancreas
+5 = Gonads
+6 = Parathyroid
+7 = Pineal
+8 = Hypothalamus
+9 = Kidneys
+10 = Juxtaglomerular cells
+11 = Heart
+12 = Kidneys and other tissues
+13 = Stomach
+14 = Intestine
+15 = Duodenum

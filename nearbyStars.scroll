@@ -1,0 +1,206 @@
+date 04/21/2024
+title Nearby Stars
+
+import setHeader.scroll
+
+idParser
+ extends abstractIdParser
+
+distanceParser
+ extends abstractFloatMeasureParser
+ description The distance to the star from Earth, measured in light-years or parsecs
+
+spectralTypeParser
+ extends abstractStringMeasureParser
+ description Classification of the star based on spectral characteristics and temperature, ranging from O (hot and blue) to M (cool and red)
+
+apparentMagnitudeParser
+ extends abstractFloatMeasureParser
+ description The brightness of the star as seen from Earth
+
+absoluteMagnitudeParser
+ extends abstractFloatMeasureParser
+ description The intrinsic brightness of the star if it were placed at a standard distance of 10 parsecs from Earth
+
+radialVelocityParser
+ extends abstractFloatMeasureParser
+ description The speed at which the star moves towards or away from the Solar System, measured in km/s
+
+massParser
+ extends abstractFloatMeasureParser
+ description The mass of the star, expressed in solar masses
+
+// data
+
+// Proxima Centauri
+
+id Proxima Centauri
+distance 4.24
+spectralType M5.5Ve
+apparentMagnitude 11.13
+absoluteMagnitude 15.60
+mass 0.1221
+radialVelocity -22.204
+
+// Alpha Centauri A
+
+id Alpha Centauri A
+distance 4.37
+spectralType G2V
+apparentMagnitude -0.01
+absoluteMagnitude 4.38
+mass 1.1
+radialVelocity -21.40
+
+// Alpha Centauri B
+
+id Alpha Centauri B
+distance 4.37
+spectralType K1V
+apparentMagnitude 1.33
+absoluteMagnitude 5.71
+mass 0.907
+radialVelocity -18.00
+
+// Barnard's Star
+
+id Barnard's Star
+distance 5.96
+spectralType M4.0Ve
+apparentMagnitude 9.54
+absoluteMagnitude 13.22
+mass 0.144
+radialVelocity -110.51
+
+// Sirius A
+
+id Sirius A
+distance 8.66
+spectralType A1V
+apparentMagnitude -1.46
+absoluteMagnitude 1.42
+mass 2.02
+radialVelocity -5.50
+
+// Sirius B
+
+id Sirius B
+distance 8.66
+spectralType DA2
+apparentMagnitude 8.44
+absoluteMagnitude 11.34
+mass 1.018
+radialVelocity -5.50
+
+// Luyten 726-8 A
+
+id Luyten 726-8 A
+distance 8.73
+spectralType M5.5Ve
+apparentMagnitude 12.52
+absoluteMagnitude 15.46
+mass 0.102
+radialVelocity -32.50
+  
+
+// Luyten 726-8 B
+
+id Luyten 726-8 B
+distance 8.73
+spectralType M6Ve
+apparentMagnitude 13.05
+absoluteMagnitude 16.24
+mass 0.100
+radialVelocity -25.00
+
+// Ross 154
+
+id Ross 154
+distance 9.69
+spectralType M3.5Ve
+apparentMagnitude 10.44
+absoluteMagnitude 13.92
+mass 0.170
+radialVelocity -9.60
+
+// Ross 248
+
+id Ross 248
+distance 10.32
+spectralType M5.5Ve
+apparentMagnitude 12.29
+absoluteMagnitude 15.80
+mass 0.136
+radialVelocity -81.00
+
+// Epsilon Eridani
+
+id Epsilon Eridani
+distance 10.48
+spectralType K2V
+apparentMagnitude 3.73
+absoluteMagnitude 6.18
+mass 0.82
+radialVelocity 15.50
+
+// Lacaille 9352
+
+id Lacaille 9352
+distance 10.73
+spectralType M0.5V
+apparentMagnitude 7.34
+absoluteMagnitude 10.58
+mass 0.45
+radialVelocity -37.00
+
+// Ross 128
+
+id Ross 128
+distance 11.00
+spectralType M4V
+apparentMagnitude 11.15
+absoluteMagnitude 14.79
+mass 0.168
+radialVelocity -30.00
+
+// EZ Aquarii A
+
+id EZ Aquarii A
+distance 11.08
+spectralType M5Ve
+apparentMagnitude 12.87
+absoluteMagnitude 16.47
+mass 0.13
+radialVelocity -60.00
+
+// EZ Aquarii B
+
+id EZ Aquarii B
+distance 11.08
+spectralType M5Ve
+apparentMagnitude 12.87
+absoluteMagnitude 16.47
+mass 0.13
+radialVelocity -60.00
+
+// EZ Aquarii C
+
+id EZ Aquarii C
+distance 11.08
+spectralType M5Ve
+apparentMagnitude 12.87
+absoluteMagnitude 16.47
+mass 0.13
+radialVelocity -60.00
+
+// 61 Cygni A
+
+id 61 Cygni A
+distance 11.40
+spectralType K5V
+apparentMagnitude 5.20
+absoluteMagnitude 7.49
+mass 0.67
+radialVelocity -64.30
+
+import pageFooter.scroll

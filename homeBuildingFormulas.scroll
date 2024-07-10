@@ -1,0 +1,75 @@
+import setHeader.scroll
+
+idParser
+ extends abstractIdParser
+
+descriptionParser
+ extends abstractStringMeasureParser
+ description A brief description of the formula's purpose in home building
+
+formulaParser
+ extends abstractStringMeasureParser
+ description The mathematical formula or equation
+
+unitsParser
+ extends abstractStringMeasureParser
+ description The units of the result of the formula
+
+// data
+
+id Stress in Beam
+description Determines the internal forces within a beam
+formula stress = moment*distanceFromNeutralAxis/secondMomentOfArea
+units NewtonPerSquareMeter
+
+id Shear Force in Beam
+description Measures the force that causes parts of a material to slide past each other in opposite directions
+formula shearForce = ∫(dMoment/dx) dx
+units Newton
+
+id Bending Moment in Beam
+description Calculates the reaction induced in a structural element when an external force is applied, causing the element to bend
+formula bendingMoment = ∫(shearForce dx)
+units NewtonMeter
+
+id Deflection of Beam
+description Calculates the displacement of a point on the beam under load
+formula deflection = load*length^3 / (48*modulusOfElasticity*secondMomentOfArea)
+units Meter
+
+id Load-Bearing Capacity
+description Determines the maximum weight the structure can hold
+formula loadBearingCapacity = allowableStress * area
+units Newton
+
+id Thermal Conductivity
+description Measures the rate at which heat passes through a material
+formula heatTransfer = thermalConductivity * area * temperatureDifference / thickness
+units WattPerMeterKelvin
+
+id R-Value
+description Indicates the resistance of a material to heat flow
+formula rValue = thickness / thermalConductivity
+units SquareMeterKelvinPerWatt
+
+id Heat Loss
+description Calculates the total heat loss through a structure
+formula heatLoss = area * uValue * temperatureDifference
+units Watt
+
+id Concrete Mix Design
+description Determines the proportions of materials in concrete
+formula concreteMix = (cement : sand : aggregate : water)
+units Ratio
+
+id Roof Slope
+description Determines the pitch of the roof
+formula roofSlope = rise / run
+units Ratio
+
+id Brick Calculation
+description Estimates the number of bricks needed for a wall
+formula numberOfBricks = wallArea / brickArea
+units Integer
+
+import pageFooter.scroll

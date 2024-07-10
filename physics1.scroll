@@ -1,0 +1,309 @@
+date 05/30/2024
+title The 30 Most Important Equations in Physics - ChatGPT
+
+import setHeader.scroll
+
+idParser
+ extends abstractIdParser
+
+yearAppearedParser
+ extends abstractIntegerMeasureParser
+ description The year the equation first appeared or was formulated
+
+creditedToParser
+ extends abstractStringMeasureParser
+ description The person or persons credited with the formulation of the equation
+
+countryParser
+ extends abstractStringMeasureParser
+ description The country associated with the credited person(s) at the time of the formulation
+
+applicationsParser
+ extends abstractIntegerMeasureParser
+ description The number of major applications or uses of the equation
+
+fieldOfPhysicsParser
+ extends abstractStringMeasureParser
+ description The field of physics where the equation is primarily used
+
+complexityParser
+ extends abstractIntegerMeasureParser
+ description The relative complexity of the equation (scale 1 to 10)
+
+equationParser
+ extends abstractStringMeasureParser
+ description The equation written in KaTeX (LaTeX)
+
+// data
+
+id Newton's Second Law
+yearAppeared 1687
+creditedTo Isaac Newton
+country England
+applications 100
+fieldOfPhysics Mechanics
+complexity 2
+equation F = ma
+
+id Einstein's Mass-Energy Equivalence
+yearAppeared 1905
+creditedTo Albert Einstein
+country Switzerland
+applications 50
+fieldOfPhysics Relativity
+complexity 5
+equation E = mc^2
+
+id Schrödinger Equation
+yearAppeared 1926
+creditedTo Erwin Schrödinger
+country Austria
+applications 100
+fieldOfPhysics Quantum Mechanics
+complexity 7
+equation i\hbar\frac{\partial}{\partial t}\psi = \hat{H}\psi
+
+id Maxwell's Equations
+yearAppeared 1865
+creditedTo James Clerk Maxwell
+country Scotland
+applications 50
+fieldOfPhysics Electromagnetism
+complexity 6
+equation \begin{align*} \nabla \cdot \mathbf{E} &= \frac{\rho}{\epsilon_0} \\ \nabla \cdot \mathbf{B} &= 0 \\ \nabla \times \mathbf{E} &= -\frac{\partial \mathbf{B}}{\partial t} \\ \nabla \times \mathbf{B} &= \mu_0 \mathbf{J} + \mu_0 \epsilon_0 \frac{\partial \mathbf{E}}{\partial t} \end{align*}
+
+id Boltzmann Equation
+yearAppeared 1872
+creditedTo Ludwig Boltzmann
+country Austria
+applications 30
+fieldOfPhysics Statistical Mechanics
+complexity 8
+equation \frac{\partial f}{\partial t} + \mathbf{v} \cdot \nabla f + \mathbf{a} \cdot \frac{\partial f}{\partial \mathbf{v}} = \left( \frac{\partial f}{\partial t} \right)_\text{collision}
+
+id Planck's Equation
+yearAppeared 1900
+creditedTo Max Planck
+country Germany
+applications 40
+fieldOfPhysics Quantum Mechanics
+complexity 6
+equation E = h\nu
+
+id Heisenberg Uncertainty Principle
+yearAppeared 1927
+creditedTo Werner Heisenberg
+country Germany
+applications 20
+fieldOfPhysics Quantum Mechanics
+complexity 5
+equation \Delta x \Delta p \geq \frac{\hbar}{2}
+
+id Hubble's Law
+yearAppeared 1929
+creditedTo Edwin Hubble
+country USA
+applications 25
+fieldOfPhysics Cosmology
+complexity 4
+equation v = H_0 d
+
+id Fourier Transform
+yearAppeared 1822
+creditedTo Joseph Fourier
+country France
+applications 70
+fieldOfPhysics Mathematical Physics
+complexity 6
+equation \hat{f}(\xi) = \int_{-\infty}^{\infty} f(x) e^{-2\pi i x \xi} \, dx
+
+id Lorentz Transformation
+yearAppeared 1904
+creditedTo Hendrik Lorentz
+country Netherlands
+applications 20
+fieldOfPhysics Relativity
+complexity 6
+equation \begin{align*} t' &= \gamma \left( t - \frac{vx}{c^2} \right) \\ x' &= \gamma (x - vt) \end{align*}
+
+id Dirac Equation
+yearAppeared 1928
+creditedTo Paul Dirac
+country UK
+applications 30
+fieldOfPhysics Quantum Mechanics
+complexity 9
+equation \left( i\gamma^\mu \partial_\mu - m \right) \psi = 0
+
+id Navier-Stokes Equation
+yearAppeared 1822
+creditedTo Claude-Louis Navier, George Gabriel Stokes
+country France, UK
+applications 50
+fieldOfPhysics Fluid Mechanics
+complexity 9
+equation \rho \left( \frac{\partial \mathbf{u}}{\partial t} + (\mathbf{u} \cdot \nabla) \mathbf{u} \right) = -\nabla p + \mu \nabla^2 \mathbf{u} + \mathbf{f}
+
+id Ohm's Law
+yearAppeared 1827
+creditedTo Georg Ohm
+country Germany
+applications 100
+fieldOfPhysics Electromagnetism
+complexity 2
+equation V = IR
+
+id Hooke's Law
+yearAppeared 1678
+creditedTo Robert Hooke
+country England
+applications 60
+fieldOfPhysics Mechanics
+complexity 2
+equation F = -kx
+
+id Kepler's Third Law
+yearAppeared 1619
+creditedTo Johannes Kepler
+country Germany
+applications 30
+fieldOfPhysics Astronomy
+complexity 3
+equation T^2 \propto r^3
+
+id Bernoulli's Principle
+yearAppeared 1738
+creditedTo Daniel Bernoulli
+country Switzerland
+applications 50
+fieldOfPhysics Fluid Mechanics
+complexity 4
+equation p + \frac{1}{2}\rho v^2 + \rho gh = \text{constant}
+
+id Faraday's Law of Induction
+yearAppeared 1831
+creditedTo Michael Faraday
+country England
+applications 40
+fieldOfPhysics Electromagnetism
+complexity 5
+equation \mathcal{E} = -\frac{d\Phi_B}{dt}
+
+id Stefan-Boltzmann Law
+yearAppeared 1879
+creditedTo Josef Stefan, Ludwig Boltzmann
+country Austria
+applications 30
+fieldOfPhysics Thermodynamics
+complexity 5
+equation j^* = \sigma T^4
+
+id Lenz's Law
+yearAppeared 1834
+creditedTo Heinrich Lenz
+country Russia
+applications 30
+fieldOfPhysics Electromagnetism
+complexity 4
+equation \mathcal{E} = -\frac{d\Phi_B}{dt}
+
+id Coulomb's Law
+yearAppeared 1785
+creditedTo Charles-Augustin de Coulomb
+country France
+applications 50
+fieldOfPhysics Electrostatics
+complexity 3
+equation F = k_e \frac{q_1 q_2}{r^2}
+
+id Fermi-Dirac Statistics
+yearAppeared 1926
+creditedTo Enrico Fermi, Paul Dirac
+country Italy, UK
+applications 40
+fieldOfPhysics Quantum Mechanics
+complexity 7
+equation f(E) = \frac{1}{e^{(E - \mu)/kT} + 1}
+
+id Bose-Einstein Statistics
+yearAppeared 1924
+creditedTo Satyendra Nath Bose, Albert Einstein
+country India, Germany
+applications 30
+fieldOfPhysics Quantum Mechanics
+complexity 7
+equation f(E) = \frac{1}{e^{(E - \mu)/kT} - 1}
+
+id Wien's Displacement Law
+yearAppeared 1893
+creditedTo Wilhelm Wien
+country Germany
+applications 25
+fieldOfPhysics Thermodynamics
+complexity 5
+equation \lambda_\text{peak} T = b
+
+id Poisson's Equation
+yearAppeared 1813
+creditedTo Siméon Denis Poisson
+country France
+applications 30
+fieldOfPhysics Mathematical Physics
+complexity 6
+equation \nabla^2 \phi = -\frac{\rho}{\epsilon_0}
+
+id Ampère's Law
+yearAppeared 1826
+creditedTo André-Marie Ampère
+country France
+applications 40
+fieldOfPhysics Electromagnetism
+complexity 4
+equation \nabla \times \mathbf{B} = \mu_0 \mathbf{J}
+
+id Biot-Savart Law
+yearAppeared 1820
+creditedTo Jean-Baptiste Biot, Félix Savart
+country France
+applications 30
+fieldOfPhysics Electromagnetism
+complexity 5
+equation d\mathbf{B} = \frac{\mu_0}{4\pi} \frac{I d\mathbf{l} \times \mathbf{\hat{r}}}{r^2}
+
+id Kirchhoff's Circuit Laws
+yearAppeared 1845
+creditedTo Gustav Kirchhoff
+country Germany
+applications 50
+fieldOfPhysics Electrical Circuits
+complexity 3
+equation \begin{align*} \sum I = 0 \\ \sum V = 0 \end{align*}
+
+id Gibbs Free Energy
+yearAppeared 1873
+creditedTo Josiah Willard Gibbs
+country USA
+applications 30
+fieldOfPhysics Thermodynamics
+complexity 6
+equation G = H - TS
+
+id Avogadro's Law
+yearAppeared 1811
+creditedTo Amedeo Avogadro
+country Italy
+applications 30
+fieldOfPhysics Chemistry
+complexity 3
+equation V \propto n
+
+id de Broglie Hypothesis
+yearAppeared 1924
+creditedTo Louis de Broglie
+country France
+applications 25
+fieldOfPhysics Quantum Mechanics
+complexity 6
+equation \lambda = \frac{h}{p}
+
+import pageFooter.scroll

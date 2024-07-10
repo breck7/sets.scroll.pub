@@ -1,0 +1,159 @@
+date 04/21/2024
+title Microscopes
+
+import setHeader.scroll
+
+// schema
+
+idParser
+ extends abstractIdParser
+
+inventedParser
+ extends abstractIntegerMeasureParser
+ description The year this telescope was invented
+
+resolutionParser
+ extends abstractIntegerMeasureParser
+ description The smallest resolution it can see, in nanometers.
+
+wikipediaParser
+ extends abstractUrlMeasureParser
+ description A URL to learn more about this kind of microscope.
+
+typeParser
+ extends abstractStringMeasureParser
+ description Classify each microscope by type (e.g., optical, electron, scanning probe) to allow users to filter and understand the specific applications and functionalities of different microscopes.
+
+applicationsParser
+ extends abstractStringMeasureParser
+ description Describe common or notable applications of each microscope type, such as biology, materials science, nanotechnology, etc. This helps users understand where a particular microscope can be best utilized.
+
+keyAdvancementsParser
+ extends abstractStringMeasureParser
+ description List significant improvements or iterations made over the initial model. This could include details on enhancements in resolution, usability, or adaptation to different scientific needs, showing the evolution of the technology.
+
+inventorDeveloperParser
+ extends abstractStringMeasureParser
+ description Knowing who invented or developed the microscope can provide historical context and acknowledgment of significant contributions in the field. This also helps in understanding the geographical and institutional origins of
+
+// data
+
+id Optical Microscope
+invented 1590
+resolution 200
+wikipedia https://en.wikipedia.org/wiki/Optical_microscope
+type Optical
+applications General biological and medical microscopy
+keyAdvancements Improved lens quality and microscope design for better image clarity and detail.
+inventorDeveloper Zacharias Janssen (attributed)
+
+id Electron Microscope
+invented 1931
+resolution 0.2
+wikipedia https://en.wikipedia.org/wiki/Electron_microscope
+type Electron
+applications Cellular biology, materials science, virology
+keyAdvancements Enhanced magnification and resolution, allowing visualization of structures at the atomic level.
+inventorDeveloper Ernst Ruska and Max Knoll
+
+id Scanning Tunneling Microscope
+invented 1981
+resolution 0.1
+wikipedia https://en.wikipedia.org/wiki/Scanning_tunneling_microscope
+type Scanning Probe
+applications Surface science, nanotechnology
+keyAdvancements Ability to image surfaces at the atomic level.
+inventorDeveloper Gerd Binnig and Heinrich Rohrer
+
+id Confocal Microscope
+invented 1957
+resolution 200
+wikipedia https://en.wikipedia.org/wiki/Confocal_microscopy
+type Optical
+applications 3D imaging of biological samples
+keyAdvancements Provides optical sectioning capability to observe multiple layers within specimens.
+inventorDeveloper Marvin Minsky
+
+id Atomic Force Microscope
+invented 1986
+resolution 0.1
+wikipedia https://en.wikipedia.org/wiki/Atomic_force_microscopy
+type Scanning Probe
+applications Nanotechnology, surface engineering
+keyAdvancements Can image non-conductive materials, providing a three-dimensional surface profile.
+inventorDeveloper Gerd Binnig, Calvin Quate, Christoph Gerber
+
+id Fluorescence Microscope
+invented 1911
+resolution 200
+wikipedia https://en.wikipedia.org/wiki/Fluorescence_microscope
+type Optical
+applications Biological sciences, medical diagnostics
+keyAdvancements Uses fluorescence and phosphorescence to study properties of organic or inorganic substances.
+inventorDeveloper Oskar Heimstädt
+
+id Phase Contrast Microscope
+invented 1934
+resolution 200
+wikipedia https://en.wikipedia.org/wiki/Phase_contrast_microscopy
+type Optical
+applications Live cell imaging without staining
+keyAdvancements Enhances contrast in transparent and colorless samples.
+inventorDeveloper Frits Zernike
+
+id Transmission Electron Microscope
+invented 1933
+resolution 0.05
+wikipedia https://en.wikipedia.org/wiki/Transmission_electron_microscopy
+type Electron
+applications Material science, cancer research, virology
+keyAdvancements Capable of imaging at a significantly higher resolution than light microscopes, down to the level of atomic structures.
+inventorDeveloper Ernst Ruska
+
+id Scanning Electron Microscope
+invented 1942
+resolution 1
+wikipedia https://en.wikipedia.org/wiki/Scanning_electron_microscope
+type Electron
+applications Materials research, forensic examinations, biological research
+keyAdvancements Produces high-resolution images of a sample surface, revealing detailed topography.
+inventorDeveloper Manfred von Ardenne
+
+id Digital Microscope
+invented 1980
+ // originally was 1980s
+resolution 200
+wikipedia https://en.wikipedia.org/wiki/Digital_microscope
+type Optical
+applications Education, industrial inspection, clinical research
+keyAdvancements Integration with digital cameras and computers for enhanced imaging and analysis.
+inventorDeveloper Various contributors
+
+id Stereo Microscope
+invented 1671
+resolution 10000
+wikipedia https://en.wikipedia.org/wiki/Stereo_microscope
+type Optical
+applications Manufacturing, botany, entomology
+keyAdvancements Provides a three-dimensional viewing experience by using two separate optical paths.
+inventorDeveloper Cherubin d'Orleans
+
+id X-ray Microscope
+invented 1946
+resolution 50
+wikipedia https://en.wikipedia.org/wiki/X-ray_microscopy
+type X-ray
+applications Material sciences, paleontology
+keyAdvancements Uses X-rays to penetrate samples and create images of the internal structure.
+inventorDeveloper Raymond Castaing
+
+id Cryo-Electron Microscopy
+invented 1975
+resolution 0.1
+wikipedia https://en.wikipedia.org/wiki/Cryo-electron_microscopy
+type Electron
+applications Structural biology, virology
+keyAdvancements Allows imaging of samples at cryogenic temperatures, preserving native state.
+inventorDeveloper Jacques Dubochet, Joachim Frank, Richard Henderson
+
+import pageFooter.scroll

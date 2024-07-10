@@ -1,0 +1,10 @@
+importOnly
+import settings.scroll
+
+metaTags
+stumpNoSnippet
+ link
+  rel stylesheet
+  type text/css
+  href gazette.css
+pageHeader

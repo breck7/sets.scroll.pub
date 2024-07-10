@@ -1,0 +1,117 @@
+date 04/22/2024
+title The Fastest Modes of Human Transportation
+
+import setHeader.scroll
+
+idParser
+ extends abstractIdParser
+
+speedParser
+ extends abstractIntegerMeasureParser
+ description The maximum speed of the transportation mode in miles per hour (mph)
+
+yearInventedParser
+ extends abstractIntegerMeasureParser
+ description The year the transportation mode was invented
+
+passengersParser
+ extends abstractIntegerMeasureParser
+ description The typical number of passengers the transportation mode can carry
+
+rangeParser
+ extends abstractIntegerMeasureParser
+ description The maximum range of the transportation mode in miles
+
+// data
+
+id High-speed rail
+speed 268
+yearInvented 1964
+passengers 1000
+range 1500
+
+id Maglev train
+speed 375
+yearInvented 1984
+passengers 1000
+range 500
+
+id Hyperloop (proposed)
+speed 760
+yearInvented 2013
+passengers 28
+range 900
+
+id Concorde (retired)
+speed 1354
+yearInvented 1969
+passengers 100
+range 4500
+
+id Boeing 747
+speed 614
+yearInvented 1969
+passengers 660
+range 9800
+
+id Lockheed SR-71 Blackbird (retired)
+speed 2193
+yearInvented 1964
+passengers 2
+range 3200
+
+id Space Shuttle (retired)
+speed 17500
+yearInvented 1981
+passengers 7
+range 500
+
+id SpaceX Crew Dragon
+speed 17500
+yearInvented 2020
+passengers 7
+range 500
+
+id Virgin Galactic SpaceShipTwo
+speed 2500
+yearInvented 2018
+passengers 6
+range 50
+
+id Blue Origin New Shepard
+speed 2500
+yearInvented 2015
+passengers 6
+range 60
+
+id Bugatti Chiron Super Sport 300+
+speed 304
+yearInvented 2019
+passengers 2
+range 300
+
+id Hennessey Venom GT
+speed 270
+yearInvented 2010
+passengers 2
+range 400
+
+id Koenigsegg Agera RS
+speed 278
+yearInvented 2015
+passengers 2
+range 600
+
+id ThrustSSC (land speed record car)
+speed 763
+yearInvented 1997
+passengers 1
+range 50
+
+id North American X-15 (retired)
+speed 4520
+yearInvented 1959
+passengers 1
+range 200
+
+import pageFooter.scroll

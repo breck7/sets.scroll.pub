@@ -1,0 +1,126 @@
+import setHeader.scroll
+
+idParser
+ extends abstractIdParser
+
+descriptionParser
+ extends abstractStringMeasureParser
+ description A brief description of the tree's properties and uses
+
+densityParser
+ extends abstractIntegerMeasureParser
+ description The density of the wood in kilograms per cubic meter (kg/m^3)
+
+hardnessParser
+ extends abstractIntegerMeasureParser
+ description The Janka hardness rating of the wood, measuring its resistance to wear and denting
+
+growthRateParser
+ extends abstractIntegerMeasureParser
+ description The growth rate of the tree in inches per year
+
+durabilityParser
+ extends abstractStringMeasureParser
+ description The natural durability of the wood against decay and pests
+
+moistureContentParser
+ extends abstractStringMeasureParser
+ description The typical moisture content of the wood when used in construction
+
+workabilityParser
+ extends abstractStringMeasureParser
+ description The ease with which the wood can be cut, shaped, and finished
+
+// data
+
+id Douglas Fir
+description Commonly used in construction for its strength and availability
+density 530
+hardness 660
+growthRate 24
+durability Moderate
+moistureContent 12-15%
+workability Good
+
+id Southern Yellow Pine
+description Known for its high density and strength, often used in heavy construction
+density 580
+hardness 870
+growthRate 20
+durability Moderate
+moistureContent 8-12%
+workability Moderate
+
+id White Oak
+description Highly durable and resistant to moisture, used for both interior and exterior applications
+density 770
+hardness 1360
+growthRate 12
+durability High
+moistureContent 8-12%
+workability Fair
+
+id Black Walnut
+description Valued for its workability and aesthetic appeal, commonly used in fine furniture and finishes
+density 610
+hardness 1010
+growthRate 24
+durability High
+moistureContent 8-12%
+workability Excellent
+
+id Red Maple
+description Versatile and widely available, used for furniture and flooring
+density 630
+hardness 950
+growthRate 24
+durability Moderate
+moistureContent 6-8%
+workability Good
+
+id Eastern White Pine
+description Lightweight and easy to work with, used in millwork and cabinetry
+density 380
+hardness 380
+growthRate 36
+durability Low
+moistureContent 12-15%
+workability Excellent
+
+id Western Red Cedar
+description Naturally resistant to decay, used for outdoor applications like decking and siding
+density 390
+hardness 350
+growthRate 24
+durability High
+moistureContent 10-12%
+workability Good
+
+id Sugar Maple
+description Hard and strong, ideal for flooring and butcher blocks
+density 740
+hardness 1450
+growthRate 12
+durability Moderate
+moistureContent 6-8%
+workability Fair
+
+id Sitka Spruce
+description Known for its high strength-to-weight ratio, used in aircraft and marine applications
+density 450
+hardness 510
+growthRate 24
+durability Low
+moistureContent 12-15%
+workability Good
+
+id Ponderosa Pine
+description Widely used in construction for its workability and availability
+density 420
+hardness 460
+growthRate 18
+durability Low
+moistureContent 12-15%
+workability Good
+
+import pageFooter.scroll

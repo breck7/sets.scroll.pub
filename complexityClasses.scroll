@@ -1,0 +1,65 @@
+date 04/21/2024
+title Big(O) Complexity Classes in Programming
+
+import setHeader.scroll
+
+idParser
+ extends abstractIdParser
+
+classDescriptionParser
+ extends abstractStringMeasureParser
+ description A brief explanation of the complexity class, often describing how the time or space requirements grow with the size of the input.
+
+commonAlgorithmsParser
+ extends abstractStringMeasureParser
+ description Examples of algorithms or operations that typically exhibit this level of complexity.
+
+// Constant Time
+
+id O(1)
+classDescription Execution time remains constant regardless of input size.
+commonAlgorithms Finding array element by index, adding a node to the head of a linked list
+
+// Logarithmic Time
+
+id O(log n)
+classDescription Execution time grows logarithmically in proportion to the input size.
+commonAlgorithms Binary search
+
+// Linear Time
+
+id O(n)
+classDescription Execution time grows linearly with the input size.
+commonAlgorithms Linear search, traversing an array
+
+// Linearithmic Time
+
+id O(n log n)
+classDescription Execution time grows linearly and logarithmically with the input size.
+commonAlgorithms Quick sort, merge sort
+
+// Quadratic Time
+
+id O(n^2)
+classDescription Execution time grows quadratically with the input size.
+commonAlgorithms Bubble sort, selection sort, insertion sort
+
+// Cubic Time
+
+id O(n^3)
+classDescription Execution time grows cubically with the input size.
+commonAlgorithms Naive matrix multiplication
+
+// Exponential Time
+
+id O(2^n)
+classDescription Execution time grows exponentially based on the input size.
+commonAlgorithms Brute force solutions for the traveling salesman problem, recursive calculation of Fibonacci numbers
+
+// Factorial Time
+
+id O(n!)
+classDescription Execution time grows factorially based on the input size.
+commonAlgorithms Solving the traveling salesman problem via brute force, generating all permutations of a set
+
+import pageFooter.scroll
