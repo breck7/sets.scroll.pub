@@ -26,6 +26,7 @@ summary {
 .scrollCaptionedFigure {
   display: block;
   break-inside: avoid;
+  max-width: 100%;
   text-align: center;
 }
 .scrollCaptionedFigure img {
@@ -51,6 +52,21 @@ summary {
   padding: .5rem;
   border-radius: 0;
   position: relative;
+}
+.codeWithHeader {
+  break-inside: avoid-column;
+  margin: 10px 0;
+}
+.codeHeader {
+  font-size: 80%;
+  text-align: center;
+  background: rgba(224, 224, 224, 0.4);
+  border: 1px solid rgba(204, 204, 204, 0.8);
+  border-bottom: 0;
+  margin-bottom: -7px;
+  padding: 4px 2px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
 }
 .scrollCodeBlock:hover .scrollCopyButton {
   opacity: .5;
@@ -91,6 +107,7 @@ li {
 }
 a {
   text-decoration-color: transparent;
+  color: #36c;
 }
 a:hover {
   text-decoration-color: initial;
@@ -132,6 +149,9 @@ code {
 }
 .scrollParagraph {
   text-align: justify;
+}
+center .scrollParagraph {
+  text-align: center;
 }
 .scrollColumns {
   column-count: auto;
@@ -238,11 +258,20 @@ h4.scrollQuestion {
 .scrollTable tr:nth-child(even) {
   background: rgba(224,224,224,.6);
 }
+.scrollTable pre {
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 0;
+}
 .scrollTable.expandedTable {
   table-layout: unset;
   background: white;
   position: relative;
   z-index: 10;
+  overflow: unset;
+}
+.scrollTable.expandedTable pre {
+  white-space: unset;
   overflow: unset;
 }
 .scrollTable.expandedTable td,.scrollTable.expandedTable th {
@@ -257,6 +286,21 @@ h4.scrollQuestion {
   font-style: italic;
   margin: .25rem 0;
   text-align: center;
+}
+.scrollViewSourceBadge {
+  text-align: right;
+  position: absolute;
+  display: block;
+  right: 20px;
+  top: 8px;
+}
+.scrollViewSourceBadge svg {
+  width: 24px;
+  height: 24px;
+  fill: rgba(204,204,204,0.8);
+}
+.scrollViewSourceBadge svg:hover {
+  fill: #333;
 }
 .scrollViewSource {
   text-align: center;
