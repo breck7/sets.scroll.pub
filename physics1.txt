@@ -1,5 +1,3 @@
-groups All ScrollSetDemos
-
 The 30 Most Important Equations in Physics - ChatGPT
 ====================================================
 

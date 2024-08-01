@@ -1,5 +1,3 @@
-groups All ScrollSetDemos
-
 Microscopes
 ===========
 

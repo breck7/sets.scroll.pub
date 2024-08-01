@@ -1,5 +1,3 @@
-groups All ScrollSetDemos
-
 Big(O) Complexity Classes in Programming
 ========================================
 

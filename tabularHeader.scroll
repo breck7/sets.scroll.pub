@@ -1,5 +1,5 @@
 importOnly
-groups All TabularDemos
+tags All TabularDemos
 
 import header.scroll
 
