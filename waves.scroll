@@ -3,85 +3,100 @@ title Waves
 
 import tabularHeader.scroll
 
-printTable
-Name	Transverse	Longitudinal	Medium Required	Propagation Speed (m/s)	Min Frequency (Hz)	Max Frequency (Hz)	Common Sources	Primary Uses or Effects	Key Characteristics	Examples	Impact on Environment/Humans
-Electromagnetic Waves	True	False	False	299792458	Varies	Varies	Sun, radio transmitters	Communication, medical imaging, cooking	Can travel in vacuum and through transparent media	Radio broadcasts, X-rays	Varies; UV can cause skin cancer
-Sound Waves	False	True	True	343	20	20000	Vibrating objects	Communication, music, sonar	Travels through elastic media	Talking, concerts, ultrasound imaging	Noise pollution can affect health and well-being
-Seismic Waves	True	True	True	3500	Varies	Varies	Earthquakes, explosions	Earthquake engineering, oil exploration	Can cause significant ground movement	Earthquakes, nuclear testing	Can cause extensive property damage and loss of life
-Gravitational Waves	True	False	False	299792458	0.0001	Varies	Colliding black holes, neutron stars	Astronomy, testing theories of gravity	Ripples in spacetime	Facilitated by LIGO and other observatories	None known; mostly relevant for astrophysics
-Thermal Waves	False	True	True	Varies	Varies	Varies	Heating elements, sun	Heating, climate control	Move through conduction, convection, or radiation	Heat in homes, atmospheric heat waves	Heat waves can cause health issues and environmental stress
-Chemical Waves	False	True	True	Varies	Varies	Varies	Chemical reactions	Chemical processing, biological signaling	Propagation of reaction and diffusion	Calcium waves in cells, Belousov-Zhabotinsky reaction	Can be critical in biological processes
-Combustion Waves	False	True	True	Varies	Varies	Varies	Fire, explosions	Fire safety, controlled burns	Propagation of fire through combustible materials	Wildfires, controlled burns	Can cause massive destruction and pollution
+table
+ delimiter 	
+ printTable
+ data
+  Name	Transverse	Longitudinal	Medium Required	Propagation Speed (m/s)	Min Frequency (Hz)	Max Frequency (Hz)	Common Sources	Primary Uses or Effects	Key Characteristics	Examples	Impact on Environment/Humans
+  Electromagnetic Waves	True	False	False	299792458	Varies	Varies	Sun, radio transmitters	Communication, medical imaging, cooking	Can travel in vacuum and through transparent media	Radio broadcasts, X-rays	Varies; UV can cause skin cancer
+  Sound Waves	False	True	True	343	20	20000	Vibrating objects	Communication, music, sonar	Travels through elastic media	Talking, concerts, ultrasound imaging	Noise pollution can affect health and well-being
+  Seismic Waves	True	True	True	3500	Varies	Varies	Earthquakes, explosions	Earthquake engineering, oil exploration	Can cause significant ground movement	Earthquakes, nuclear testing	Can cause extensive property damage and loss of life
+  Gravitational Waves	True	False	False	299792458	0.0001	Varies	Colliding black holes, neutron stars	Astronomy, testing theories of gravity	Ripples in spacetime	Facilitated by LIGO and other observatories	None known; mostly relevant for astrophysics
+  Thermal Waves	False	True	True	Varies	Varies	Varies	Heating elements, sun	Heating, climate control	Move through conduction, convection, or radiation	Heat in homes, atmospheric heat waves	Heat waves can cause health issues and environmental stress
+  Chemical Waves	False	True	True	Varies	Varies	Varies	Chemical reactions	Chemical processing, biological signaling	Propagation of reaction and diffusion	Calcium waves in cells, Belousov-Zhabotinsky reaction	Can be critical in biological processes
+  Combustion Waves	False	True	True	Varies	Varies	Varies	Fire, explosions	Fire safety, controlled burns	Propagation of fire through combustible materials	Wildfires, controlled burns	Can cause massive destruction and pollution
 
 ***
 
-printTable
-Name	Follows Inverse Square Law	Complex Attenuation	Other Attenuation Patterns
-Electromagnetic Waves	True	False	False
-Sound Waves	True	False	False
-Seismic Waves	False	True	False
-Gravitational Waves	True	False	False
-Thermal Waves	False	False	True
-Chemical Waves	False	False	True
-Combustion Waves	False	True	False
-
+table
+ delimiter 	
+ printTable
+ data
+  Name	Follows Inverse Square Law	Complex Attenuation	Other Attenuation Patterns
+  Electromagnetic Waves	True	False	False
+  Sound Waves	True	False	False
+  Seismic Waves	False	True	False
+  Gravitational Waves	True	False	False
+  Thermal Waves	False	False	True
+  Chemical Waves	False	False	True
+  Combustion Waves	False	True	False
+  
 Chemical reaction wave:
 https://youtu.be/s2np2PaaWtU?t=75
 
-printTable
-Speed (meters per second, power of 10)	Name
-10^8	Gravitational Waves
-10^8	Electromagnetic Waves
-10^3 to 10^4	Detonation Waves (Combustion)
-10^2	Sound Waves
-10^1 to 10^2	Deflagration Waves (Combustion)
-10^3	Seismic Waves
-10^2 to 10^3	Thermal Waves (Heat Pulses)
-10^-3 to 10^-2	Chemical Waves
-
+table
+ delimiter 	
+ printTable
+ data
+  Speed (meters per second, power of 10)	Name
+  10^8	Gravitational Waves
+  10^8	Electromagnetic Waves
+  10^3 to 10^4	Detonation Waves (Combustion)
+  10^2	Sound Waves
+  10^1 to 10^2	Deflagration Waves (Combustion)
+  10^3	Seismic Waves
+  10^2 to 10^3	Thermal Waves (Heat Pulses)
+  10^-3 to 10^-2	Chemical Waves
+  
 # Wave speed
 
-printTable
-EM Waves	M/S (Powers of 10)
-EM Waves	8
-Gamma Rays	8
-X-Rays	8
-Ultraviolet (UV) Waves	8
-Visible Light Waves	8
-Infrared Waves	8
-Microwaves	8
-Radio Waves	8
-Sound Waves (in air)	2
-Sound Waves (in water)	3
-Seismic Waves (P-waves)	3
-Seismic Waves (S-waves)	3
-Gravity Waves	8
-Surface Water Waves	1
-Capillary Waves	-1
-Conductive Heat Transfer	-2 to 2
-Convective Heat Transfer (gases)	-1 to 0
-Convective Heat Transfer (liquids)	-1 to 1
+table
+ delimiter 	
+ printTable
+ data
+  EM Waves	M/S (Powers of 10)
+  EM Waves	8
+  Gamma Rays	8
+  X-Rays	8
+  Ultraviolet (UV) Waves	8
+  Visible Light Waves	8
+  Infrared Waves	8
+  Microwaves	8
+  Radio Waves	8
+  Sound Waves (in air)	2
+  Sound Waves (in water)	3
+  Seismic Waves (P-waves)	3
+  Seismic Waves (S-waves)	3
+  Gravity Waves	8
+  Surface Water Waves	1
+  Capillary Waves	-1
+  Conductive Heat Transfer	-2 to 2
+  Convective Heat Transfer (gases)	-1 to 0
+  Convective Heat Transfer (liquids)	-1 to 1
 
 # Attenuation
 
-printTable
-EM Waves	Inverse square
-Gamma Rays	Inverse square
-X-Rays	Inverse square
-Ultraviolet (UV) Waves	Inverse square
-Visible Light Waves	Inverse square
-Infrared Waves	Inverse square
-Microwaves	Inverse square
-Radio Waves	Inverse square
-Sound Waves (in air)	Exponential
-Sound Waves (in water)	Exponential
-Seismic Waves (P-waves)	Exponential
-Seismic Waves (S-waves)	Exponential
-Gravity Waves	Inverse square
-Surface Water Waves	Exponential
-Capillary Waves	Exponential
-Conductive Heat Transfer	Exponential
-Convective Heat Transfer (gases)	Exponential
-Convective Heat Transfer (liquids)	Exponential
+table
+ delimiter 	
+ printTable
+ data
+  EM Waves	Inverse square
+  Gamma Rays	Inverse square
+  X-Rays	Inverse square
+  Ultraviolet (UV) Waves	Inverse square
+  Visible Light Waves	Inverse square
+  Infrared Waves	Inverse square
+  Microwaves	Inverse square
+  Radio Waves	Inverse square
+  Sound Waves (in air)	Exponential
+  Sound Waves (in water)	Exponential
+  Seismic Waves (P-waves)	Exponential
+  Seismic Waves (S-waves)	Exponential
+  Gravity Waves	Inverse square
+  Surface Water Waves	Exponential
+  Capillary Waves	Exponential
+  Conductive Heat Transfer	Exponential
+  Convective Heat Transfer (gases)	Exponential
+  Convective Heat Transfer (liquids)	Exponential
 
 import pageFooter.scroll
