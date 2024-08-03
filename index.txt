@@ -10,27 +10,27 @@ ScrollSet Examples
 
 Best Lumber
 ===========
-08/01/2024
+08/03/2024
 https://sets.scroll.pub/bestLumber.html
 
 Bridge Building Formulas
 ========================
-08/01/2024
+08/03/2024
 https://sets.scroll.pub/bridgeBuildingFormulas.html
 
 Home Building Formulas
 ======================
-08/01/2024
+08/03/2024
 https://sets.scroll.pub/homeBuildingFormulas.html
 
 Quant Finance
 =============
-08/01/2024
+08/03/2024
 https://sets.scroll.pub/quantFinance.html
 
 Speed Of Sound
 ==============
-08/01/2024
+08/03/2024
 https://sets.scroll.pub/speedOfSound.html
 
 The Four Fundamental Forces

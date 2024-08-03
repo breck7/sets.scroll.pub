@@ -24,7 +24,6 @@ Gravitational Waves	True	False	False
 Thermal Waves	False	False	True
 Chemical Waves	False	False	True
 Combustion Waves	False	True	False
-
 Chemical reaction wave:
 https://youtu.be/s2np2PaaWtU?t=75
 
@@ -37,7 +36,6 @@ Speed (meters per second, power of 10)	Name
 10^3	Seismic Waves
 10^2 to 10^3	Thermal Waves (Heat Pulses)
 10^-3 to 10^-2	Chemical Waves
-
 Wave speed
 ==========
 
