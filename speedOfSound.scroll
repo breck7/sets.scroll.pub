@@ -1,13 +1,13 @@
 import setHeader.scroll
 
 mediumColumns 1
-scatterplot
- title Speed of Sound in Different Materials
- caption Data from ChatGPT
- data speedOfSound.tsv
- y speed
- x speed
- label id
+table speedOfSound.tsv
+ scatterplot
+  title Speed of Sound in Different Materials
+  caption Data from ChatGPT
+  y speed
+  x speed
+  label id
 endColumns
 
 idParser
