@@ -27,7 +27,7 @@ Meteor Impact	The collision of a meteoroid, asteroid, or comet with the Earth's 
 Solar Flare	A sudden, rapid, and intense variation in brightness on the Sun's surface	Solar Flare Classification System (X-class)	A1	X28+
 Geomagnetic Storm	A temporary disturbance of the Earth's magnetosphere caused by solar wind shock waves	NOAA Space Weather Scale for Geomagnetic Storms	G1	G5
 
-***
+*
 
 Here is a table on warning systems for the various disaster types, including the name of the warning system and the minimum and maximum warning levels:
 
