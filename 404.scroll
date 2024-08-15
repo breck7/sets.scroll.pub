@@ -10,5 +10,8 @@ helpfulNotFound /sitemap.txt
 
 If you think there's a bug on our site, please email sets@scroll.pub to let us know. Thank you!
 
-pageFooter
+
+center
+viewSourceButton
+scrollVersionLink
 buildHtml
