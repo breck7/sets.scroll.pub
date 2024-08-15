@@ -1,3 +1,5 @@
 importOnly
 
-pageFooter
+center
+viewSourceButton
+scrollVersionLink

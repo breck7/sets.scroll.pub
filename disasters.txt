@@ -54,3 +54,5 @@ Solar Flare	NOAA Space Weather Prediction Center Alerts	Minor (R1)	Extreme (R5)
 Geomagnetic Storm	NOAA Space Weather Scale for Geomagnetic Storms	Minor (G1)	Extreme (G5)
 
 Note - Some natural disasters, such as sinkholes and limnic eruptions, do not have standardized warning systems in place.
+
+Built with Scroll v120.2.0

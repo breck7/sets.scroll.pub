@@ -7,4 +7,6 @@ stumpNoSnippet
   rel stylesheet
   type text/css
   href gazette.css
-pageHeader
+homeButton
+leftRightButtons
+viewSourceButton
