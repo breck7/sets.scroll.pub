@@ -1,7 +1,7 @@
 import setHeader.scroll
 
 mediumColumns 1
-table speedOfSound.tsv
+table
  scatterplot
   title Speed of Sound in Different Materials
   caption Data from ChatGPT

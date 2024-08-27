@@ -1,5 +1,6 @@
 *.html
 *.tsv
+*.csv
 node_modules/
 package-lock.json
 *.css
