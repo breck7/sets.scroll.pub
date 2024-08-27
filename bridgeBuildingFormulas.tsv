@@ -1,9 +1,0 @@
-id	description	formula	shortFormula	units
-Stress in Beam	Determines the internal forces within a beam	stress = moment*distanceFromNeutralAxis/secondMomentOfArea	σ = M*c/I	NewtonPerSquareMeter
-Shear Force in Beam	Measures the force that causes parts of a material to slide past each other in opposite directions	shearForce = ∫(dMoment/dx) dx	V = ∫(dM/dx) dx	Newton
-Bending Moment in Beam	Calculates the reaction induced in a structural element when an external force is applied, causing the element to bend	bendingMoment = ∫(shearForce dx)	M = ∫(V dx)	NewtonMeter
-Deflection of Beam	Calculates the displacement of a point on the beam under load	deflection = load*length^3 / (48*modulusOfElasticity*secondMomentOfArea)	δ = PL^3 / (48EI)	Meter
-Natural Frequency of Bridge	Determines the frequency at which the bridge will naturally vibrate	naturalFrequency = (1/2π) * √(stiffness/mass)	f_n = (1/2π) * √(k/m)	Hertz
-Buckling Load	Determines the critical load at which a column will buckle	criticalLoad = π^2*modulusOfElasticity*secondMomentOfArea / (effectiveLengthFactor*length)^2	P_cr = π^2*EI / (KL)^2	Newton
-Tensile Strength	Measures the resistance of a material to breaking under tension	tensileStrength = load/area	σ_t = P/A	NewtonPerSquareMeter
-Load-Bearing Capacity	Determines the maximum weight the bridge can hold	loadBearingCapacity = allowableStress * area	P = f * A	Newton

@@ -1,9 +1,0 @@
-id	classDescription	commonAlgorithms
-O(1)	Execution time remains constant regardless of input size.	Finding array element by index, adding a node to the head of a linked list
-O(log n)	Execution time grows logarithmically in proportion to the input size.	Binary search
-O(n)	Execution time grows linearly with the input size.	Linear search, traversing an array
-O(n log n)	Execution time grows linearly and logarithmically with the input size.	Quick sort, merge sort
-O(n^2)	Execution time grows quadratically with the input size.	Bubble sort, selection sort, insertion sort
-O(n^3)	Execution time grows cubically with the input size.	Naive matrix multiplication
-O(2^n)	Execution time grows exponentially based on the input size.	Brute force solutions for the traveling salesman problem, recursive calculation of Fibonacci numbers
-O(n!)	Execution time grows factorially based on the input size.	Solving the traveling salesman problem via brute force, generating all permutations of a set

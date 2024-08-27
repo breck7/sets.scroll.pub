@@ -13,11 +13,8 @@ import disclaimer.scroll
 endColumns
 
 wideColumns 1
-printConcepts
-
-# Measures
-
-printMeasures
+table
+ printTable
 
 endColumns
 
