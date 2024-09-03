@@ -20,6 +20,7 @@ endColumns
 
 ****
 
-wideColumns 1
-form
-endColumns
+wideColumn
+classicForm
+scrollForm
+
