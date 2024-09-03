@@ -3,6 +3,9 @@ title The 30 Most Important Equations in Physics - Claude
 
 import setHeader.scroll
 
+Related
+ https://en.wikipedia.org/wiki/In_Pursuit_of_the_Unknown
+
 idParser
  extends abstractIdParser
 yearAppearedParser
