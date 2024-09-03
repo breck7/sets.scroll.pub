@@ -45,4 +45,4 @@ de Broglie Hypothesis,Louis de Broglie,France,Quantum Mechanics,\lambda = \frac{
 
 ⁂
 
-Built with Scroll v125.6.0
+Built with Scroll v125.7.0
