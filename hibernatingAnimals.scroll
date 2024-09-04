@@ -1,7 +1,7 @@
 date 05/29/2024
 title Animals that Hibernate
 
-import setHeader.scroll
+setHeader.scroll
 
 Source: https://chatgpt.com/share/f3b49ff7-e9f5-41d0-9f23-ccc89214d995
 
@@ -216,4 +216,4 @@ energySaved 50
 habitat Forests and Grasslands
 diet Omnivorous
 
-import pageFooter.scroll
+pageFooter.scroll

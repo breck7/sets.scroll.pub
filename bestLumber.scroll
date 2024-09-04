@@ -1,4 +1,4 @@
-import setHeader.scroll
+setHeader.scroll
 
 idParser
  extends abstractIdParser
@@ -123,4 +123,4 @@ durability Low
 moistureContent 12-15%
 workability Good
 
-import pageFooter.scroll
+pageFooter.scroll

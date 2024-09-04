@@ -32,4 +32,4 @@ EZ Aquarii C,M5Ve,11.08,12.87,16.47,-60,0.13
 
 ⁂
 
-Built with Scroll v126.1.0
+Built with Scroll v129.0.0

@@ -1,4 +1,4 @@
-import setHeader.scroll
+setHeader.scroll
 
 mediumColumns 1
 table
@@ -64,4 +64,4 @@ id Lead
 description A dense metal with a relatively slower speed of sound due to its softness
 speed 1200
 
-import pageFooter.scroll
+pageFooter.scroll

@@ -1,4 +1,4 @@
-import setHeader.scroll
+setHeader.scroll
 
 idParser
  extends abstractIdParser
@@ -69,4 +69,4 @@ formula loadBearingCapacity = allowableStress * area
 shortFormula P = f * A
 units Newton
 
-import pageFooter.scroll
+pageFooter.scroll

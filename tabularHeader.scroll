@@ -1,7 +1,7 @@
 importOnly
 tags All TabularDemos
 
-import header.scroll
+header.scroll
 
 wideColumns 1
 printTitle

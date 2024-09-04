@@ -1,6 +1,6 @@
 title Page not found
 
-import header.scroll
+header.scroll
 printTitle
 thinColumns 1
 

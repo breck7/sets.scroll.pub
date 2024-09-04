@@ -1,7 +1,7 @@
 date 04/21/2024
 title Organelles
 
-import setHeader.scroll
+setHeader.scroll
 
 idParser
  extends abstractIdParser
@@ -187,4 +187,4 @@ low 10
 median 50
 high 100
 
-import pageFooter.scroll
+pageFooter.scroll
