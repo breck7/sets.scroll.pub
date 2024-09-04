@@ -1,4 +1,4 @@
-import setHeader.scroll
+setHeader.scroll
 
 idParser
  extends abstractIdParser
@@ -72,4 +72,4 @@ description Estimates the number of bricks needed for a wall
 formula numberOfBricks = wallArea / brickArea
 units Integer
 
-import pageFooter.scroll
+pageFooter.scroll

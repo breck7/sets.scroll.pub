@@ -1,7 +1,7 @@
 date 04/22/2024
 title The Fastest Modes of Human Transportation
 
-import setHeader.scroll
+setHeader.scroll
 
 idParser
  extends abstractIdParser
@@ -114,4 +114,4 @@ yearInvented 1959
 passengers 1
 range 200
 
-import pageFooter.scroll
+pageFooter.scroll

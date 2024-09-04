@@ -1,7 +1,7 @@
 date 05/30/2024
 title The 30 Most Important Equations in Physics - Claude
 
-import setHeader.scroll
+setHeader.scroll
 
 Related
  https://en.wikipedia.org/wiki/In_Pursuit_of_the_Unknown
@@ -269,4 +269,4 @@ importanceRank 30
 application Classical mechanics
 impact Reformulates Newtonian mechanics, basis for Hamiltonian mechanics
 
-import pageFooter.scroll
+pageFooter.scroll

@@ -1,7 +1,7 @@
 date 04/21/2024
 title Programming Languages
 
-import setHeader.scroll
+setHeader.scroll
 
 idParser
  extends abstractIdParser
@@ -144,4 +144,4 @@ wikipedia https://en.wikipedia.org/wiki/R_(programming_language)
 creators Ross Ihaka, Robert Gentleman
 openSource true
 
-import pageFooter.scroll
+pageFooter.scroll

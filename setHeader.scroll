@@ -1,12 +1,12 @@
 importOnly
 tags All ScrollSetDemos
 
-import header.scroll
+header.scroll
 
 wideColumns 1
 printTitle
 
-import disclaimer.scroll
+disclaimer.scroll
 
 # Concepts
 

@@ -1,7 +1,7 @@
 date 04/21/2024
 title Big(O) Complexity Classes in Programming
 
-import setHeader.scroll
+setHeader.scroll
 
 idParser
  extends abstractIdParser
@@ -62,4 +62,4 @@ id O(n!)
 classDescription Execution time grows factorially based on the input size.
 commonAlgorithms Solving the traveling salesman problem via brute force, generating all permutations of a set
 
-import pageFooter.scroll
+pageFooter.scroll

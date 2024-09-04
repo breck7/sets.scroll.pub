@@ -1,7 +1,7 @@
 date 04/26/2024
 title Waves
 
-import tabularHeader.scroll
+tabularHeader.scroll
 
 table
  delimiter 	
@@ -99,4 +99,4 @@ table
   Convective Heat Transfer (gases)	Exponential
   Convective Heat Transfer (liquids)	Exponential
 
-import pageFooter.scroll
+pageFooter.scroll

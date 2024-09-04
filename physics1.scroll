@@ -1,7 +1,7 @@
 date 05/30/2024
 title The 30 Most Important Equations in Physics - ChatGPT
 
-import setHeader.scroll
+setHeader.scroll
 
 Related
  https://en.wikipedia.org/wiki/In_Pursuit_of_the_Unknown
@@ -309,4 +309,4 @@ fieldOfPhysics Quantum Mechanics
 complexity 6
 equation \lambda = \frac{h}{p}
 
-import pageFooter.scroll
+pageFooter.scroll

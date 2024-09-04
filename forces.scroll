@@ -1,7 +1,7 @@
 date 06/06/2024
 title The Four Fundamental Forces
 
-import setHeader.scroll
+setHeader.scroll
 
 idParser
  extends abstractIdParser
@@ -136,4 +136,4 @@ applications Binding protons and neutrons in nuclei
 symmetry Gauge symmetry (SU(3))
 strengthScale 4
 
-import pageFooter.scroll
+pageFooter.scroll

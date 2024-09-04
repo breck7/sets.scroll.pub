@@ -1,7 +1,7 @@
 date 04/26/2024
 title Natural Disasters
 
-import tabularHeader.scroll
+tabularHeader.scroll
 
 table
  delimiter 	
@@ -61,4 +61,4 @@ table
 
 Note - Some natural disasters, such as sinkholes and limnic eruptions, do not have standardized warning systems in place.
 
-import pageFooter.scroll
+pageFooter.scroll

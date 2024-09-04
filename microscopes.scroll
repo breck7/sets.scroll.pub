@@ -1,7 +1,7 @@
 date 04/21/2024
 title Microscopes
 
-import setHeader.scroll
+setHeader.scroll
 
 // schema
 
@@ -156,4 +156,4 @@ applications Structural biology, virology
 keyAdvancements Allows imaging of samples at cryogenic temperatures, preserving native state.
 inventorDeveloper Jacques Dubochet, Joachim Frank, Richard Henderson
 
-import pageFooter.scroll
+pageFooter.scroll

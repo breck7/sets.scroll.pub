@@ -1,5 +1,5 @@
 
-import setHeader.scroll
+setHeader.scroll
 
 idParser
  extends abstractIdParser
@@ -111,4 +111,4 @@ description A recent development in financial modeling that captures roughness i
 level Expert
 idLink https://mfe.baruch.cuny.edu/wp-content/uploads/2018/02/RoughVolatilityColumbia2018.pdf
 
-import pageFooter.scroll
+pageFooter.scroll

@@ -1,7 +1,7 @@
 date 04/21/2024
 title Nearby Stars
 
-import setHeader.scroll
+setHeader.scroll
 
 idParser
  extends abstractIdParser
@@ -203,4 +203,4 @@ absoluteMagnitude 7.49
 mass 0.67
 radialVelocity -64.30
 
-import pageFooter.scroll
+pageFooter.scroll

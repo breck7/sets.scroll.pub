@@ -1,7 +1,7 @@
 date 5/2/2024
 title Hormones
 
-import tabularHeader.scroll
+tabularHeader.scroll
 
 table
  delimiter 	
@@ -79,4 +79,4 @@ Endocrine_Gland_ID enum:
 14 = Intestine
 15 = Duodenum
 
-import pageFooter.scroll
+pageFooter.scroll
