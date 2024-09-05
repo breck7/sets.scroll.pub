@@ -23,4 +23,4 @@ O(n!),Execution time grows factorially based on the input size.,"Solving the tra
 
 ⁂
 
-Built with Scroll v129.0.0
+Built with Scroll v130.1.0
