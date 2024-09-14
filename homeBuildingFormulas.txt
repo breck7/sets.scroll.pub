@@ -26,4 +26,4 @@ Brick Calculation,Estimates the number of bricks needed for a wall,numberOfBrick
 
 ⁂
 
-Built with Scroll v131.0.0
+Built with Scroll v132.0.0
