@@ -48,4 +48,4 @@ Lagrange's Equations,Joseph-Louis Lagrange,Italy/France,Classical mechanics,"Ref
 Related
  https://en.wikipedia.org/wiki/In_Pursuit_of_the_Unknown Related
 
-Built with Scroll v132.0.0
+Built with Scroll v133.0.0
