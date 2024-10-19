@@ -11,26 +11,62 @@ Quant Finance
 Concepts
 ========
 
-id,description,idLink,level
-Stock Trading,The buying and selling of shares of publicly traded companies,https://en.wikipedia.org/wiki/Trade_(finance),Surface
-Options,"Financial instruments that give the buyer the right, but not the obligation, to buy or sell an asset at a predetermined price",https://en.wikipedia.org/wiki/Option_(finance),Surface
-Bonds,"Debt securities issued by entities to raise capital, with a promise to pay back with interest",https://en.wikipedia.org/wiki/Bond_(finance),Surface
-Forex,The market for trading foreign currencies,https://en.wikipedia.org/wiki/Foreign_exchange_market,Surface
-Black-Scholes,A mathematical model for pricing options,https://en.wikipedia.org/wiki/Black%E2%80%93Scholes_model,Basic
-CAPM,"Capital Asset Pricing Model, used to determine the expected return on an asset",https://en.wikipedia.org/wiki/Capital_asset_pricing_model,Basic
-Arbitrage,The practice of taking advantage of price differences in different markets,https://en.wikipedia.org/wiki/Arbitrage,Basic
-Greeks,"Risk measures for options, including Delta, Gamma, Theta, Vega, and Rho",https://en.wikipedia.org/wiki/Greeks_(finance),Basic
-Stochastic Calculus,A branch of mathematics used to model random processes,https://en.wikipedia.org/wiki/Stochastic_calculus,Intermediate
-Monte Carlo,A statistical technique using random sampling to approximate solutions,https://en.wikipedia.org/wiki/Monte_Carlo_method,Intermediate
-Volatility Smile,A pattern in which options with different strike prices have different implied volatilities,https://en.wikipedia.org/wiki/Volatility_smile,Intermediate
-Ito's Lemma,A key result in stochastic calculus used in the derivation of the Black-Scholes equation,https://en.wikipedia.org/wiki/It%C3%B4%27s_lemma,Advanced
-Brownian Motion,A continuous-time stochastic process used to model random movements,https://en.wikipedia.org/wiki/Brownian_motion,Advanced
-Martingales,A class of stochastic processes with specific properties useful in financial modeling,https://en.wikipedia.org/wiki/Martingale_(probability_theory),Advanced
-HJM,"Heath-Jarrow-Morton framework, a model for the evolution of interest rates",https://en.wikipedia.org/wiki/Heath%E2%80%93Jarrow%E2%80%93Morton_framework,Advanced
-Malliavin Calculus,A branch of mathematics providing tools for differentiating stochastic processes,https://en.wikipedia.org/wiki/Malliavin_calculus,Expert
-Levy Processes,Stochastic processes with stationary independent increments,https://en.wikipedia.org/wiki/L%C3%A9vy_process,Expert
-Rough Volatility,A recent development in financial modeling that captures roughness in volatility paths,https://mfe.baruch.cuny.edu/wp-content/uploads/2018/02/RoughVolatilityColumbia2018.pdf,Expert
+id,description,wikipedia,level
+Stock Trading,The buying and selling of shares of publicly traded companies,,Surface
+Options,"Financial instruments that give the buyer the right, but not the obligation, to buy or sell an asset at a predetermined price",,Surface
+Bonds,"Debt securities issued by entities to raise capital, with a promise to pay back with interest",,Surface
+Forex,The market for trading foreign currencies,,Surface
+Black-Scholes,A mathematical model for pricing options,,Basic
+CAPM,"Capital Asset Pricing Model, used to determine the expected return on an asset",,Basic
+Arbitrage,The practice of taking advantage of price differences in different markets,,Basic
+Greeks,"Risk measures for options, including Delta, Gamma, Theta, Vega, and Rho",,Basic
+Stochastic Calculus,A branch of mathematics used to model random processes,,Intermediate
+Monte Carlo,A statistical technique using random sampling to approximate solutions,,Intermediate
+Volatility Smile,A pattern in which options with different strike prices have different implied volatilities,,Intermediate
+Ito's Lemma,A key result in stochastic calculus used in the derivation of the Black-Scholes equation,,Advanced
+Brownian Motion,A continuous-time stochastic process used to model random movements,,Advanced
+Martingales,A class of stochastic processes with specific properties useful in financial modeling,,Advanced
+HJM,"Heath-Jarrow-Morton framework, a model for the evolution of interest rates",,Advanced
+Malliavin Calculus,A branch of mathematics providing tools for differentiating stochastic processes,,Expert
+Levy Processes,Stochastic processes with stationary independent increments,,Expert
+Rough Volatility,A recent development in financial modeling that captures roughness in volatility paths,,Expert
 
 ⁂
 
-Built with Scroll v136.3.0
+idLink https://en.wikipedia.org/wiki/Trade_(finance)
+
+idLink https://en.wikipedia.org/wiki/Option_(finance)
+
+idLink https://en.wikipedia.org/wiki/Bond_(finance)
+
+idLink https://en.wikipedia.org/wiki/Foreign_exchange_market
+
+idLink https://en.wikipedia.org/wiki/Black%E2%80%93Scholes_model
+
+idLink https://en.wikipedia.org/wiki/Capital_asset_pricing_model
+
+idLink https://en.wikipedia.org/wiki/Arbitrage
+
+idLink https://en.wikipedia.org/wiki/Greeks_(finance)
+
+idLink https://en.wikipedia.org/wiki/Stochastic_calculus
+
+idLink https://en.wikipedia.org/wiki/Monte_Carlo_method
+
+idLink https://en.wikipedia.org/wiki/Volatility_smile
+
+idLink https://en.wikipedia.org/wiki/It%C3%B4%27s_lemma
+
+idLink https://en.wikipedia.org/wiki/Brownian_motion
+
+idLink https://en.wikipedia.org/wiki/Martingale_(probability_theory)
+
+idLink https://en.wikipedia.org/wiki/Heath%E2%80%93Jarrow%E2%80%93Morton_framework
+
+idLink https://en.wikipedia.org/wiki/Malliavin_calculus
+
+idLink https://en.wikipedia.org/wiki/L%C3%A9vy_process
+
+idLink https://mfe.baruch.cuny.edu/wp-content/uploads/2018/02/RoughVolatilityColumbia2018.pdf
+
+Built with Scroll v143.0.0

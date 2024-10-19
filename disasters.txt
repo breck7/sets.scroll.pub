@@ -55,4 +55,4 @@ Geomagnetic Storm	NOAA Space Weather Scale for Geomagnetic Storms	Minor (G1)	Ext
 
 Note - Some natural disasters, such as sinkholes and limnic eruptions, do not have standardized warning systems in place.
 
-Built with Scroll v136.3.0
+Built with Scroll v143.0.0
