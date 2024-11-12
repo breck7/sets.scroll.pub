@@ -69,4 +69,4 @@ idLink https://en.wikipedia.org/wiki/L%C3%A9vy_process
 
 idLink https://mfe.baruch.cuny.edu/wp-content/uploads/2018/02/RoughVolatilityColumbia2018.pdf
 
-Built with Scroll v145.8.0
+Built with Scroll v148.0.0
