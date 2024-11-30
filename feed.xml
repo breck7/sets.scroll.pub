@@ -4,21 +4,11 @@
  <title>Feed</title>
  <link>https://sets.scroll.pub/</link>
  <description></description>
- <lastBuildDate>Wed, 13 Nov 2024 18:33:02 +0000</lastBuildDate>
+ <lastBuildDate>Sat, 30 Nov 2024 00:25:13 +0000</lastBuildDate>
  <language>en-us</language>
  <item>
-<title>Best Lumber</title>
-<link>https://sets.scroll.pub/bestLumber.html</link>
-<pubDate>Invalid Date</pubDate>
-</item>
- <item>
-<title>Bridge Building Formulas</title>
-<link>https://sets.scroll.pub/bridgeBuildingFormulas.html</link>
-<pubDate>Invalid Date</pubDate>
-</item>
- <item>
-<title>Home Building Formulas</title>
-<link>https://sets.scroll.pub/homeBuildingFormulas.html</link>
+<title>Speed Of Sound</title>
+<link>https://sets.scroll.pub/speedOfSound.html</link>
 <pubDate>Invalid Date</pubDate>
 </item>
  <item>
@@ -27,8 +17,18 @@
 <pubDate>Invalid Date</pubDate>
 </item>
  <item>
-<title>Speed Of Sound</title>
-<link>https://sets.scroll.pub/speedOfSound.html</link>
+<title>Home Building Formulas</title>
+<link>https://sets.scroll.pub/homeBuildingFormulas.html</link>
+<pubDate>Invalid Date</pubDate>
+</item>
+ <item>
+<title>Bridge Building Formulas</title>
+<link>https://sets.scroll.pub/bridgeBuildingFormulas.html</link>
+<pubDate>Invalid Date</pubDate>
+</item>
+ <item>
+<title>Best Lumber</title>
+<link>https://sets.scroll.pub/bestLumber.html</link>
 <pubDate>Invalid Date</pubDate>
 </item>
  <item>
@@ -37,13 +37,13 @@
 <pubDate>Invalid Date</pubDate>
 </item>
  <item>
-<title>The 30 Most Important Equations in Physics - ChatGPT</title>
-<link>https://sets.scroll.pub/physics1.html</link>
+<title>The 30 Most Important Equations in Physics - Claude</title>
+<link>https://sets.scroll.pub/physics2.html</link>
 <pubDate>Invalid Date</pubDate>
 </item>
  <item>
-<title>The 30 Most Important Equations in Physics - Claude</title>
-<link>https://sets.scroll.pub/physics2.html</link>
+<title>The 30 Most Important Equations in Physics - ChatGPT</title>
+<link>https://sets.scroll.pub/physics1.html</link>
 <pubDate>Invalid Date</pubDate>
 </item>
  <item>
@@ -57,13 +57,13 @@
 <pubDate>Invalid Date</pubDate>
 </item>
  <item>
-<title>Natural Disasters</title>
-<link>https://sets.scroll.pub/disasters.html</link>
+<title>Waves</title>
+<link>https://sets.scroll.pub/waves.html</link>
 <pubDate>Invalid Date</pubDate>
 </item>
  <item>
-<title>Waves</title>
-<link>https://sets.scroll.pub/waves.html</link>
+<title>Natural Disasters</title>
+<link>https://sets.scroll.pub/disasters.html</link>
 <pubDate>Invalid Date</pubDate>
 </item>
  <item>
@@ -72,18 +72,8 @@
 <pubDate>Invalid Date</pubDate>
 </item>
  <item>
-<title>Big(O) Complexity Classes in Programming</title>
-<link>https://sets.scroll.pub/complexityClasses.html</link>
-<pubDate>Invalid Date</pubDate>
-</item>
- <item>
-<title>Microscopes</title>
-<link>https://sets.scroll.pub/microscopes.html</link>
-<pubDate>Invalid Date</pubDate>
-</item>
- <item>
-<title>Nearby Stars</title>
-<link>https://sets.scroll.pub/nearbyStars.html</link>
+<title>Programming Languages</title>
+<link>https://sets.scroll.pub/programmingLanguages.html</link>
 <pubDate>Invalid Date</pubDate>
 </item>
  <item>
@@ -92,8 +82,18 @@
 <pubDate>Invalid Date</pubDate>
 </item>
  <item>
-<title>Programming Languages</title>
-<link>https://sets.scroll.pub/programmingLanguages.html</link>
+<title>Nearby Stars</title>
+<link>https://sets.scroll.pub/nearbyStars.html</link>
+<pubDate>Invalid Date</pubDate>
+</item>
+ <item>
+<title>Microscopes</title>
+<link>https://sets.scroll.pub/microscopes.html</link>
+<pubDate>Invalid Date</pubDate>
+</item>
+ <item>
+<title>Big(O) Complexity Classes in Programming</title>
+<link>https://sets.scroll.pub/complexityClasses.html</link>
 <pubDate>Invalid Date</pubDate>
 </item>
 </channel>
