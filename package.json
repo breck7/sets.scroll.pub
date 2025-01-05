@@ -15,6 +15,6 @@
   },
   "homepage": "https://sets.scroll.pub",
   "dependencies": {
-    "scroll-cli": "^158.0.4"
+    "scroll-cli": "^164.12.0"
   }
 }
