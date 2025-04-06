@@ -1,7 +1,7 @@
 setHeader.scroll
 
 mediumColumns 1
-table
+datatable
  scatterplot
   title Speed of Sound in Different Materials
   caption Data from ChatGPT

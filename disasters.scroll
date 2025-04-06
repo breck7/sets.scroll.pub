@@ -3,7 +3,7 @@ title Natural Disasters
 
 tabularHeader.scroll
 
-table
+datatable
  delimiter 	
  printTable
  data
@@ -33,7 +33,7 @@ table
 
 Here is a table on warning systems for the various disaster types, including the name of the warning system and the minimum and maximum warning levels:
 
-table
+datatable
  delimiter 	
  printTable
  data

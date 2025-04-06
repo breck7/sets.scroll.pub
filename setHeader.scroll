@@ -13,7 +13,7 @@ disclaimer.scroll
 endColumns
 
 wideColumns 1
-table
+datatable
  printTable
 
 endColumns
