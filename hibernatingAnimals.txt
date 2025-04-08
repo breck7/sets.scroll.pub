@@ -11,30 +11,30 @@ Animals that Hibernate
 Concepts
 ========
 
-id,habitat,diet,averageHibernationDuration,bodyTemperatureDrop,heartRateReduction,breathingRateReduction,energySaved
-Brown Bear,Forests,Omnivorous,180,10,20,5,50
-Arctic Ground Squirrel,Tundra,Herbivorous,240,60,100,25,60
-Common Poorwill,Deserts,Insectivorous,120,12,20,5,30
-European Hedgehog,Woodlands,Insectivorous,150,40,50,10,70
-Fat-tailed Dwarf Lemur,Tropical Forests,Frugivorous,180,15,15,5,40
-Box Turtle,Forests and Grasslands,Omnivorous,150,20,10,2,50
-Big Brown Bat,Caves and Forests,Insectivorous,180,30,100,20,80
-Alpine Marmot,Mountains,Herbivorous,180,50,90,15,70
-Raccoon,Forests and Urban Areas,Omnivorous,120,10,30,5,40
-Eastern Chipmunk,Forests,Omnivorous,90,10,20,5,30
-Wood Frog,Wetlands,Insectivorous,180,30,0,0,60
-Snapping Turtle,Freshwater,Omnivorous,180,20,10,2,50
-Blanding's Turtle,Freshwater,Omnivorous,150,20,10,2,50
-Garter Snake,Grasslands,Carnivorous,180,10,10,5,40
-Bumblebee,Gardens and Meadows,Nectar and Pollen,210,20,10,10,60
-Groundhog,Fields and Forests,Herbivorous,150,40,50,10,70
-Bear,Forests and Mountains,Omnivorous,120,12,10,5,50
-Jerboa,Deserts,Herbivorous,180,15,20,5,40
-Little Brown Bat,Caves and Forests,Insectivorous,180,30,100,20,80
-Deer Mouse,Forests and Grasslands,Omnivorous,180,20,10,5,50
+id,averageHibernationDuration,bodyTemperatureDrop,heartRateReduction,breathingRateReduction,energySaved,habitat,diet
+Brown Bear,180,10,20,5,50,Forests,Omnivorous
+Arctic Ground Squirrel,240,60,100,25,60,Tundra,Herbivorous
+Common Poorwill,120,12,20,5,30,Deserts,Insectivorous
+European Hedgehog,150,40,50,10,70,Woodlands,Insectivorous
+Fat-tailed Dwarf Lemur,180,15,15,5,40,Tropical Forests,Frugivorous
+Box Turtle,150,20,10,2,50,Forests and Grasslands,Omnivorous
+Big Brown Bat,180,30,100,20,80,Caves and Forests,Insectivorous
+Alpine Marmot,180,50,90,15,70,Mountains,Herbivorous
+Raccoon,120,10,30,5,40,Forests and Urban Areas,Omnivorous
+Eastern Chipmunk,90,10,20,5,30,Forests,Omnivorous
+Wood Frog,180,30,0,0,60,Wetlands,Insectivorous
+Snapping Turtle,180,20,10,2,50,Freshwater,Omnivorous
+Blanding's Turtle,150,20,10,2,50,Freshwater,Omnivorous
+Garter Snake,180,10,10,5,40,Grasslands,Carnivorous
+Bumblebee,210,20,10,10,60,Gardens and Meadows,Nectar and Pollen
+Groundhog,150,40,50,10,70,Fields and Forests,Herbivorous
+Bear,120,12,10,5,50,Forests and Mountains,Omnivorous
+Jerboa,180,15,20,5,40,Deserts,Herbivorous
+Little Brown Bat,180,30,100,20,80,Caves and Forests,Insectivorous
+Deer Mouse,180,20,10,5,50,Forests and Grasslands,Omnivorous
 
 ⁂
 
 Source: https://chatgpt.com/share/f3b49ff7-e9f5-41d0-9f23-ccc89214d995
 
-Built with Scroll v164.12.0
+Built with Scroll v177.0.0

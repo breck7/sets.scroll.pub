@@ -3,7 +3,7 @@ title Hormones
 
 tabularHeader.scroll
 
-table
+datatable
  delimiter 	
  printTable
  data

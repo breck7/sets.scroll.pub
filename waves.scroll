@@ -3,7 +3,7 @@ title Waves
 
 tabularHeader.scroll
 
-table
+datatable
  delimiter 	
  printTable
  data
@@ -18,7 +18,7 @@ table
 
 ***
 
-table
+datatable
  delimiter 	
  printTable
  data
@@ -34,7 +34,7 @@ table
 Chemical reaction wave:
 https://youtu.be/s2np2PaaWtU?t=75
 
-table
+datatable
  delimiter 	
  printTable
  data
@@ -50,7 +50,7 @@ table
   
 # Wave speed
 
-table
+datatable
  delimiter 	
  printTable
  data
@@ -76,7 +76,7 @@ table
 
 # Attenuation
 
-table
+datatable
  delimiter 	
  printTable
  data
